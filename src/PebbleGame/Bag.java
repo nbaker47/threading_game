@@ -62,7 +62,7 @@ public class Bag {
 		  }
 	}
 	
-	public void refilBag() {
+	private void refilBag() {
 		for(int i = 0; i < this.pebArrayWhite.size(); i++)
 		this.pebArrayBlack.add(this.pebArrayWhite.remove(i));
 		//System.out.println("white bag " + this.bagNo + " : "+ this.pebArrayWhite.toString());
@@ -79,6 +79,7 @@ public class Bag {
 		Pebble newPeb = this.pebArrayBlack.remove(n);
 		return newPeb;
 	}
+	
 	
 	public synchronized Boolean discardPeb(Pebble peb) {
 		try {

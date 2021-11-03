@@ -17,6 +17,7 @@ public class PebbleGame {
 	private static Random rand = new Random();
 	private static Scanner input = new Scanner(System.in);
 	private static Bag[] bags = new Bag[3];
+	private static volatile Boolean gameOver = false;
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
@@ -60,7 +61,7 @@ public class PebbleGame {
 	
 	static class Player implements Runnable{
 		
-		private volatile Boolean gameOver = false;
+		
 		private ArrayList<Pebble> pebHand = new ArrayList<>();
 		
 		//draw
@@ -69,17 +70,17 @@ public class PebbleGame {
 			while (this.pebHand.size() < 10) {
 				//check to see if bag is empty
 	
-					if (bags[n].getBlackList().size() > 0) {
+					//if (bags[n].getBlackList().size() > 0) {
 						Pebble p;
-						synchronized (bags[n]){
+						//synchronized (bags[n]){
 							p = bags[n].takePeb();
-						}
+						//}
 						this.pebHand.add(p);
 						System.out.println(Thread.currentThread().getName() + " has drawn [" + p + "] from bag " + p.getNumber());
-					}
-					else {
-						bags[n].refilBag();//Refill bag if empty
-					}
+					//}
+					//else {
+						//bags[n].refilBag();//Refill bag if empty
+					//}
 			}
 		}
 		
@@ -88,9 +89,9 @@ public class PebbleGame {
 		public void discardPeb() {
 			int n = rand.nextInt(pebHand.size());
 			Pebble peb = this.pebHand.remove(n);
-			synchronized (bags[peb.getNumber()]) {
+			//synchronized (bags[peb.getNumber()]) {
 				bags[peb.getNumber()].discardPeb(peb);
-			}
+			//}
 		}
 		
 		//sum of pebbles in hand
@@ -112,25 +113,28 @@ public class PebbleGame {
 			drawPeb();
 			printHand();
 			//TODO change to 100
-			while (gameOver == false) {
-				while (sumHand() != 400 ) {
-					//discard random pebble and choose again
-					//discarding and drawing must be atomic
-					//synchronized (bags) {
+			while (!gameOver) {
+				try {
+					while (sumHand() != 400 && !gameOver) {
+						//discard random pebble and choose again
+						//discarding and drawing must be atomic
 						discardPeb();
 						drawPeb();
-					//}
-					//sleep for more readable
-					try {
-						Thread.sleep(10);
-						printHand();
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+						//sleep for more readable
+							Thread.sleep(10);
+							printHand();
+					}	
+				} catch (InterruptedException e) {
+					if(gameOver) {
+						break;
 					}
 				}
-				System.out.println(Thread.currentThread().getName() + this.pebHand.toString() + " HAS WONN!!" );
-				gameOver = true;
+				
+				if (sumHand() == 400) {
+					gameOver = true;
+					System.out.println(Thread.currentThread().getName() + this.pebHand.toString() + " HAS WONN!!" );
+					Thread.interrupted();
+				}
 			}
 		}
 		
