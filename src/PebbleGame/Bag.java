@@ -65,15 +65,12 @@ public class Bag {
 	private void refilBag() {
 		for(int i = 0; i < this.pebArrayWhite.size(); i++)
 		this.pebArrayBlack.add(this.pebArrayWhite.remove(i));
-		//System.out.println("white bag " + this.bagNo + " : "+ this.pebArrayWhite.toString());
 	}
 	
 	public synchronized Pebble takePeb() {
 		while (pebArrayBlack.size() < 1) {
 			refilBag();
-			//System.out.println(pebArrayBlack.size());
 		}
-		//System.out.println("Black bag " + this.bagNo + " : " + this.pebArrayBlack.toString());
 		int n = rand.nextInt(pebArrayBlack.size());
 		//take from black array
 		Pebble newPeb = this.pebArrayBlack.remove(n);
