@@ -21,21 +21,15 @@ public class PebbleGame {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
-		//C:\\Users\\bunny\\Desktop\\softDevCA1\\ECM2414CA1\\src\\example_file_3.csv
-		
-		//System.out.println("how many players:");
-		//int playerNum = input.nextInt();
 		int playerNum = 3;
 		
 		for (int i = 0; i < 3 ; i ++) {
+			// TODO: USER INPUT
 			//System.out.println("Please enter the location of bag number " + i + " to load: ");
 			//String path = input.next();
 			bags[i] = new Bag("C:\\Users\\bunny\\Desktop\\Coursework\\softDev_CA1\\ECM2414CA1\\src\\example_file_3.csv", i, playerNum);
 		}
 		
-		
-		//threadpool
-		//TODO
 		ExecutorService ex = Executors.newFixedThreadPool(playerNum);
 
 		for(int i = 0; i < playerNum; i++) {
@@ -43,18 +37,6 @@ public class PebbleGame {
 			ex.execute(task);
 		}
 		ex.shutdown();
-		
-		/*
-    	Player task1 = new Player();
-    	Player task2 = new Player();
-    	Player task3 = new Player();
-    	Thread t1 = new Thread(task1);
-    	Thread t2 = new Thread(task2);
-    	Thread t3 = new Thread(task3);
-    	t1.start();
-    	t2.start();
-    	t3.start();
-    	*/
 		
 	}
 
@@ -64,37 +46,28 @@ public class PebbleGame {
 		
 		private ArrayList<Pebble> pebHand = new ArrayList<>();
 		
-		//draw
 		public void drawPeb() {
 			int n = rand.nextInt(3);
 			while (this.pebHand.size() < 10) {
-				//check to see if bag is empty
-	
-					//if (bags[n].getBlackList().size() > 0) {
 						Pebble p;
-						//synchronized (bags[n]){
 							p = bags[n].takePeb();
-						//}
 						this.pebHand.add(p);
 						System.out.println(Thread.currentThread().getName() + " has drawn [" + p + "] from bag " + p.getNumber());
-					//}
-					//else {
-						//bags[n].refilBag();//Refill bag if empty
-					//}
 			}
 		}
 		
 		
-		//discard
+		// Discard Pebble (to white bag)
 		public void discardPeb() {
+			// pick a random pebble to discard
 			int n = rand.nextInt(pebHand.size());
+			// remove from hand
 			Pebble peb = this.pebHand.remove(n);
-			//synchronized (bags[peb.getNumber()]) {
-				bags[peb.getNumber()].discardPeb(peb);
-			//}
+			// "remove" (add to white bag) in the bag pair
+			bags[peb.getNumber()].discardPeb(peb);
 		}
 		
-		//sum of pebbles in hand
+		// Add up all of the pebble weight currently in hand
 		private int sumHand() {
 			int sum = 0;
 			for(int i = 0; i < pebHand.size(); i++) {
