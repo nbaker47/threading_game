@@ -95,7 +95,9 @@ public class PebbleGame {
 						drawPeb();
 						//sleep for more readable
 							Thread.sleep(10);
-							printHand();
+							if (!gameOver) {
+								printHand();
+							}
 					}	
 				} catch (InterruptedException e) {
 					if(gameOver) {
