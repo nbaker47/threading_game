@@ -1,20 +1,11 @@
 package PebbleGame;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
-
-import com.sun.source.tree.WhileLoopTree;
-
 
 public class Bag {
 	/* this is a white/black bag pair since each white bag is linnked to a black bag */
@@ -30,7 +21,7 @@ public class Bag {
 	public Bag(String filePath, int bagNo, int playerCount) throws FileNotFoundException, IOException {
 		// open file path given
         Scanner sc = null;
-		// loop incase the file path doesnt work so it needs to be re-entered
+		// loop in case the file path doesn't work so it needs to be re-entered
 		while (pebArrayBlack.size() == 0) {
 			try {
 				this.bagNo = bagNo;
@@ -47,8 +38,13 @@ public class Bag {
 				//extract peb vals from comma split
 				ArrayList<Integer> pebVals  = new ArrayList<>();
 				while (lineScan.hasNext()){
-					// add to array list and trim incase spaces
-					pebVals.add(Integer.parseInt(lineScan.next().trim()));
+					// add to array list and trim in case spaces
+					int number = Integer.parseInt(lineScan.next().trim());
+					if (number <= 0) {
+						Exception e = new Exception();
+						throw e;
+					}
+					pebVals.add(number);
 				}
 	   
 				// fill current bag
@@ -62,17 +58,27 @@ public class Bag {
 				   //System.out.println(this.pebArrayBlack);
 				}
 		   
-			  } catch(FileNotFoundException e) {
-				// if the filepath doesnt work let the user know and let them enter the path again
+			} catch(FileNotFoundException e) {
+				// if the file path doesn't work let the user know and let them enter the path again
 				System.out.println("File path is incorrect or the file does not exist");
-				Scanner input = new Scanner(System.in);
 				System.out.print("Please enter path again: ");
+				Scanner input = new Scanner(System.in);
 				filePath = input.nextLine();
-			  }
+			} catch (NumberFormatException e) {
+				System.out.println("The file given is not in the correct format.");
+				System.out.println("Please enter path again: ");
+				Scanner input = new Scanner(System.in);
+				filePath = input.nextLine();
+			} catch (Exception e) {
+				System.out.println("All numbers in the file must be more than 0.");
+				System.out.println("Please enter path again: ");
+				Scanner input = new Scanner(System.in);
+				filePath = input.nextLine();
+			}
 		}
 	}
 	
-	// refill the black bag once its empty (doesnt need to be *synchronized* since it will only be triggered
+	// refill the black bag once its empty (doesn't need to be *synchronized* since it will only be triggered
 	// from take pebble which is synchronized itself so it is thread safe)
 	private void refilBag() {
 		// just move contents of white bag to black bag
@@ -81,30 +87,39 @@ public class Bag {
 	}
 	
 	// take a pebble, synchronized because this needs to be atomic
-	public synchronized Pebble takePeb() {
-		// pick a random pebble
-		int n = rand.nextInt(pebArrayBlack.size());
-		//take from black array
-		Pebble newPeb = this.pebArrayBlack.remove(n);
+	public Pebble takePeb() {
 		
-		// fill up bag after in case the white bag is empty (so an empty check can be done)
-		if (pebArrayBlack.size() < 1) {
-			refilBag();
+		Pebble newPeb;
+		
+		synchronized (this) {
+			// pick a random pebble
+			int n = rand.nextInt(pebArrayBlack.size());
+			//take from black array
+			newPeb = this.pebArrayBlack.remove(n);
+			
+			// fill up bag after in case the white bag is empty (so an empty check can be done)
+			if (pebArrayBlack.size() < 1) {
+				refilBag();
+			}
 		}
 		
 		return newPeb;
 	}
 	
 	// discard a pebble, synchronized so its atomic
-	public synchronized void discardPeb(Pebble peb) {
+	public void discardPeb(Pebble peb) {
 		// add the pebble to the white bag
-		this.pebArrayWhite.add(peb);
+		synchronized (this) {
+			this.pebArrayWhite.add(peb);			
+		}
 	}
 	
 	// return true if the bag is empty
-	public synchronized Boolean isEmpty() {
-		if (pebArrayBlack.size() == 0) {
-			return true;
+	public Boolean isEmpty() {
+		synchronized (this) {
+			if (pebArrayBlack.size() == 0) {
+				return true;
+			}
 		}
 		return false;
 	}
