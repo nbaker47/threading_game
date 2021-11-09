@@ -1,0 +1,32 @@
+ has drawn a 79 from bag Y
+player2 hand is 79
+ has drawn a 78 from bag Y
+player2 hand is 79, 78
+ has drawn a 40 from bag Y
+player2 hand is 79, 78, 40
+ has drawn a 97 from bag Y
+player2 hand is 79, 78, 40, 97
+ has drawn a 85 from bag Y
+player2 hand is 79, 78, 40, 97, 85
+ has drawn a 10 from bag Y
+player2 hand is 79, 78, 40, 97, 85, 10
+ has drawn a 67 from bag Y
+player2 hand is 79, 78, 40, 97, 85, 10, 67
+ has drawn a 6 from bag Y
+player2 hand is 79, 78, 40, 97, 85, 10, 67, 6
+ has drawn a 57 from bag Y
+player2 hand is 79, 78, 40, 97, 85, 10, 67, 6, 57
+ has drawn a 89 from bag Y
+player2 hand is 79, 78, 40, 97, 85, 10, 67, 6, 57, 89
+ has discarded a 67 to bag B
+player2 hand is 79, 78, 40, 97, 85, 10, 6, 57, 89
+ has drawn a 44 from bag Z
+player2 hand is 79, 78, 40, 97, 85, 10, 6, 57, 89, 44
+ has discarded a 40 to bag B
+player2 hand is 79, 78, 97, 85, 10, 6, 57, 89, 44
+ has drawn a 55 from bag X
+player2 hand is 79, 78, 97, 85, 10, 6, 57, 89, 44, 55
+ has discarded a 97 to bag B
+player2 hand is 79, 78, 85, 10, 6, 57, 89, 44, 55
+ has drawn a 53 from bag Z
+player2 hand is 79, 78, 85, 10, 6, 57, 89, 44, 55, 53

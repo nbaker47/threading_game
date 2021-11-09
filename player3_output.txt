@@ -1,0 +1,32 @@
+ has drawn a 83 from bag X
+player3 hand is 83
+ has drawn a 45 from bag X
+player3 hand is 83, 45
+ has drawn a 0 from bag X
+player3 hand is 83, 45, 0
+ has drawn a 26 from bag X
+player3 hand is 83, 45, 0, 26
+ has drawn a 40 from bag X
+player3 hand is 83, 45, 0, 26, 40
+ has drawn a 54 from bag X
+player3 hand is 83, 45, 0, 26, 40, 54
+ has drawn a 99 from bag X
+player3 hand is 83, 45, 0, 26, 40, 54, 99
+ has drawn a 42 from bag X
+player3 hand is 83, 45, 0, 26, 40, 54, 99, 42
+ has drawn a 70 from bag X
+player3 hand is 83, 45, 0, 26, 40, 54, 99, 42, 70
+ has drawn a 44 from bag X
+player3 hand is 83, 45, 0, 26, 40, 54, 99, 42, 70, 44
+ has discarded a 54 to bag A
+player3 hand is 83, 45, 0, 26, 40, 99, 42, 70, 44
+ has drawn a 2 from bag Y
+player3 hand is 83, 45, 0, 26, 40, 99, 42, 70, 44, 2
+ has discarded a 83 to bag A
+player3 hand is 45, 0, 26, 40, 99, 42, 70, 44, 2
+ has drawn a 12 from bag Y
+player3 hand is 45, 0, 26, 40, 99, 42, 70, 44, 2, 12
+ has discarded a 12 to bag B
+player3 hand is 45, 0, 26, 40, 99, 42, 70, 44, 2
+ has drawn a 32 from bag Y
+player3 hand is 45, 0, 26, 40, 99, 42, 70, 44, 2, 32

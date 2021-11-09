@@ -1,0 +1,32 @@
+ has drawn a 39 from bag X
+player1 hand is 39
+ has drawn a 23 from bag X
+player1 hand is 39, 23
+ has drawn a 39 from bag X
+player1 hand is 39, 23, 39
+ has drawn a 61 from bag X
+player1 hand is 39, 23, 39, 61
+ has drawn a 10 from bag X
+player1 hand is 39, 23, 39, 61, 10
+ has drawn a 93 from bag X
+player1 hand is 39, 23, 39, 61, 10, 93
+ has drawn a 20 from bag X
+player1 hand is 39, 23, 39, 61, 10, 93, 20
+ has drawn a 96 from bag X
+player1 hand is 39, 23, 39, 61, 10, 93, 20, 96
+ has drawn a 34 from bag X
+player1 hand is 39, 23, 39, 61, 10, 93, 20, 96, 34
+ has drawn a 75 from bag X
+player1 hand is 39, 23, 39, 61, 10, 93, 20, 96, 34, 75
+ has discarded a 34 to bag A
+player1 hand is 39, 23, 39, 61, 10, 93, 20, 96, 75
+ has drawn a 29 from bag Y
+player1 hand is 39, 23, 39, 61, 10, 93, 20, 96, 75, 29
+ has discarded a 29 to bag B
+player1 hand is 39, 23, 39, 61, 10, 93, 20, 96, 75
+ has drawn a 1 from bag Y
+player1 hand is 39, 23, 39, 61, 10, 93, 20, 96, 75, 1
+ has discarded a 39 to bag A
+player1 hand is 39, 23, 61, 10, 93, 20, 96, 75, 1
+ has drawn a 13 from bag Y
+player1 hand is 39, 23, 61, 10, 93, 20, 96, 75, 1, 13
