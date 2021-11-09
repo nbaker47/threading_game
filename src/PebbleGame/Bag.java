@@ -59,7 +59,7 @@ public class Bag {
 				   // add pebbles to black bag
 				   this.pebArrayBlack.add(newPeb);
 				   // TODO: can we remove this?
-				   System.out.println(this.pebArrayBlack);
+				   //System.out.println(this.pebArrayBlack);
 				}
 		   
 			  } catch(FileNotFoundException e) {

@@ -32,19 +32,16 @@ public class PebbleGame {
 	
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
+		printWelcome();
+		
 		int playerNum = 3;
 		
-		// System.out.println("Please enter the number of players:");
-		// playerNum = input.nextInt();
-		// while (playerNum <= 0) {
-		// 	System.out.println("The number of players must be a positive integer larger than 1, please try again:");
-		// 	playerNum = input.nextInt();
-		// }	
-		// add numbers to array
-		// numbers = new int[playerNum];
-		// for (int i = 0; i < playerNum; i++) {
-		// 	numbers[i] = i+1;
-		// }
+		System.out.println("Please enter the number of players:");
+		playerNum = input.nextInt();
+		while (playerNum <= 0) {
+			System.out.println("The number of players must be a positive integer larger than 1, please try again:");
+		 	playerNum = input.nextInt();
+		 }	
 		
 		// ask for a file path for each one of the bags and initialise them with the values
 		for (int i = 0; i < 3 ; i ++) {
@@ -57,50 +54,32 @@ public class PebbleGame {
 		// create a new thread pool with the player number and start all of the threads
 		ExecutorService ex = Executors.newFixedThreadPool(playerNum);
 		for(int i = 0; i < playerNum; i++) {
-			Player task = new Player();
+			Player task = new Player("player" + (i+1) );
 			ex.execute(task);
 		}
 		ex.shutdown();
 	}
 	
+	private static void printWelcome() {
+		System.out.println("Welcome to the PebbleGame!!");
+		System.out.println("You will be asked to enter the number of players.");
+		System.out.println("and then for the location of three files in turn containing comma seperated integer values for the pebble weights.");
+		System.out.println("The integer values must be strictly positive.");
+		System.out.println("The game will then be simulated, and output written to files in this directory.");
+		
+	}
+	
 	/* PLAYER CLASS*/
 	static class Player implements Runnable{
 		
+		Parser parse = new Parser();
 		// player name
 		String name;
 		// stores all of the pebbles currently in hand 
 		private ArrayList<Pebble> pebHand = new ArrayList<>();
-	
-		// set the name for the current player
-		public synchronized void setName() {
-			// loop through numbers and get the first one
-			for (int i = 0; i < numbers.length; i++) {
-				// check if number is available
-				if (numbers[i] != -1) {
-					// set the name
-					this.name = "player" + Integer.toString(numbers[i]);
-				}
-			}
-		}
 		
-		// create the initial file to write to
-		public synchronized void createFile() throws IOException {
-			// create the file
-			File f = new File (this.name + "_output.txt");
-			// warn the user if the file already exists
-			if (!f.createNewFile()) {
-				System.out.println("Warning: file " + this.name + "_output.txt already exists");
-			}
-		}
-		
-		// write to file
-		public synchronized void appendData(String data) throws IOException {
-			// open the file in append mode
-			FileOutputStream fos = new FileOutputStream(this.name + "_output.txt", true);
-			// write to the file
-			fos.write(data.getBytes());
-			// close the stream
-			fos.close();
+		public Player(String name) {
+			this.name = name;
 		}
 				
 		// draws one or more pebbles so the player can hold 10 after a draw
@@ -119,7 +98,8 @@ public class PebbleGame {
 					this.pebHand.add(p);
 					// write data to file
 					try {
-						appendData(this.name + " has drawn a" + p + " from bag " + bagAssociation[p.getNumber()].charAt(0) + "\n" + printHand());	
+						String data = " has drawn a " + p + " from bag " + bagAssociation[p.getNumber()].charAt(0) + "\n" + printHand() + "\n";
+						parse.appendData(this.name, data);	
 					} catch (IOException e) {
 						System.out.println("Error when trying to write to file " + this.name + "_output.exe");
 						e.printStackTrace();
@@ -139,7 +119,8 @@ public class PebbleGame {
 				bags[peb.getNumber()].discardPeb(peb);
 				// write output to file
 				try {
-					appendData(this.name + " has discarded a " + peb + " to bag " + bagAssociation[peb.getNumber()].charAt(1) + "\n" + printHand());
+					String data = " has discarded a " + peb + " to bag " + bagAssociation[peb.getNumber()].charAt(1) + "\n" + printHand() + "\n";
+					parse.appendData(this.name, data);
 				} catch (IOException e) {
 					System.out.println("Error when trying to write to file " + this.name + "_output.exe");
 					e.printStackTrace();
@@ -159,30 +140,29 @@ public class PebbleGame {
 		// TODO: might not need this, ive done the propper formatted printing
 		// print hand
 		private String printHand() {
-			return (this.name + " hand is " + this.pebHand.toString());
+			return (this.name + " hand is " + this.pebHand.toString().replace("[", "").replace("]", ""));
 		}
 		
 		@Override
 		public void run() {
 			try {
-				createFile();
+				parse.createFile(this.name);
 			} catch(IOException e) {
 				System.out.println("Error creating file for " + this.name);
 				e.printStackTrace();
 			}
-			setName();
 			drawPeb();
 			// draw and discard pebbles until the game is finished
 			while (!gameOver) {
 				try {
 					// loop exits when the current pebble wins or another pebble has already won
-					while (sumHand() != 100 && !gameOver) {
+					while (sumHand() != 400 && !gameOver) {
 						// discard pebble first
 						discardPeb();
 						// draw a pebble (or more till hand size = 10)
 						drawPeb();
 						//sleep for more readable
-						Thread.sleep(10);
+						Thread.sleep(0);
 						// only print if game hasn't finished (another pebble hasnt won)
 					}	
 				} catch (InterruptedException e) {
@@ -190,13 +170,12 @@ public class PebbleGame {
 						break;
 					}
 				}
-				
 				// check if the current pebble has won
-				if (sumHand() == 100) {
+				if (sumHand() == 400) {
 					// set the flag to true so the other threads know the game is over
 					gameOver = true;
 					// print winning message
-					System.out.println(Thread.currentThread().getName() + this.pebHand.toString() + " HAS WONN!!" );
+					System.out.println(this.name + " HAS WONN!!" );
 					Thread.interrupted();
 				}
 			}

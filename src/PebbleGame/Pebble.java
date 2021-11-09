@@ -22,6 +22,6 @@ public class Pebble {
 	}
 	
 	public String toString() {
-		return Integer.toString(weight) + "g:b" + Integer.toString(bagNo);
+		return Integer.toString(weight);
 	}
 }
