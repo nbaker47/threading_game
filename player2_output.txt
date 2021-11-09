@@ -1,1564 +1,1636 @@
- has drawn a 5 from bag Y
-player2 hand is 5
- has drawn a 6 from bag Y
-player2 hand is 5, 6
- has drawn a 4 from bag Y
-player2 hand is 5, 6, 4
- has drawn a 78 from bag Y
-player2 hand is 5, 6, 4, 78
- has drawn a 38 from bag Y
-player2 hand is 5, 6, 4, 78, 38
- has drawn a 74 from bag Y
-player2 hand is 5, 6, 4, 78, 38, 74
- has drawn a 62 from bag Y
-player2 hand is 5, 6, 4, 78, 38, 74, 62
- has drawn a 33 from bag Y
-player2 hand is 5, 6, 4, 78, 38, 74, 62, 33
- has drawn a 42 from bag Y
-player2 hand is 5, 6, 4, 78, 38, 74, 62, 33, 42
- has drawn a 64 from bag Y
-player2 hand is 5, 6, 4, 78, 38, 74, 62, 33, 42, 64
- has discarded a 4 to bag B
-player2 hand is 5, 6, 78, 38, 74, 62, 33, 42, 64
- has drawn a 98 from bag Y
-player2 hand is 5, 6, 78, 38, 74, 62, 33, 42, 64, 98
- has discarded a 5 to bag B
-player2 hand is 6, 78, 38, 74, 62, 33, 42, 64, 98
- has drawn a 81 from bag X
-player2 hand is 6, 78, 38, 74, 62, 33, 42, 64, 98, 81
- has discarded a 6 to bag B
-player2 hand is 78, 38, 74, 62, 33, 42, 64, 98, 81
- has drawn a 17 from bag Z
-player2 hand is 78, 38, 74, 62, 33, 42, 64, 98, 81, 17
- has discarded a 42 to bag B
-player2 hand is 78, 38, 74, 62, 33, 64, 98, 81, 17
- has drawn a 28 from bag Y
-player2 hand is 78, 38, 74, 62, 33, 64, 98, 81, 17, 28
- has discarded a 33 to bag B
-player2 hand is 78, 38, 74, 62, 64, 98, 81, 17, 28
- has drawn a 8 from bag X
-player2 hand is 78, 38, 74, 62, 64, 98, 81, 17, 28, 8
- has discarded a 62 to bag B
-player2 hand is 78, 38, 74, 64, 98, 81, 17, 28, 8
- has drawn a 90 from bag Y
-player2 hand is 78, 38, 74, 64, 98, 81, 17, 28, 8, 90
- has discarded a 17 to bag C
-player2 hand is 78, 38, 74, 64, 98, 81, 28, 8, 90
- has drawn a 76 from bag Z
-player2 hand is 78, 38, 74, 64, 98, 81, 28, 8, 90, 76
- has discarded a 98 to bag B
-player2 hand is 78, 38, 74, 64, 81, 28, 8, 90, 76
- has drawn a 71 from bag Y
-player2 hand is 78, 38, 74, 64, 81, 28, 8, 90, 76, 71
- has discarded a 64 to bag B
-player2 hand is 78, 38, 74, 81, 28, 8, 90, 76, 71
- has drawn a 74 from bag Y
-player2 hand is 78, 38, 74, 81, 28, 8, 90, 76, 71, 74
- has discarded a 74 to bag B
-player2 hand is 78, 38, 74, 81, 28, 8, 90, 76, 71
- has drawn a 24 from bag Y
-player2 hand is 78, 38, 74, 81, 28, 8, 90, 76, 71, 24
- has discarded a 71 to bag B
-player2 hand is 78, 38, 74, 81, 28, 8, 90, 76, 24
- has drawn a 6 from bag Z
-player2 hand is 78, 38, 74, 81, 28, 8, 90, 76, 24, 6
- has discarded a 78 to bag B
-player2 hand is 38, 74, 81, 28, 8, 90, 76, 24, 6
- has drawn a 19 from bag X
-player2 hand is 38, 74, 81, 28, 8, 90, 76, 24, 6, 19
- has discarded a 81 to bag A
-player2 hand is 38, 74, 28, 8, 90, 76, 24, 6, 19
- has drawn a 68 from bag Z
-player2 hand is 38, 74, 28, 8, 90, 76, 24, 6, 19, 68
- has discarded a 24 to bag B
-player2 hand is 38, 74, 28, 8, 90, 76, 6, 19, 68
- has drawn a 78 from bag X
-player2 hand is 38, 74, 28, 8, 90, 76, 6, 19, 68, 78
- has discarded a 19 to bag A
-player2 hand is 38, 74, 28, 8, 90, 76, 6, 68, 78
- has drawn a 92 from bag Y
-player2 hand is 38, 74, 28, 8, 90, 76, 6, 68, 78, 92
- has discarded a 38 to bag B
-player2 hand is 74, 28, 8, 90, 76, 6, 68, 78, 92
- has drawn a 2 from bag X
-player2 hand is 74, 28, 8, 90, 76, 6, 68, 78, 92, 2
- has discarded a 28 to bag B
-player2 hand is 74, 8, 90, 76, 6, 68, 78, 92, 2
- has drawn a 86 from bag Z
-player2 hand is 74, 8, 90, 76, 6, 68, 78, 92, 2, 86
- has discarded a 74 to bag B
-player2 hand is 8, 90, 76, 6, 68, 78, 92, 2, 86
- has drawn a 39 from bag Y
-player2 hand is 8, 90, 76, 6, 68, 78, 92, 2, 86, 39
- has discarded a 2 to bag A
-player2 hand is 8, 90, 76, 6, 68, 78, 92, 86, 39
- has drawn a 74 from bag Z
-player2 hand is 8, 90, 76, 6, 68, 78, 92, 86, 39, 74
- has discarded a 74 to bag C
-player2 hand is 8, 90, 76, 6, 68, 78, 92, 86, 39
- has drawn a 50 from bag Z
-player2 hand is 8, 90, 76, 6, 68, 78, 92, 86, 39, 50
- has discarded a 8 to bag A
-player2 hand is 90, 76, 6, 68, 78, 92, 86, 39, 50
- has drawn a 85 from bag X
-player2 hand is 90, 76, 6, 68, 78, 92, 86, 39, 50, 85
- has discarded a 85 to bag A
-player2 hand is 90, 76, 6, 68, 78, 92, 86, 39, 50
- has drawn a 11 from bag X
-player2 hand is 90, 76, 6, 68, 78, 92, 86, 39, 50, 11
- has discarded a 68 to bag C
-player2 hand is 90, 76, 6, 78, 92, 86, 39, 50, 11
- has drawn a 70 from bag X
-player2 hand is 90, 76, 6, 78, 92, 86, 39, 50, 11, 70
- has discarded a 92 to bag B
-player2 hand is 90, 76, 6, 78, 86, 39, 50, 11, 70
- has drawn a 87 from bag Y
-player2 hand is 90, 76, 6, 78, 86, 39, 50, 11, 70, 87
- has discarded a 87 to bag B
-player2 hand is 90, 76, 6, 78, 86, 39, 50, 11, 70
- has drawn a 73 from bag X
-player2 hand is 90, 76, 6, 78, 86, 39, 50, 11, 70, 73
- has discarded a 39 to bag B
-player2 hand is 90, 76, 6, 78, 86, 50, 11, 70, 73
- has drawn a 49 from bag X
-player2 hand is 90, 76, 6, 78, 86, 50, 11, 70, 73, 49
- has discarded a 90 to bag B
-player2 hand is 76, 6, 78, 86, 50, 11, 70, 73, 49
- has drawn a 22 from bag X
-player2 hand is 76, 6, 78, 86, 50, 11, 70, 73, 49, 22
- has discarded a 73 to bag A
-player2 hand is 76, 6, 78, 86, 50, 11, 70, 49, 22
- has drawn a 4 from bag Y
-player2 hand is 76, 6, 78, 86, 50, 11, 70, 49, 22, 4
- has discarded a 6 to bag C
-player2 hand is 76, 78, 86, 50, 11, 70, 49, 22, 4
- has drawn a 36 from bag X
-player2 hand is 76, 78, 86, 50, 11, 70, 49, 22, 4, 36
- has discarded a 36 to bag A
-player2 hand is 76, 78, 86, 50, 11, 70, 49, 22, 4
- has drawn a 92 from bag Y
-player2 hand is 76, 78, 86, 50, 11, 70, 49, 22, 4, 92
- has discarded a 11 to bag A
-player2 hand is 76, 78, 86, 50, 70, 49, 22, 4, 92
- has drawn a 78 from bag Z
-player2 hand is 76, 78, 86, 50, 70, 49, 22, 4, 92, 78
- has discarded a 78 to bag C
-player2 hand is 76, 78, 86, 50, 70, 49, 22, 4, 92
- has drawn a 66 from bag Z
-player2 hand is 76, 78, 86, 50, 70, 49, 22, 4, 92, 66
- has discarded a 76 to bag C
-player2 hand is 78, 86, 50, 70, 49, 22, 4, 92, 66
- has drawn a 40 from bag Y
-player2 hand is 78, 86, 50, 70, 49, 22, 4, 92, 66, 40
- has discarded a 86 to bag C
-player2 hand is 78, 50, 70, 49, 22, 4, 92, 66, 40
- has drawn a 85 from bag X
-player2 hand is 78, 50, 70, 49, 22, 4, 92, 66, 40, 85
- has discarded a 92 to bag B
-player2 hand is 78, 50, 70, 49, 22, 4, 66, 40, 85
- has drawn a 8 from bag X
-player2 hand is 78, 50, 70, 49, 22, 4, 66, 40, 85, 8
- has discarded a 50 to bag C
-player2 hand is 78, 70, 49, 22, 4, 66, 40, 85, 8
- has drawn a 39 from bag Y
-player2 hand is 78, 70, 49, 22, 4, 66, 40, 85, 8, 39
- has discarded a 85 to bag A
-player2 hand is 78, 70, 49, 22, 4, 66, 40, 8, 39
- has drawn a 74 from bag Y
-player2 hand is 78, 70, 49, 22, 4, 66, 40, 8, 39, 74
- has discarded a 8 to bag A
-player2 hand is 78, 70, 49, 22, 4, 66, 40, 39, 74
- has drawn a 14 from bag Z
-player2 hand is 78, 70, 49, 22, 4, 66, 40, 39, 74, 14
- has discarded a 70 to bag A
-player2 hand is 78, 49, 22, 4, 66, 40, 39, 74, 14
- has drawn a 42 from bag Y
-player2 hand is 78, 49, 22, 4, 66, 40, 39, 74, 14, 42
- has discarded a 39 to bag B
-player2 hand is 78, 49, 22, 4, 66, 40, 74, 14, 42
- has drawn a 33 from bag Y
-player2 hand is 78, 49, 22, 4, 66, 40, 74, 14, 42, 33
- has discarded a 22 to bag A
-player2 hand is 78, 49, 4, 66, 40, 74, 14, 42, 33
- has drawn a 14 from bag X
-player2 hand is 78, 49, 4, 66, 40, 74, 14, 42, 33, 14
- has discarded a 66 to bag C
-player2 hand is 78, 49, 4, 40, 74, 14, 42, 33, 14
- has drawn a 72 from bag Z
-player2 hand is 78, 49, 4, 40, 74, 14, 42, 33, 14, 72
- has discarded a 74 to bag B
-player2 hand is 78, 49, 4, 40, 14, 42, 33, 14, 72
- has drawn a 62 from bag X
-player2 hand is 78, 49, 4, 40, 14, 42, 33, 14, 72, 62
- has discarded a 49 to bag A
-player2 hand is 78, 4, 40, 14, 42, 33, 14, 72, 62
- has drawn a 24 from bag Y
-player2 hand is 78, 4, 40, 14, 42, 33, 14, 72, 62, 24
- has discarded a 40 to bag B
-player2 hand is 78, 4, 14, 42, 33, 14, 72, 62, 24
- has drawn a 7 from bag X
-player2 hand is 78, 4, 14, 42, 33, 14, 72, 62, 24, 7
- has discarded a 42 to bag B
-player2 hand is 78, 4, 14, 33, 14, 72, 62, 24, 7
- has drawn a 57 from bag Y
-player2 hand is 78, 4, 14, 33, 14, 72, 62, 24, 7, 57
- has discarded a 72 to bag C
-player2 hand is 78, 4, 14, 33, 14, 62, 24, 7, 57
- has drawn a 98 from bag Y
-player2 hand is 78, 4, 14, 33, 14, 62, 24, 7, 57, 98
- has discarded a 14 to bag C
-player2 hand is 78, 4, 33, 14, 62, 24, 7, 57, 98
- has drawn a 68 from bag Z
-player2 hand is 78, 4, 33, 14, 62, 24, 7, 57, 98, 68
- has discarded a 4 to bag B
-player2 hand is 78, 33, 14, 62, 24, 7, 57, 98, 68
- has drawn a 93 from bag X
-player2 hand is 78, 33, 14, 62, 24, 7, 57, 98, 68, 93
- has discarded a 57 to bag B
-player2 hand is 78, 33, 14, 62, 24, 7, 98, 68, 93
- has drawn a 85 from bag X
-player2 hand is 78, 33, 14, 62, 24, 7, 98, 68, 93, 85
- has discarded a 85 to bag A
-player2 hand is 78, 33, 14, 62, 24, 7, 98, 68, 93
- has drawn a 0 from bag Y
-player2 hand is 78, 33, 14, 62, 24, 7, 98, 68, 93, 0
- has discarded a 62 to bag A
-player2 hand is 78, 33, 14, 24, 7, 98, 68, 93, 0
- has drawn a 40 from bag Y
-player2 hand is 78, 33, 14, 24, 7, 98, 68, 93, 0, 40
- has discarded a 68 to bag C
-player2 hand is 78, 33, 14, 24, 7, 98, 93, 0, 40
- has drawn a 73 from bag X
-player2 hand is 78, 33, 14, 24, 7, 98, 93, 0, 40, 73
- has discarded a 73 to bag A
-player2 hand is 78, 33, 14, 24, 7, 98, 93, 0, 40
- has drawn a 85 from bag X
-player2 hand is 78, 33, 14, 24, 7, 98, 93, 0, 40, 85
- has discarded a 78 to bag A
-player2 hand is 33, 14, 24, 7, 98, 93, 0, 40, 85
- has drawn a 78 from bag Z
-player2 hand is 33, 14, 24, 7, 98, 93, 0, 40, 85, 78
- has discarded a 85 to bag A
-player2 hand is 33, 14, 24, 7, 98, 93, 0, 40, 78
- has drawn a 52 from bag Y
-player2 hand is 33, 14, 24, 7, 98, 93, 0, 40, 78, 52
- has discarded a 78 to bag C
-player2 hand is 33, 14, 24, 7, 98, 93, 0, 40, 52
- has drawn a 84 from bag X
-player2 hand is 33, 14, 24, 7, 98, 93, 0, 40, 52, 84
- has discarded a 7 to bag A
-player2 hand is 33, 14, 24, 98, 93, 0, 40, 52, 84
- has drawn a 19 from bag Z
-player2 hand is 33, 14, 24, 98, 93, 0, 40, 52, 84, 19
- has discarded a 33 to bag B
-player2 hand is 14, 24, 98, 93, 0, 40, 52, 84, 19
- has drawn a 6 from bag Y
-player2 hand is 14, 24, 98, 93, 0, 40, 52, 84, 19, 6
- has discarded a 19 to bag C
-player2 hand is 14, 24, 98, 93, 0, 40, 52, 84, 6
- has drawn a 72 from bag Z
-player2 hand is 14, 24, 98, 93, 0, 40, 52, 84, 6, 72
- has discarded a 24 to bag B
-player2 hand is 14, 98, 93, 0, 40, 52, 84, 6, 72
- has drawn a 37 from bag X
-player2 hand is 14, 98, 93, 0, 40, 52, 84, 6, 72, 37
- has discarded a 72 to bag C
-player2 hand is 14, 98, 93, 0, 40, 52, 84, 6, 37
- has drawn a 19 from bag X
-player2 hand is 14, 98, 93, 0, 40, 52, 84, 6, 37, 19
- has discarded a 40 to bag B
-player2 hand is 14, 98, 93, 0, 52, 84, 6, 37, 19
- has drawn a 68 from bag X
-player2 hand is 14, 98, 93, 0, 52, 84, 6, 37, 19, 68
- has discarded a 52 to bag B
-player2 hand is 14, 98, 93, 0, 84, 6, 37, 19, 68
- has drawn a 63 from bag Y
-player2 hand is 14, 98, 93, 0, 84, 6, 37, 19, 68, 63
- has discarded a 98 to bag B
-player2 hand is 14, 93, 0, 84, 6, 37, 19, 68, 63
- has drawn a 23 from bag Z
-player2 hand is 14, 93, 0, 84, 6, 37, 19, 68, 63, 23
- has discarded a 37 to bag A
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 63, 23
- has drawn a 31 from bag X
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 63, 23, 31
- has discarded a 23 to bag C
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 63, 31
- has drawn a 76 from bag Z
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 63, 31, 76
- has discarded a 31 to bag A
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 63, 76
- has drawn a 87 from bag Z
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 63, 76, 87
- has discarded a 63 to bag B
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 76, 87
- has drawn a 7 from bag X
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 76, 87, 7
- has discarded a 7 to bag A
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 76, 87
- has drawn a 8 from bag X
-player2 hand is 14, 93, 0, 84, 6, 19, 68, 76, 87, 8
- has discarded a 0 to bag B
-player2 hand is 14, 93, 84, 6, 19, 68, 76, 87, 8
+ has drawn a 37 from bag Z
+player2 hand is 37
+ has drawn a 90 from bag Z
+player2 hand is 37, 90
+ has drawn a 53 from bag Z
+player2 hand is 37, 90, 53
+ has drawn a 98 from bag Z
+player2 hand is 37, 90, 53, 98
+ has drawn a 30 from bag Z
+player2 hand is 37, 90, 53, 98, 30
  has drawn a 71 from bag Z
-player2 hand is 14, 93, 84, 6, 19, 68, 76, 87, 8, 71
- has discarded a 8 to bag A
-player2 hand is 14, 93, 84, 6, 19, 68, 76, 87, 71
- has drawn a 94 from bag Z
-player2 hand is 14, 93, 84, 6, 19, 68, 76, 87, 71, 94
- has discarded a 14 to bag A
-player2 hand is 93, 84, 6, 19, 68, 76, 87, 71, 94
- has drawn a 5 from bag X
-player2 hand is 93, 84, 6, 19, 68, 76, 87, 71, 94, 5
- has discarded a 84 to bag A
-player2 hand is 93, 6, 19, 68, 76, 87, 71, 94, 5
- has drawn a 72 from bag Z
-player2 hand is 93, 6, 19, 68, 76, 87, 71, 94, 5, 72
- has discarded a 5 to bag A
-player2 hand is 93, 6, 19, 68, 76, 87, 71, 94, 72
- has drawn a 37 from bag X
-player2 hand is 93, 6, 19, 68, 76, 87, 71, 94, 72, 37
- has discarded a 76 to bag C
-player2 hand is 93, 6, 19, 68, 87, 71, 94, 72, 37
- has drawn a 19 from bag Z
-player2 hand is 93, 6, 19, 68, 87, 71, 94, 72, 37, 19
- has discarded a 87 to bag C
-player2 hand is 93, 6, 19, 68, 71, 94, 72, 37, 19
- has drawn a 8 from bag X
-player2 hand is 93, 6, 19, 68, 71, 94, 72, 37, 19, 8
- has discarded a 19 to bag A
-player2 hand is 93, 6, 68, 71, 94, 72, 37, 19, 8
- has drawn a 68 from bag Z
-player2 hand is 93, 6, 68, 71, 94, 72, 37, 19, 8, 68
- has discarded a 19 to bag C
-player2 hand is 93, 6, 68, 71, 94, 72, 37, 8, 68
- has drawn a 74 from bag Y
-player2 hand is 93, 6, 68, 71, 94, 72, 37, 8, 68, 74
- has discarded a 6 to bag B
-player2 hand is 93, 68, 71, 94, 72, 37, 8, 68, 74
- has drawn a 74 from bag Z
-player2 hand is 93, 68, 71, 94, 72, 37, 8, 68, 74, 74
- has discarded a 71 to bag C
-player2 hand is 93, 68, 94, 72, 37, 8, 68, 74, 74
- has drawn a 96 from bag X
-player2 hand is 93, 68, 94, 72, 37, 8, 68, 74, 74, 96
- has discarded a 94 to bag C
-player2 hand is 93, 68, 72, 37, 8, 68, 74, 74, 96
- has drawn a 50 from bag Z
-player2 hand is 93, 68, 72, 37, 8, 68, 74, 74, 96, 50
- has discarded a 37 to bag A
-player2 hand is 93, 68, 72, 8, 68, 74, 74, 96, 50
- has drawn a 57 from bag Z
-player2 hand is 93, 68, 72, 8, 68, 74, 74, 96, 50, 57
- has discarded a 72 to bag C
-player2 hand is 93, 68, 8, 68, 74, 74, 96, 50, 57
- has drawn a 6 from bag Z
-player2 hand is 93, 68, 8, 68, 74, 74, 96, 50, 57, 6
- has discarded a 50 to bag C
-player2 hand is 93, 68, 8, 68, 74, 74, 96, 57, 6
- has drawn a 87 from bag Y
-player2 hand is 93, 68, 8, 68, 74, 74, 96, 57, 6, 87
- has discarded a 6 to bag C
-player2 hand is 93, 68, 8, 68, 74, 74, 96, 57, 87
- has drawn a 23 from bag Z
-player2 hand is 93, 68, 8, 68, 74, 74, 96, 57, 87, 23
- has discarded a 96 to bag A
-player2 hand is 93, 68, 8, 68, 74, 74, 57, 87, 23
- has drawn a 63 from bag Y
-player2 hand is 93, 68, 8, 68, 74, 74, 57, 87, 23, 63
- has discarded a 8 to bag A
-player2 hand is 93, 68, 68, 74, 74, 57, 87, 23, 63
- has drawn a 71 from bag Z
-player2 hand is 93, 68, 68, 74, 74, 57, 87, 23, 63, 71
- has discarded a 87 to bag B
-player2 hand is 93, 68, 68, 74, 74, 57, 23, 63, 71
- has drawn a 31 from bag X
-player2 hand is 93, 68, 68, 74, 74, 57, 23, 63, 71, 31
- has discarded a 23 to bag C
-player2 hand is 93, 68, 68, 74, 74, 57, 63, 71, 31
- has drawn a 19 from bag Z
-player2 hand is 93, 68, 68, 74, 74, 57, 63, 71, 31, 19
- has discarded a 63 to bag B
-player2 hand is 93, 68, 68, 74, 74, 57, 71, 31, 19
- has drawn a 28 from bag Y
-player2 hand is 93, 68, 68, 74, 74, 57, 71, 31, 19, 28
- has discarded a 57 to bag C
-player2 hand is 93, 68, 68, 74, 74, 71, 31, 19, 28
- has drawn a 94 from bag Z
-player2 hand is 93, 68, 68, 74, 74, 71, 31, 19, 28, 94
- has discarded a 68 to bag A
-player2 hand is 93, 68, 74, 74, 71, 31, 19, 28, 94
- has drawn a 43 from bag Z
-player2 hand is 93, 68, 74, 74, 71, 31, 19, 28, 94, 43
- has discarded a 71 to bag C
-player2 hand is 93, 68, 74, 74, 31, 19, 28, 94, 43
- has drawn a 6 from bag Z
-player2 hand is 93, 68, 74, 74, 31, 19, 28, 94, 43, 6
- has discarded a 6 to bag C
-player2 hand is 93, 68, 74, 74, 31, 19, 28, 94, 43
- has drawn a 62 from bag Y
-player2 hand is 93, 68, 74, 74, 31, 19, 28, 94, 43, 62
- has discarded a 68 to bag C
-player2 hand is 93, 74, 74, 31, 19, 28, 94, 43, 62
- has drawn a 11 from bag X
-player2 hand is 93, 74, 74, 31, 19, 28, 94, 43, 62, 11
- has discarded a 19 to bag C
-player2 hand is 93, 74, 74, 31, 28, 94, 43, 62, 11
- has drawn a 8 from bag X
-player2 hand is 93, 74, 74, 31, 28, 94, 43, 62, 11, 8
- has discarded a 43 to bag C
-player2 hand is 93, 74, 74, 31, 28, 94, 62, 11, 8
- has drawn a 85 from bag X
-player2 hand is 93, 74, 74, 31, 28, 94, 62, 11, 8, 85
- has discarded a 62 to bag B
-player2 hand is 93, 74, 74, 31, 28, 94, 11, 8, 85
- has drawn a 14 from bag Y
-player2 hand is 93, 74, 74, 31, 28, 94, 11, 8, 85, 14
- has discarded a 93 to bag A
-player2 hand is 74, 74, 31, 28, 94, 11, 8, 85, 14
- has drawn a 73 from bag X
-player2 hand is 74, 74, 31, 28, 94, 11, 8, 85, 14, 73
- has discarded a 31 to bag A
-player2 hand is 74, 74, 28, 94, 11, 8, 85, 14, 73
- has drawn a 76 from bag Z
-player2 hand is 74, 74, 28, 94, 11, 8, 85, 14, 73, 76
- has discarded a 74 to bag B
-player2 hand is 74, 28, 94, 11, 8, 85, 14, 73, 76
- has drawn a 78 from bag X
-player2 hand is 74, 28, 94, 11, 8, 85, 14, 73, 76, 78
- has discarded a 8 to bag A
-player2 hand is 74, 28, 94, 11, 85, 14, 73, 76, 78
- has drawn a 74 from bag Z
-player2 hand is 74, 28, 94, 11, 85, 14, 73, 76, 78, 74
- has discarded a 85 to bag A
-player2 hand is 74, 28, 94, 11, 14, 73, 76, 78, 74
- has drawn a 62 from bag X
-player2 hand is 74, 28, 94, 11, 14, 73, 76, 78, 74, 62
- has discarded a 62 to bag A
-player2 hand is 74, 28, 94, 11, 14, 73, 76, 78, 74
- has drawn a 0 from bag Y
-player2 hand is 74, 28, 94, 11, 14, 73, 76, 78, 74, 0
- has discarded a 74 to bag C
-player2 hand is 74, 28, 94, 11, 14, 73, 76, 78, 0
- has drawn a 98 from bag Y
-player2 hand is 74, 28, 94, 11, 14, 73, 76, 78, 0, 98
- has discarded a 14 to bag B
-player2 hand is 74, 28, 94, 11, 73, 76, 78, 0, 98
- has drawn a 20 from bag Z
-player2 hand is 74, 28, 94, 11, 73, 76, 78, 0, 98, 20
- has discarded a 94 to bag C
-player2 hand is 74, 28, 11, 73, 76, 78, 0, 98, 20
- has drawn a 43 from bag Z
-player2 hand is 74, 28, 11, 73, 76, 78, 0, 98, 20, 43
- has discarded a 28 to bag B
-player2 hand is 74, 11, 73, 76, 78, 0, 98, 20, 43
- has drawn a 3 from bag Z
-player2 hand is 74, 11, 73, 76, 78, 0, 98, 20, 43, 3
- has discarded a 11 to bag A
-player2 hand is 74, 73, 76, 78, 0, 98, 20, 43, 3
- has drawn a 63 from bag Y
-player2 hand is 74, 73, 76, 78, 0, 98, 20, 43, 3, 63
- has discarded a 43 to bag C
-player2 hand is 74, 73, 76, 78, 0, 98, 20, 3, 63
- has drawn a 37 from bag X
-player2 hand is 74, 73, 76, 78, 0, 98, 20, 3, 63, 37
- has discarded a 98 to bag B
-player2 hand is 74, 73, 76, 78, 0, 20, 3, 63, 37
- has drawn a 10 from bag Z
-player2 hand is 74, 73, 76, 78, 0, 20, 3, 63, 37, 10
- has discarded a 78 to bag A
-player2 hand is 74, 73, 76, 0, 20, 3, 63, 37, 10
- has drawn a 55 from bag Z
-player2 hand is 74, 73, 76, 0, 20, 3, 63, 37, 10, 55
- has discarded a 0 to bag B
-player2 hand is 74, 73, 76, 20, 3, 63, 37, 10, 55
- has drawn a 85 from bag X
-player2 hand is 74, 73, 76, 20, 3, 63, 37, 10, 55, 85
- has discarded a 74 to bag C
-player2 hand is 73, 76, 20, 3, 63, 37, 10, 55, 85
- has drawn a 7 from bag X
-player2 hand is 73, 76, 20, 3, 63, 37, 10, 55, 85, 7
- has discarded a 20 to bag C
-player2 hand is 73, 76, 3, 63, 37, 10, 55, 85, 7
- has drawn a 22 from bag X
-player2 hand is 73, 76, 3, 63, 37, 10, 55, 85, 7, 22
- has discarded a 10 to bag C
-player2 hand is 73, 76, 3, 63, 37, 55, 85, 7, 22
- has drawn a 98 from bag Y
-player2 hand is 73, 76, 3, 63, 37, 55, 85, 7, 22, 98
- has discarded a 55 to bag C
-player2 hand is 73, 76, 3, 63, 37, 85, 7, 22, 98
- has drawn a 11 from bag X
-player2 hand is 73, 76, 3, 63, 37, 85, 7, 22, 98, 11
- has discarded a 98 to bag B
-player2 hand is 73, 76, 3, 63, 37, 85, 7, 22, 11
- has drawn a 92 from bag Y
-player2 hand is 73, 76, 3, 63, 37, 85, 7, 22, 11, 92
- has discarded a 92 to bag B
-player2 hand is 73, 76, 3, 63, 37, 85, 7, 22, 11
- has drawn a 7 from bag X
-player2 hand is 73, 76, 3, 63, 37, 85, 7, 22, 11, 7
- has discarded a 63 to bag B
-player2 hand is 73, 76, 3, 37, 85, 7, 22, 11, 7
- has drawn a 74 from bag Y
-player2 hand is 73, 76, 3, 37, 85, 7, 22, 11, 7, 74
- has discarded a 37 to bag A
-player2 hand is 73, 76, 3, 85, 7, 22, 11, 7, 74
- has drawn a 85 from bag Y
-player2 hand is 73, 76, 3, 85, 7, 22, 11, 7, 74, 85
- has discarded a 7 to bag A
-player2 hand is 73, 76, 3, 85, 22, 11, 7, 74, 85
- has drawn a 60 from bag Z
-player2 hand is 73, 76, 3, 85, 22, 11, 7, 74, 85, 60
- has discarded a 85 to bag B
-player2 hand is 73, 76, 3, 85, 22, 11, 7, 74, 60
- has drawn a 87 from bag Z
-player2 hand is 73, 76, 3, 85, 22, 11, 7, 74, 60, 87
- has discarded a 73 to bag A
-player2 hand is 76, 3, 85, 22, 11, 7, 74, 60, 87
- has drawn a 36 from bag X
-player2 hand is 76, 3, 85, 22, 11, 7, 74, 60, 87, 36
- has discarded a 7 to bag A
-player2 hand is 76, 3, 85, 22, 11, 74, 60, 87, 36
- has drawn a 35 from bag X
-player2 hand is 76, 3, 85, 22, 11, 74, 60, 87, 36, 35
- has discarded a 60 to bag C
-player2 hand is 76, 3, 85, 22, 11, 74, 87, 36, 35
- has drawn a 33 from bag Y
-player2 hand is 76, 3, 85, 22, 11, 74, 87, 36, 35, 33
- has discarded a 76 to bag C
-player2 hand is 3, 85, 22, 11, 74, 87, 36, 35, 33
- has drawn a 37 from bag X
-player2 hand is 3, 85, 22, 11, 74, 87, 36, 35, 33, 37
- has discarded a 36 to bag A
-player2 hand is 3, 85, 22, 11, 74, 87, 35, 33, 37
- has drawn a 76 from bag Z
-player2 hand is 3, 85, 22, 11, 74, 87, 35, 33, 37, 76
- has discarded a 35 to bag A
-player2 hand is 3, 85, 22, 11, 74, 87, 33, 37, 76
- has drawn a 90 from bag Y
-player2 hand is 3, 85, 22, 11, 74, 87, 33, 37, 76, 90
- has discarded a 90 to bag B
-player2 hand is 3, 85, 22, 11, 74, 87, 33, 37, 76
- has drawn a 57 from bag Z
-player2 hand is 3, 85, 22, 11, 74, 87, 33, 37, 76, 57
- has discarded a 3 to bag C
-player2 hand is 85, 22, 11, 74, 87, 33, 37, 76, 57
- has drawn a 49 from bag X
-player2 hand is 85, 22, 11, 74, 87, 33, 37, 76, 57, 49
- has discarded a 11 to bag A
-player2 hand is 85, 22, 74, 87, 33, 37, 76, 57, 49
- has drawn a 14 from bag X
-player2 hand is 85, 22, 74, 87, 33, 37, 76, 57, 49, 14
- has discarded a 85 to bag A
-player2 hand is 22, 74, 87, 33, 37, 76, 57, 49, 14
- has drawn a 60 from bag Z
-player2 hand is 22, 74, 87, 33, 37, 76, 57, 49, 14, 60
- has discarded a 14 to bag A
-player2 hand is 22, 74, 87, 33, 37, 76, 57, 49, 60
- has drawn a 74 from bag Z
-player2 hand is 22, 74, 87, 33, 37, 76, 57, 49, 60, 74
- has discarded a 76 to bag C
-player2 hand is 22, 74, 87, 33, 37, 57, 49, 60, 74
- has drawn a 80 from bag Z
-player2 hand is 22, 74, 87, 33, 37, 57, 49, 60, 74, 80
- has discarded a 74 to bag C
-player2 hand is 22, 74, 87, 33, 37, 57, 49, 60, 80
- has drawn a 71 from bag Y
-player2 hand is 22, 74, 87, 33, 37, 57, 49, 60, 80, 71
- has discarded a 60 to bag C
-player2 hand is 22, 74, 87, 33, 37, 57, 49, 80, 71
- has drawn a 68 from bag Z
-player2 hand is 22, 74, 87, 33, 37, 57, 49, 80, 71, 68
- has discarded a 57 to bag C
-player2 hand is 22, 74, 87, 33, 37, 49, 80, 71, 68
- has drawn a 66 from bag Z
-player2 hand is 22, 74, 87, 33, 37, 49, 80, 71, 68, 66
- has discarded a 66 to bag C
-player2 hand is 22, 74, 87, 33, 37, 49, 80, 71, 68
- has drawn a 15 from bag Z
-player2 hand is 22, 74, 87, 33, 37, 49, 80, 71, 68, 15
- has discarded a 74 to bag B
-player2 hand is 22, 87, 33, 37, 49, 80, 71, 68, 15
- has drawn a 87 from bag Y
-player2 hand is 22, 87, 33, 37, 49, 80, 71, 68, 15, 87
- has discarded a 22 to bag A
-player2 hand is 87, 33, 37, 49, 80, 71, 68, 15, 87
- has drawn a 42 from bag Y
-player2 hand is 87, 33, 37, 49, 80, 71, 68, 15, 87, 42
- has discarded a 80 to bag C
-player2 hand is 87, 33, 37, 49, 71, 68, 15, 87, 42
- has drawn a 2 from bag X
-player2 hand is 87, 33, 37, 49, 71, 68, 15, 87, 42, 2
- has discarded a 87 to bag C
-player2 hand is 33, 37, 49, 71, 68, 15, 87, 42, 2
- has drawn a 84 from bag X
-player2 hand is 33, 37, 49, 71, 68, 15, 87, 42, 2, 84
- has discarded a 87 to bag B
-player2 hand is 33, 37, 49, 71, 68, 15, 42, 2, 84
- has drawn a 17 from bag Z
-player2 hand is 33, 37, 49, 71, 68, 15, 42, 2, 84, 17
- has discarded a 49 to bag A
-player2 hand is 33, 37, 71, 68, 15, 42, 2, 84, 17
- has drawn a 19 from bag Z
-player2 hand is 33, 37, 71, 68, 15, 42, 2, 84, 17, 19
- has discarded a 42 to bag B
-player2 hand is 33, 37, 71, 68, 15, 2, 84, 17, 19
- has drawn a 33 from bag Y
-player2 hand is 33, 37, 71, 68, 15, 2, 84, 17, 19, 33
- has discarded a 2 to bag A
-player2 hand is 33, 37, 71, 68, 15, 84, 17, 19, 33
- has drawn a 70 from bag X
-player2 hand is 33, 37, 71, 68, 15, 84, 17, 19, 33, 70
- has discarded a 19 to bag C
-player2 hand is 33, 37, 71, 68, 15, 84, 17, 33, 70
- has drawn a 96 from bag X
-player2 hand is 33, 37, 71, 68, 15, 84, 17, 33, 70, 96
- has discarded a 68 to bag C
-player2 hand is 33, 37, 71, 15, 84, 17, 33, 70, 96
- has drawn a 74 from bag Z
-player2 hand is 33, 37, 71, 15, 84, 17, 33, 70, 96, 74
- has discarded a 96 to bag A
-player2 hand is 33, 37, 71, 15, 84, 17, 33, 70, 74
- has drawn a 52 from bag Y
-player2 hand is 33, 37, 71, 15, 84, 17, 33, 70, 74, 52
- has discarded a 15 to bag C
-player2 hand is 33, 37, 71, 84, 17, 33, 70, 74, 52
- has drawn a 38 from bag Y
-player2 hand is 33, 37, 71, 84, 17, 33, 70, 74, 52, 38
- has discarded a 38 to bag B
-player2 hand is 33, 37, 71, 84, 17, 33, 70, 74, 52
- has drawn a 80 from bag Z
-player2 hand is 33, 37, 71, 84, 17, 33, 70, 74, 52, 80
- has discarded a 74 to bag C
-player2 hand is 33, 37, 71, 84, 17, 33, 70, 52, 80
- has drawn a 60 from bag Z
-player2 hand is 33, 37, 71, 84, 17, 33, 70, 52, 80, 60
- has discarded a 52 to bag B
-player2 hand is 33, 37, 71, 84, 17, 33, 70, 80, 60
- has drawn a 90 from bag Y
-player2 hand is 33, 37, 71, 84, 17, 33, 70, 80, 60, 90
- has discarded a 33 to bag B
-player2 hand is 37, 71, 84, 17, 33, 70, 80, 60, 90
- has drawn a 43 from bag Z
-player2 hand is 37, 71, 84, 17, 33, 70, 80, 60, 90, 43
- has discarded a 60 to bag C
-player2 hand is 37, 71, 84, 17, 33, 70, 80, 90, 43
- has drawn a 68 from bag X
-player2 hand is 37, 71, 84, 17, 33, 70, 80, 90, 43, 68
- has discarded a 68 to bag A
-player2 hand is 37, 71, 84, 17, 33, 70, 80, 90, 43
- has drawn a 72 from bag Z
-player2 hand is 37, 71, 84, 17, 33, 70, 80, 90, 43, 72
- has discarded a 70 to bag A
-player2 hand is 37, 71, 84, 17, 33, 80, 90, 43, 72
- has drawn a 14 from bag X
-player2 hand is 37, 71, 84, 17, 33, 80, 90, 43, 72, 14
- has discarded a 80 to bag C
-player2 hand is 37, 71, 84, 17, 33, 90, 43, 72, 14
- has drawn a 38 from bag Y
-player2 hand is 37, 71, 84, 17, 33, 90, 43, 72, 14, 38
- has discarded a 72 to bag C
-player2 hand is 37, 71, 84, 17, 33, 90, 43, 14, 38
- has drawn a 50 from bag Z
-player2 hand is 37, 71, 84, 17, 33, 90, 43, 14, 38, 50
- has discarded a 84 to bag A
-player2 hand is 37, 71, 17, 33, 90, 43, 14, 38, 50
- has drawn a 63 from bag Y
-player2 hand is 37, 71, 17, 33, 90, 43, 14, 38, 50, 63
- has discarded a 50 to bag C
-player2 hand is 37, 71, 17, 33, 90, 43, 14, 38, 63
- has drawn a 68 from bag Z
-player2 hand is 37, 71, 17, 33, 90, 43, 14, 38, 63, 68
- has discarded a 68 to bag C
-player2 hand is 37, 71, 17, 33, 90, 43, 14, 38, 63
- has drawn a 74 from bag Z
-player2 hand is 37, 71, 17, 33, 90, 43, 14, 38, 63, 74
- has discarded a 37 to bag A
-player2 hand is 71, 17, 33, 90, 43, 14, 38, 63, 74
- has drawn a 57 from bag Z
-player2 hand is 71, 17, 33, 90, 43, 14, 38, 63, 74, 57
- has discarded a 90 to bag B
-player2 hand is 71, 17, 33, 43, 14, 38, 63, 74, 57
- has drawn a 15 from bag Z
-player2 hand is 71, 17, 33, 43, 14, 38, 63, 74, 57, 15
- has discarded a 14 to bag A
-player2 hand is 71, 17, 33, 43, 38, 63, 74, 57, 15
- has drawn a 85 from bag X
-player2 hand is 71, 17, 33, 43, 38, 63, 74, 57, 15, 85
- has discarded a 71 to bag B
-player2 hand is 17, 33, 43, 38, 63, 74, 57, 15, 85
- has drawn a 92 from bag Y
-player2 hand is 17, 33, 43, 38, 63, 74, 57, 15, 85, 92
- has discarded a 43 to bag C
-player2 hand is 17, 33, 38, 63, 74, 57, 15, 85, 92
- has drawn a 55 from bag Z
-player2 hand is 17, 33, 38, 63, 74, 57, 15, 85, 92, 55
- has discarded a 55 to bag C
-player2 hand is 17, 33, 38, 63, 74, 57, 15, 85, 92
- has drawn a 93 from bag X
-player2 hand is 17, 33, 38, 63, 74, 57, 15, 85, 92, 93
- has discarded a 57 to bag C
-player2 hand is 17, 33, 38, 63, 74, 15, 85, 92, 93
- has drawn a 80 from bag Z
-player2 hand is 17, 33, 38, 63, 74, 15, 85, 92, 93, 80
- has discarded a 74 to bag C
-player2 hand is 17, 33, 38, 63, 15, 85, 92, 93, 80
- has drawn a 57 from bag Y
-player2 hand is 17, 33, 38, 63, 15, 85, 92, 93, 80, 57
- has discarded a 92 to bag B
-player2 hand is 17, 33, 38, 63, 15, 85, 93, 80, 57
- has drawn a 87 from bag X
-player2 hand is 17, 33, 38, 63, 15, 85, 93, 80, 57, 87
- has discarded a 63 to bag B
-player2 hand is 17, 33, 38, 15, 85, 93, 80, 57, 87
- has drawn a 36 from bag X
-player2 hand is 17, 33, 38, 15, 85, 93, 80, 57, 87, 36
- has discarded a 80 to bag C
-player2 hand is 17, 33, 38, 15, 85, 93, 57, 87, 36
- has drawn a 4 from bag Y
-player2 hand is 17, 33, 38, 15, 85, 93, 57, 87, 36, 4
- has discarded a 85 to bag A
-player2 hand is 17, 33, 38, 15, 93, 57, 87, 36, 4
- has drawn a 19 from bag X
-player2 hand is 17, 33, 38, 15, 93, 57, 87, 36, 4, 19
- has discarded a 15 to bag C
-player2 hand is 17, 33, 38, 93, 57, 87, 36, 4, 19
- has drawn a 68 from bag Z
-player2 hand is 17, 33, 38, 93, 57, 87, 36, 4, 19, 68
- has discarded a 38 to bag B
-player2 hand is 17, 33, 93, 57, 87, 36, 4, 19, 68
- has drawn a 29 from bag X
-player2 hand is 17, 33, 93, 57, 87, 36, 4, 19, 68, 29
- has discarded a 57 to bag B
-player2 hand is 17, 33, 93, 87, 36, 4, 19, 68, 29
- has drawn a 33 from bag X
-player2 hand is 17, 33, 93, 87, 36, 4, 19, 68, 29, 33
- has discarded a 17 to bag C
-player2 hand is 33, 93, 87, 36, 4, 19, 68, 29, 33
- has drawn a 68 from bag X
-player2 hand is 33, 93, 87, 36, 4, 19, 68, 29, 33, 68
- has discarded a 93 to bag A
-player2 hand is 33, 87, 36, 4, 19, 68, 29, 33, 68
- has drawn a 86 from bag Z
-player2 hand is 33, 87, 36, 4, 19, 68, 29, 33, 68, 86
- has discarded a 68 to bag A
-player2 hand is 33, 87, 36, 4, 19, 68, 29, 33, 86
- has drawn a 78 from bag Y
-player2 hand is 33, 87, 36, 4, 19, 68, 29, 33, 86, 78
- has discarded a 78 to bag B
-player2 hand is 33, 87, 36, 4, 19, 68, 29, 33, 86
- has drawn a 15 from bag Z
-player2 hand is 33, 87, 36, 4, 19, 68, 29, 33, 86, 15
- has discarded a 33 to bag A
-player2 hand is 33, 87, 36, 4, 19, 68, 29, 86, 15
- has drawn a 24 from bag Y
-player2 hand is 33, 87, 36, 4, 19, 68, 29, 86, 15, 24
- has discarded a 36 to bag A
-player2 hand is 33, 87, 4, 19, 68, 29, 86, 15, 24
- has drawn a 71 from bag Y
-player2 hand is 33, 87, 4, 19, 68, 29, 86, 15, 24, 71
- has discarded a 68 to bag C
-player2 hand is 33, 87, 4, 19, 29, 86, 15, 24, 71
- has drawn a 80 from bag Z
-player2 hand is 33, 87, 4, 19, 29, 86, 15, 24, 71, 80
- has discarded a 24 to bag B
-player2 hand is 33, 87, 4, 19, 29, 86, 15, 71, 80
- has drawn a 0 from bag Y
-player2 hand is 33, 87, 4, 19, 29, 86, 15, 71, 80, 0
- has discarded a 80 to bag C
-player2 hand is 33, 87, 4, 19, 29, 86, 15, 71, 0
- has drawn a 78 from bag Y
-player2 hand is 33, 87, 4, 19, 29, 86, 15, 71, 0, 78
- has discarded a 87 to bag A
-player2 hand is 33, 4, 19, 29, 86, 15, 71, 0, 78
- has drawn a 74 from bag Y
-player2 hand is 33, 4, 19, 29, 86, 15, 71, 0, 78, 74
- has discarded a 19 to bag A
-player2 hand is 33, 4, 29, 86, 15, 71, 0, 78, 74
- has drawn a 50 from bag Z
-player2 hand is 33, 4, 29, 86, 15, 71, 0, 78, 74, 50
- has discarded a 50 to bag C
-player2 hand is 33, 4, 29, 86, 15, 71, 0, 78, 74
- has drawn a 52 from bag Y
-player2 hand is 33, 4, 29, 86, 15, 71, 0, 78, 74, 52
- has discarded a 15 to bag C
-player2 hand is 33, 4, 29, 86, 71, 0, 78, 74, 52
- has drawn a 17 from bag Z
-player2 hand is 33, 4, 29, 86, 71, 0, 78, 74, 52, 17
- has discarded a 33 to bag B
-player2 hand is 4, 29, 86, 71, 0, 78, 74, 52, 17
- has drawn a 70 from bag X
-player2 hand is 4, 29, 86, 71, 0, 78, 74, 52, 17, 70
- has discarded a 86 to bag C
-player2 hand is 4, 29, 71, 0, 78, 74, 52, 17, 70
- has drawn a 71 from bag Z
-player2 hand is 4, 29, 71, 0, 78, 74, 52, 17, 70, 71
- has discarded a 52 to bag B
-player2 hand is 4, 29, 71, 0, 78, 74, 17, 70, 71
- has drawn a 37 from bag X
-player2 hand is 4, 29, 71, 0, 78, 74, 17, 70, 71, 37
- has discarded a 71 to bag B
-player2 hand is 4, 29, 0, 78, 74, 17, 70, 71, 37
- has drawn a 57 from bag Z
-player2 hand is 4, 29, 0, 78, 74, 17, 70, 71, 37, 57
- has discarded a 4 to bag B
-player2 hand is 29, 0, 78, 74, 17, 70, 71, 37, 57
- has drawn a 35 from bag X
-player2 hand is 29, 0, 78, 74, 17, 70, 71, 37, 57, 35
- has discarded a 70 to bag A
-player2 hand is 29, 0, 78, 74, 17, 71, 37, 57, 35
- has drawn a 76 from bag Z
-player2 hand is 29, 0, 78, 74, 17, 71, 37, 57, 35, 76
- has discarded a 17 to bag C
-player2 hand is 29, 0, 78, 74, 71, 37, 57, 35, 76
- has drawn a 7 from bag X
-player2 hand is 29, 0, 78, 74, 71, 37, 57, 35, 76, 7
- has discarded a 74 to bag B
-player2 hand is 29, 0, 78, 71, 37, 57, 35, 76, 7
- has drawn a 74 from bag Z
-player2 hand is 29, 0, 78, 71, 37, 57, 35, 76, 7, 74
- has discarded a 71 to bag C
-player2 hand is 29, 0, 78, 37, 57, 35, 76, 7, 74
- has drawn a 92 from bag Y
-player2 hand is 29, 0, 78, 37, 57, 35, 76, 7, 74, 92
- has discarded a 37 to bag A
-player2 hand is 29, 0, 78, 57, 35, 76, 7, 74, 92
- has drawn a 60 from bag Z
-player2 hand is 29, 0, 78, 57, 35, 76, 7, 74, 92, 60
- has discarded a 60 to bag C
-player2 hand is 29, 0, 78, 57, 35, 76, 7, 74, 92
- has drawn a 94 from bag Z
-player2 hand is 29, 0, 78, 57, 35, 76, 7, 74, 92, 94
- has discarded a 35 to bag A
-player2 hand is 29, 0, 78, 57, 76, 7, 74, 92, 94
- has drawn a 8 from bag X
-player2 hand is 29, 0, 78, 57, 76, 7, 74, 92, 94, 8
- has discarded a 8 to bag A
-player2 hand is 29, 0, 78, 57, 76, 7, 74, 92, 94
- has drawn a 68 from bag X
-player2 hand is 29, 0, 78, 57, 76, 7, 74, 92, 94, 68
- has discarded a 29 to bag A
-player2 hand is 0, 78, 57, 76, 7, 74, 92, 94, 68
- has drawn a 85 from bag X
-player2 hand is 0, 78, 57, 76, 7, 74, 92, 94, 68, 85
- has discarded a 74 to bag C
-player2 hand is 0, 78, 57, 76, 7, 92, 94, 68, 85
- has drawn a 4 from bag Y
-player2 hand is 0, 78, 57, 76, 7, 92, 94, 68, 85, 4
- has discarded a 68 to bag A
-player2 hand is 0, 78, 57, 76, 7, 92, 94, 85, 4
- has drawn a 24 from bag Y
-player2 hand is 0, 78, 57, 76, 7, 92, 94, 85, 4, 24
- has discarded a 7 to bag A
-player2 hand is 0, 78, 57, 76, 92, 94, 85, 4, 24
- has drawn a 50 from bag Z
-player2 hand is 0, 78, 57, 76, 92, 94, 85, 4, 24, 50
- has discarded a 24 to bag B
-player2 hand is 0, 78, 57, 76, 92, 94, 85, 4, 50
- has drawn a 84 from bag X
-player2 hand is 0, 78, 57, 76, 92, 94, 85, 4, 50, 84
- has discarded a 92 to bag B
-player2 hand is 0, 78, 57, 76, 94, 85, 4, 50, 84
- has drawn a 28 from bag Y
-player2 hand is 0, 78, 57, 76, 94, 85, 4, 50, 84, 28
- has discarded a 50 to bag C
-player2 hand is 0, 78, 57, 76, 94, 85, 4, 84, 28
- has drawn a 93 from bag X
-player2 hand is 0, 78, 57, 76, 94, 85, 4, 84, 28, 93
- has discarded a 94 to bag C
-player2 hand is 0, 78, 57, 76, 85, 4, 84, 28, 93
- has drawn a 24 from bag Y
-player2 hand is 0, 78, 57, 76, 85, 4, 84, 28, 93, 24
- has discarded a 28 to bag B
-player2 hand is 0, 78, 57, 76, 85, 4, 84, 93, 24
- has drawn a 90 from bag Y
-player2 hand is 0, 78, 57, 76, 85, 4, 84, 93, 24, 90
- has discarded a 78 to bag B
-player2 hand is 0, 57, 76, 85, 4, 84, 93, 24, 90
- has drawn a 36 from bag X
-player2 hand is 0, 57, 76, 85, 4, 84, 93, 24, 90, 36
- has discarded a 90 to bag B
-player2 hand is 0, 57, 76, 85, 4, 84, 93, 24, 36
- has drawn a 17 from bag Z
-player2 hand is 0, 57, 76, 85, 4, 84, 93, 24, 36, 17
- has discarded a 17 to bag C
-player2 hand is 0, 57, 76, 85, 4, 84, 93, 24, 36
- has drawn a 42 from bag Y
-player2 hand is 0, 57, 76, 85, 4, 84, 93, 24, 36, 42
- has discarded a 57 to bag C
-player2 hand is 0, 76, 85, 4, 84, 93, 24, 36, 42
- has drawn a 50 from bag Z
-player2 hand is 0, 76, 85, 4, 84, 93, 24, 36, 42, 50
- has discarded a 24 to bag B
-player2 hand is 0, 76, 85, 4, 84, 93, 36, 42, 50
- has drawn a 64 from bag Y
-player2 hand is 0, 76, 85, 4, 84, 93, 36, 42, 50, 64
- has discarded a 93 to bag A
-player2 hand is 0, 76, 85, 4, 84, 36, 42, 50, 64
- has drawn a 33 from bag X
-player2 hand is 0, 76, 85, 4, 84, 36, 42, 50, 64, 33
- has discarded a 36 to bag A
-player2 hand is 0, 76, 85, 4, 84, 42, 50, 64, 33
- has drawn a 80 from bag Z
-player2 hand is 0, 76, 85, 4, 84, 42, 50, 64, 33, 80
- has discarded a 84 to bag A
-player2 hand is 0, 76, 85, 4, 42, 50, 64, 33, 80
- has drawn a 43 from bag Z
-player2 hand is 0, 76, 85, 4, 42, 50, 64, 33, 80, 43
- has discarded a 0 to bag B
-player2 hand is 76, 85, 4, 42, 50, 64, 33, 80, 43
- has drawn a 17 from bag Z
-player2 hand is 76, 85, 4, 42, 50, 64, 33, 80, 43, 17
- has discarded a 43 to bag C
-player2 hand is 76, 85, 4, 42, 50, 64, 33, 80, 17
- has drawn a 93 from bag Z
-player2 hand is 76, 85, 4, 42, 50, 64, 33, 80, 17, 93
- has discarded a 4 to bag B
-player2 hand is 76, 85, 42, 50, 64, 33, 80, 17, 93
- has drawn a 90 from bag Y
-player2 hand is 76, 85, 42, 50, 64, 33, 80, 17, 93, 90
- has discarded a 17 to bag C
-player2 hand is 76, 85, 42, 50, 64, 33, 80, 93, 90
- has drawn a 7 from bag X
-player2 hand is 76, 85, 42, 50, 64, 33, 80, 93, 90, 7
- has discarded a 80 to bag C
-player2 hand is 76, 85, 42, 50, 64, 33, 93, 90, 7
- has drawn a 74 from bag Z
-player2 hand is 76, 85, 42, 50, 64, 33, 93, 90, 7, 74
- has discarded a 85 to bag A
-player2 hand is 76, 42, 50, 64, 33, 93, 90, 7, 74
- has drawn a 32 from bag X
-player2 hand is 76, 42, 50, 64, 33, 93, 90, 7, 74, 32
- has discarded a 50 to bag C
-player2 hand is 76, 42, 64, 33, 93, 90, 7, 74, 32
- has drawn a 38 from bag Y
-player2 hand is 76, 42, 64, 33, 93, 90, 7, 74, 32, 38
- has discarded a 42 to bag B
-player2 hand is 76, 64, 33, 93, 90, 7, 74, 32, 38
- has drawn a 93 from bag X
-player2 hand is 76, 64, 33, 93, 90, 7, 74, 32, 38, 93
- has discarded a 76 to bag C
-player2 hand is 64, 33, 93, 90, 7, 74, 32, 38, 93
- has drawn a 28 from bag Y
-player2 hand is 64, 33, 93, 90, 7, 74, 32, 38, 93, 28
- has discarded a 38 to bag B
-player2 hand is 64, 33, 93, 90, 7, 74, 32, 93, 28
- has drawn a 63 from bag Y
-player2 hand is 64, 33, 93, 90, 7, 74, 32, 93, 28, 63
- has discarded a 64 to bag B
-player2 hand is 33, 93, 90, 7, 74, 32, 93, 28, 63
- has drawn a 98 from bag Y
-player2 hand is 33, 93, 90, 7, 74, 32, 93, 28, 63, 98
- has discarded a 7 to bag A
-player2 hand is 33, 93, 90, 74, 32, 93, 28, 63, 98
- has drawn a 24 from bag Y
-player2 hand is 33, 93, 90, 74, 32, 93, 28, 63, 98, 24
- has discarded a 33 to bag A
-player2 hand is 93, 90, 74, 32, 93, 28, 63, 98, 24
- has drawn a 3 from bag Z
-player2 hand is 93, 90, 74, 32, 93, 28, 63, 98, 24, 3
- has discarded a 98 to bag B
-player2 hand is 93, 90, 74, 32, 93, 28, 63, 24, 3
- has drawn a 92 from bag Y
-player2 hand is 93, 90, 74, 32, 93, 28, 63, 24, 3, 92
- has discarded a 24 to bag B
-player2 hand is 93, 90, 74, 32, 93, 28, 63, 3, 92
- has drawn a 94 from bag Z
-player2 hand is 93, 90, 74, 32, 93, 28, 63, 3, 92, 94
- has discarded a 92 to bag B
-player2 hand is 93, 90, 74, 32, 93, 28, 63, 3, 94
- has drawn a 5 from bag Y
-player2 hand is 93, 90, 74, 32, 93, 28, 63, 3, 94, 5
- has discarded a 63 to bag B
-player2 hand is 93, 90, 74, 32, 93, 28, 3, 94, 5
- has drawn a 64 from bag Y
-player2 hand is 93, 90, 74, 32, 93, 28, 3, 94, 5, 64
- has discarded a 94 to bag C
-player2 hand is 93, 90, 74, 32, 93, 28, 3, 5, 64
- has drawn a 50 from bag Z
-player2 hand is 93, 90, 74, 32, 93, 28, 3, 5, 64, 50
- has discarded a 93 to bag C
-player2 hand is 90, 74, 32, 93, 28, 3, 5, 64, 50
- has drawn a 14 from bag Z
-player2 hand is 90, 74, 32, 93, 28, 3, 5, 64, 50, 14
- has discarded a 32 to bag A
-player2 hand is 90, 74, 93, 28, 3, 5, 64, 50, 14
- has drawn a 42 from bag Z
-player2 hand is 90, 74, 93, 28, 3, 5, 64, 50, 14, 42
- has discarded a 50 to bag C
-player2 hand is 90, 74, 93, 28, 3, 5, 64, 14, 42
- has drawn a 98 from bag Y
-player2 hand is 90, 74, 93, 28, 3, 5, 64, 14, 42, 98
- has discarded a 64 to bag B
-player2 hand is 90, 74, 93, 28, 3, 5, 14, 42, 98
- has drawn a 71 from bag Y
-player2 hand is 90, 74, 93, 28, 3, 5, 14, 42, 98, 71
- has discarded a 42 to bag C
-player2 hand is 90, 74, 93, 28, 3, 5, 14, 98, 71
- has drawn a 74 from bag Z
-player2 hand is 90, 74, 93, 28, 3, 5, 14, 98, 71, 74
- has discarded a 98 to bag B
-player2 hand is 90, 74, 93, 28, 3, 5, 14, 71, 74
- has drawn a 20 from bag Z
-player2 hand is 90, 74, 93, 28, 3, 5, 14, 71, 74, 20
- has discarded a 93 to bag A
-player2 hand is 90, 74, 28, 3, 5, 14, 71, 74, 20
- has drawn a 86 from bag Z
-player2 hand is 90, 74, 28, 3, 5, 14, 71, 74, 20, 86
- has discarded a 20 to bag C
-player2 hand is 90, 74, 28, 3, 5, 14, 71, 74, 86
- has drawn a 6 from bag Y
-player2 hand is 90, 74, 28, 3, 5, 14, 71, 74, 86, 6
- has discarded a 5 to bag B
-player2 hand is 90, 74, 28, 3, 14, 71, 74, 86, 6
- has drawn a 22 from bag X
-player2 hand is 90, 74, 28, 3, 14, 71, 74, 86, 6, 22
- has discarded a 90 to bag B
-player2 hand is 74, 28, 3, 14, 71, 74, 86, 6, 22
- has drawn a 11 from bag X
-player2 hand is 74, 28, 3, 14, 71, 74, 86, 6, 22, 11
- has discarded a 74 to bag C
-player2 hand is 74, 28, 3, 14, 71, 86, 6, 22, 11
- has drawn a 98 from bag Y
-player2 hand is 74, 28, 3, 14, 71, 86, 6, 22, 11, 98
- has discarded a 86 to bag C
-player2 hand is 74, 28, 3, 14, 71, 6, 22, 11, 98
+player2 hand is 37, 90, 53, 98, 30, 71
+ has drawn a 47 from bag Z
+player2 hand is 37, 90, 53, 98, 30, 71, 47
+ has drawn a 29 from bag Z
+player2 hand is 37, 90, 53, 98, 30, 71, 47, 29
+ has drawn a 35 from bag Z
+player2 hand is 37, 90, 53, 98, 30, 71, 47, 29, 35
+ has drawn a 37 from bag Z
+player2 hand is 37, 90, 53, 98, 30, 71, 47, 29, 35, 37
+ has discarded a 47 to bag C
+player2 hand is 37, 90, 53, 98, 30, 71, 29, 35, 37
+ has drawn a 3 from bag X
+player2 hand is 37, 90, 53, 98, 30, 71, 29, 35, 37, 3
+ has discarded a 53 to bag C
+player2 hand is 37, 90, 98, 30, 71, 29, 35, 37, 3
+ has drawn a 99 from bag Z
+player2 hand is 37, 90, 98, 30, 71, 29, 35, 37, 3, 99
+ has discarded a 90 to bag C
+player2 hand is 37, 98, 30, 71, 29, 35, 37, 3, 99
  has drawn a 56 from bag X
-player2 hand is 74, 28, 3, 14, 71, 6, 22, 11, 98, 56
- has discarded a 98 to bag B
-player2 hand is 74, 28, 3, 14, 71, 6, 22, 11, 56
- has drawn a 85 from bag X
-player2 hand is 74, 28, 3, 14, 71, 6, 22, 11, 56, 85
- has discarded a 28 to bag B
-player2 hand is 74, 3, 14, 71, 6, 22, 11, 56, 85
- has drawn a 78 from bag Y
-player2 hand is 74, 3, 14, 71, 6, 22, 11, 56, 85, 78
- has discarded a 78 to bag B
-player2 hand is 74, 3, 14, 71, 6, 22, 11, 56, 85
- has drawn a 62 from bag X
-player2 hand is 74, 3, 14, 71, 6, 22, 11, 56, 85, 62
+player2 hand is 37, 98, 30, 71, 29, 35, 37, 3, 99, 56
  has discarded a 56 to bag A
-player2 hand is 74, 3, 14, 71, 6, 22, 11, 85, 62
- has drawn a 74 from bag Z
-player2 hand is 74, 3, 14, 71, 6, 22, 11, 85, 62, 74
- has discarded a 74 to bag C
-player2 hand is 74, 3, 14, 71, 6, 22, 11, 85, 62
- has drawn a 93 from bag X
-player2 hand is 74, 3, 14, 71, 6, 22, 11, 85, 62, 93
- has discarded a 71 to bag B
-player2 hand is 74, 3, 14, 6, 22, 11, 85, 62, 93
- has drawn a 40 from bag Y
-player2 hand is 74, 3, 14, 6, 22, 11, 85, 62, 93, 40
- has discarded a 40 to bag B
-player2 hand is 74, 3, 14, 6, 22, 11, 85, 62, 93
- has drawn a 8 from bag X
-player2 hand is 74, 3, 14, 6, 22, 11, 85, 62, 93, 8
- has discarded a 85 to bag A
-player2 hand is 74, 3, 14, 6, 22, 11, 62, 93, 8
- has drawn a 73 from bag X
-player2 hand is 74, 3, 14, 6, 22, 11, 62, 93, 8, 73
- has discarded a 3 to bag C
-player2 hand is 74, 14, 6, 22, 11, 62, 93, 8, 73
- has drawn a 78 from bag Z
-player2 hand is 74, 14, 6, 22, 11, 62, 93, 8, 73, 78
- has discarded a 62 to bag A
-player2 hand is 74, 14, 6, 22, 11, 93, 8, 73, 78
- has drawn a 62 from bag X
-player2 hand is 74, 14, 6, 22, 11, 93, 8, 73, 78, 62
- has discarded a 14 to bag C
-player2 hand is 74, 6, 22, 11, 93, 8, 73, 78, 62
- has drawn a 62 from bag Y
-player2 hand is 74, 6, 22, 11, 93, 8, 73, 78, 62, 62
- has discarded a 62 to bag A
-player2 hand is 74, 6, 22, 11, 93, 8, 73, 78, 62
- has drawn a 5 from bag Y
-player2 hand is 74, 6, 22, 11, 93, 8, 73, 78, 62, 5
- has discarded a 74 to bag C
-player2 hand is 6, 22, 11, 93, 8, 73, 78, 62, 5
- has drawn a 43 from bag Z
-player2 hand is 6, 22, 11, 93, 8, 73, 78, 62, 5, 43
- has discarded a 8 to bag A
-player2 hand is 6, 22, 11, 93, 73, 78, 62, 5, 43
- has drawn a 68 from bag X
-player2 hand is 6, 22, 11, 93, 73, 78, 62, 5, 43, 68
- has discarded a 73 to bag A
-player2 hand is 6, 22, 11, 93, 78, 62, 5, 43, 68
- has drawn a 19 from bag Z
-player2 hand is 6, 22, 11, 93, 78, 62, 5, 43, 68, 19
- has discarded a 5 to bag B
-player2 hand is 6, 22, 11, 93, 78, 62, 43, 68, 19
- has drawn a 74 from bag Y
-player2 hand is 6, 22, 11, 93, 78, 62, 43, 68, 19, 74
- has discarded a 78 to bag C
-player2 hand is 6, 22, 11, 93, 62, 43, 68, 19, 74
- has drawn a 64 from bag Y
-player2 hand is 6, 22, 11, 93, 62, 43, 68, 19, 74, 64
- has discarded a 93 to bag A
-player2 hand is 6, 22, 11, 62, 43, 68, 19, 74, 64
- has drawn a 49 from bag X
-player2 hand is 6, 22, 11, 62, 43, 68, 19, 74, 64, 49
- has discarded a 49 to bag A
-player2 hand is 6, 22, 11, 62, 43, 68, 19, 74, 64
- has drawn a 96 from bag X
-player2 hand is 6, 22, 11, 62, 43, 68, 19, 74, 64, 96
- has discarded a 96 to bag A
-player2 hand is 6, 22, 11, 62, 43, 68, 19, 74, 64
- has drawn a 60 from bag Z
-player2 hand is 6, 22, 11, 62, 43, 68, 19, 74, 64, 60
- has discarded a 62 to bag B
-player2 hand is 6, 22, 11, 43, 68, 19, 74, 64, 60
- has drawn a 74 from bag Z
-player2 hand is 6, 22, 11, 43, 68, 19, 74, 64, 60, 74
- has discarded a 64 to bag B
-player2 hand is 6, 22, 11, 43, 68, 19, 74, 60, 74
- has drawn a 5 from bag Y
-player2 hand is 6, 22, 11, 43, 68, 19, 74, 60, 74, 5
- has discarded a 60 to bag C
-player2 hand is 6, 22, 11, 43, 68, 19, 74, 74, 5
- has drawn a 23 from bag Z
-player2 hand is 6, 22, 11, 43, 68, 19, 74, 74, 5, 23
- has discarded a 43 to bag C
-player2 hand is 6, 22, 11, 68, 19, 74, 74, 5, 23
- has drawn a 81 from bag X
-player2 hand is 6, 22, 11, 68, 19, 74, 74, 5, 23, 81
- has discarded a 5 to bag B
-player2 hand is 6, 22, 11, 68, 19, 74, 74, 23, 81
- has drawn a 78 from bag Y
-player2 hand is 6, 22, 11, 68, 19, 74, 74, 23, 81, 78
- has discarded a 19 to bag C
-player2 hand is 6, 22, 11, 68, 74, 74, 23, 81, 78
- has drawn a 52 from bag Y
-player2 hand is 6, 22, 11, 68, 74, 74, 23, 81, 78, 52
- has discarded a 6 to bag B
-player2 hand is 22, 11, 68, 74, 74, 23, 81, 78, 52
- has drawn a 90 from bag Y
-player2 hand is 22, 11, 68, 74, 74, 23, 81, 78, 52, 90
- has discarded a 78 to bag B
-player2 hand is 22, 11, 68, 74, 74, 23, 81, 52, 90
- has drawn a 92 from bag Y
-player2 hand is 22, 11, 68, 74, 74, 23, 81, 52, 90, 92
- has discarded a 81 to bag A
-player2 hand is 22, 11, 68, 74, 74, 23, 52, 90, 92
- has drawn a 42 from bag Y
-player2 hand is 22, 11, 68, 74, 74, 23, 52, 90, 92, 42
- has discarded a 74 to bag C
-player2 hand is 22, 11, 68, 74, 23, 52, 90, 92, 42
- has drawn a 29 from bag X
-player2 hand is 22, 11, 68, 74, 23, 52, 90, 92, 42, 29
- has discarded a 29 to bag A
-player2 hand is 22, 11, 68, 74, 23, 52, 90, 92, 42
- has drawn a 76 from bag Z
-player2 hand is 22, 11, 68, 74, 23, 52, 90, 92, 42, 76
- has discarded a 92 to bag B
-player2 hand is 22, 11, 68, 74, 23, 52, 90, 42, 76
- has drawn a 62 from bag Y
-player2 hand is 22, 11, 68, 74, 23, 52, 90, 42, 76, 62
- has discarded a 11 to bag A
-player2 hand is 22, 68, 74, 23, 52, 90, 42, 76, 62
- has drawn a 85 from bag Y
-player2 hand is 22, 68, 74, 23, 52, 90, 42, 76, 62, 85
- has discarded a 52 to bag B
-player2 hand is 22, 68, 74, 23, 90, 42, 76, 62, 85
- has drawn a 0 from bag Y
-player2 hand is 22, 68, 74, 23, 90, 42, 76, 62, 85, 0
- has discarded a 68 to bag A
-player2 hand is 22, 74, 23, 90, 42, 76, 62, 85, 0
- has drawn a 85 from bag X
-player2 hand is 22, 74, 23, 90, 42, 76, 62, 85, 0, 85
- has discarded a 90 to bag B
-player2 hand is 22, 74, 23, 42, 76, 62, 85, 0, 85
- has drawn a 33 from bag X
-player2 hand is 22, 74, 23, 42, 76, 62, 85, 0, 85, 33
- has discarded a 0 to bag B
-player2 hand is 22, 74, 23, 42, 76, 62, 85, 85, 33
- has drawn a 60 from bag Z
-player2 hand is 22, 74, 23, 42, 76, 62, 85, 85, 33, 60
- has discarded a 85 to bag A
-player2 hand is 22, 74, 23, 42, 76, 62, 85, 33, 60
- has drawn a 5 from bag Y
-player2 hand is 22, 74, 23, 42, 76, 62, 85, 33, 60, 5
- has discarded a 23 to bag C
-player2 hand is 22, 74, 42, 76, 62, 85, 33, 60, 5
- has drawn a 96 from bag Y
-player2 hand is 22, 74, 42, 76, 62, 85, 33, 60, 5, 96
- has discarded a 22 to bag A
-player2 hand is 74, 42, 76, 62, 85, 33, 60, 5, 96
- has drawn a 49 from bag X
-player2 hand is 74, 42, 76, 62, 85, 33, 60, 5, 96, 49
- has discarded a 96 to bag B
-player2 hand is 74, 42, 76, 62, 85, 33, 60, 5, 49
- has drawn a 71 from bag Y
-player2 hand is 74, 42, 76, 62, 85, 33, 60, 5, 49, 71
- has discarded a 62 to bag B
-player2 hand is 74, 42, 76, 85, 33, 60, 5, 49, 71
- has drawn a 78 from bag Z
-player2 hand is 74, 42, 76, 85, 33, 60, 5, 49, 71, 78
- has discarded a 33 to bag A
-player2 hand is 74, 42, 76, 85, 60, 5, 49, 71, 78
- has drawn a 50 from bag Z
-player2 hand is 74, 42, 76, 85, 60, 5, 49, 71, 78, 50
- has discarded a 76 to bag C
-player2 hand is 74, 42, 85, 60, 5, 49, 71, 78, 50
- has drawn a 14 from bag Y
-player2 hand is 74, 42, 85, 60, 5, 49, 71, 78, 50, 14
- has discarded a 71 to bag B
-player2 hand is 74, 42, 85, 60, 5, 49, 78, 50, 14
- has drawn a 40 from bag Y
-player2 hand is 74, 42, 85, 60, 5, 49, 78, 50, 14, 40
- has discarded a 14 to bag B
-player2 hand is 74, 42, 85, 60, 5, 49, 78, 50, 40
- has drawn a 0 from bag Y
-player2 hand is 74, 42, 85, 60, 5, 49, 78, 50, 40, 0
- has discarded a 5 to bag B
-player2 hand is 74, 42, 85, 60, 49, 78, 50, 40, 0
- has drawn a 90 from bag Y
-player2 hand is 74, 42, 85, 60, 49, 78, 50, 40, 0, 90
- has discarded a 50 to bag C
-player2 hand is 74, 42, 85, 60, 49, 78, 40, 0, 90
- has drawn a 4 from bag Y
-player2 hand is 74, 42, 85, 60, 49, 78, 40, 0, 90, 4
- has discarded a 4 to bag B
-player2 hand is 74, 42, 85, 60, 49, 78, 40, 0, 90
- has drawn a 68 from bag Z
-player2 hand is 74, 42, 85, 60, 49, 78, 40, 0, 90, 68
- has discarded a 42 to bag B
-player2 hand is 74, 85, 60, 49, 78, 40, 0, 90, 68
- has drawn a 78 from bag Y
-player2 hand is 74, 85, 60, 49, 78, 40, 0, 90, 68, 78
- has discarded a 60 to bag C
-player2 hand is 74, 85, 49, 78, 40, 0, 90, 68, 78
- has drawn a 29 from bag X
-player2 hand is 74, 85, 49, 78, 40, 0, 90, 68, 78, 29
- has discarded a 78 to bag C
-player2 hand is 74, 85, 49, 40, 0, 90, 68, 78, 29
- has drawn a 56 from bag X
-player2 hand is 74, 85, 49, 40, 0, 90, 68, 78, 29, 56
- has discarded a 56 to bag A
-player2 hand is 74, 85, 49, 40, 0, 90, 68, 78, 29
- has drawn a 93 from bag X
-player2 hand is 74, 85, 49, 40, 0, 90, 68, 78, 29, 93
- has discarded a 90 to bag B
-player2 hand is 74, 85, 49, 40, 0, 68, 78, 29, 93
- has drawn a 19 from bag X
-player2 hand is 74, 85, 49, 40, 0, 68, 78, 29, 93, 19
- has discarded a 29 to bag A
-player2 hand is 74, 85, 49, 40, 0, 68, 78, 93, 19
- has drawn a 86 from bag Z
-player2 hand is 74, 85, 49, 40, 0, 68, 78, 93, 19, 86
- has discarded a 19 to bag A
-player2 hand is 74, 85, 49, 40, 0, 68, 78, 93, 86
- has drawn a 57 from bag Y
-player2 hand is 74, 85, 49, 40, 0, 68, 78, 93, 86, 57
- has discarded a 78 to bag B
-player2 hand is 74, 85, 49, 40, 0, 68, 93, 86, 57
- has drawn a 85 from bag X
-player2 hand is 74, 85, 49, 40, 0, 68, 93, 86, 57, 85
- has discarded a 93 to bag A
-player2 hand is 74, 85, 49, 40, 0, 68, 86, 57, 85
+player2 hand is 37, 98, 30, 71, 29, 35, 37, 3, 99
+ has drawn a 51 from bag Z
+player2 hand is 37, 98, 30, 71, 29, 35, 37, 3, 99, 51
+ has discarded a 37 to bag C
+player2 hand is 98, 30, 71, 29, 35, 37, 3, 99, 51
+ has drawn a 69 from bag Y
+player2 hand is 98, 30, 71, 29, 35, 37, 3, 99, 51, 69
+ has discarded a 3 to bag A
+player2 hand is 98, 30, 71, 29, 35, 37, 99, 51, 69
+ has drawn a 34 from bag Z
+player2 hand is 98, 30, 71, 29, 35, 37, 99, 51, 69, 34
+ has discarded a 51 to bag C
+player2 hand is 98, 30, 71, 29, 35, 37, 99, 69, 34
+ has drawn a 48 from bag X
+player2 hand is 98, 30, 71, 29, 35, 37, 99, 69, 34, 48
+ has discarded a 35 to bag C
+player2 hand is 98, 30, 71, 29, 37, 99, 69, 34, 48
+ has drawn a 25 from bag X
+player2 hand is 98, 30, 71, 29, 37, 99, 69, 34, 48, 25
+ has discarded a 37 to bag C
+player2 hand is 98, 30, 71, 29, 99, 69, 34, 48, 25
+ has drawn a 61 from bag X
+player2 hand is 98, 30, 71, 29, 99, 69, 34, 48, 25, 61
+ has discarded a 48 to bag A
+player2 hand is 98, 30, 71, 29, 99, 69, 34, 25, 61
+ has drawn a 8 from bag Z
+player2 hand is 98, 30, 71, 29, 99, 69, 34, 25, 61, 8
+ has discarded a 8 to bag C
+player2 hand is 98, 30, 71, 29, 99, 69, 34, 25, 61
+ has drawn a 23 from bag X
+player2 hand is 98, 30, 71, 29, 99, 69, 34, 25, 61, 23
+ has discarded a 69 to bag B
+player2 hand is 98, 30, 71, 29, 99, 34, 25, 61, 23
+ has drawn a 35 from bag X
+player2 hand is 98, 30, 71, 29, 99, 34, 25, 61, 23, 35
+ has discarded a 30 to bag C
+player2 hand is 98, 71, 29, 99, 34, 25, 61, 23, 35
+ has drawn a 67 from bag Y
+player2 hand is 98, 71, 29, 99, 34, 25, 61, 23, 35, 67
+ has discarded a 34 to bag C
+player2 hand is 98, 71, 29, 99, 25, 61, 23, 35, 67
+ has drawn a 52 from bag X
+player2 hand is 98, 71, 29, 99, 25, 61, 23, 35, 67, 52
+ has discarded a 25 to bag A
+player2 hand is 98, 71, 29, 99, 61, 23, 35, 67, 52
+ has drawn a 25 from bag X
+player2 hand is 98, 71, 29, 99, 61, 23, 35, 67, 52, 25
+ has discarded a 61 to bag A
+player2 hand is 98, 71, 29, 99, 23, 35, 67, 52, 25
+ has drawn a 15 from bag Y
+player2 hand is 98, 71, 29, 99, 23, 35, 67, 52, 25, 15
+ has discarded a 23 to bag A
+player2 hand is 98, 71, 29, 99, 35, 67, 52, 25, 15
+ has drawn a 79 from bag Z
+player2 hand is 98, 71, 29, 99, 35, 67, 52, 25, 15, 79
+ has discarded a 52 to bag A
+player2 hand is 98, 71, 29, 99, 35, 67, 25, 15, 79
+ has drawn a 88 from bag Z
+player2 hand is 98, 71, 29, 99, 35, 67, 25, 15, 79, 88
+ has discarded a 35 to bag A
+player2 hand is 98, 71, 29, 99, 67, 25, 15, 79, 88
+ has drawn a 64 from bag X
+player2 hand is 98, 71, 29, 99, 67, 25, 15, 79, 88, 64
+ has discarded a 29 to bag C
+player2 hand is 98, 71, 99, 67, 25, 15, 79, 88, 64
+ has drawn a 34 from bag Z
+player2 hand is 98, 71, 99, 67, 25, 15, 79, 88, 64, 34
+ has discarded a 25 to bag A
+player2 hand is 98, 71, 99, 67, 15, 79, 88, 64, 34
  has drawn a 9 from bag X
-player2 hand is 74, 85, 49, 40, 0, 68, 86, 57, 85, 9
- has discarded a 57 to bag B
-player2 hand is 74, 85, 49, 40, 0, 68, 86, 85, 9
- has drawn a 6 from bag Y
-player2 hand is 74, 85, 49, 40, 0, 68, 86, 85, 9, 6
+player2 hand is 98, 71, 99, 67, 15, 79, 88, 64, 34, 9
+ has discarded a 64 to bag A
+player2 hand is 98, 71, 99, 67, 15, 79, 88, 34, 9
+ has drawn a 88 from bag Y
+player2 hand is 98, 71, 99, 67, 15, 79, 88, 34, 9, 88
  has discarded a 9 to bag A
-player2 hand is 74, 85, 49, 40, 0, 68, 86, 85, 6
+player2 hand is 98, 71, 99, 67, 15, 79, 88, 34, 88
+ has drawn a 23 from bag X
+player2 hand is 98, 71, 99, 67, 15, 79, 88, 34, 88, 23
+ has discarded a 79 to bag C
+player2 hand is 98, 71, 99, 67, 15, 88, 34, 88, 23
+ has drawn a 3 from bag X
+player2 hand is 98, 71, 99, 67, 15, 88, 34, 88, 23, 3
+ has discarded a 34 to bag C
+player2 hand is 98, 71, 99, 67, 15, 88, 88, 23, 3
+ has drawn a 8 from bag Z
+player2 hand is 98, 71, 99, 67, 15, 88, 88, 23, 3, 8
+ has discarded a 88 to bag C
+player2 hand is 98, 71, 99, 67, 15, 88, 23, 3, 8
+ has drawn a 90 from bag Z
+player2 hand is 98, 71, 99, 67, 15, 88, 23, 3, 8, 90
+ has discarded a 98 to bag C
+player2 hand is 71, 99, 67, 15, 88, 23, 3, 8, 90
+ has drawn a 61 from bag X
+player2 hand is 71, 99, 67, 15, 88, 23, 3, 8, 90, 61
+ has discarded a 67 to bag B
+player2 hand is 71, 99, 15, 88, 23, 3, 8, 90, 61
+ has drawn a 79 from bag X
+player2 hand is 71, 99, 15, 88, 23, 3, 8, 90, 61, 79
+ has discarded a 8 to bag C
+player2 hand is 71, 99, 15, 88, 23, 3, 90, 61, 79
+ has drawn a 29 from bag Z
+player2 hand is 71, 99, 15, 88, 23, 3, 90, 61, 79, 29
+ has discarded a 61 to bag A
+player2 hand is 71, 99, 15, 88, 23, 3, 90, 79, 29
+ has drawn a 16 from bag Y
+player2 hand is 71, 99, 15, 88, 23, 3, 90, 79, 29, 16
+ has discarded a 3 to bag A
+player2 hand is 71, 99, 15, 88, 23, 90, 79, 29, 16
+ has drawn a 66 from bag Z
+player2 hand is 71, 99, 15, 88, 23, 90, 79, 29, 16, 66
+ has discarded a 29 to bag C
+player2 hand is 71, 99, 15, 88, 23, 90, 79, 16, 66
+ has drawn a 18 from bag X
+player2 hand is 71, 99, 15, 88, 23, 90, 79, 16, 66, 18
+ has discarded a 88 to bag B
+player2 hand is 71, 99, 15, 23, 90, 79, 16, 66, 18
+ has drawn a 25 from bag X
+player2 hand is 71, 99, 15, 23, 90, 79, 16, 66, 18, 25
+ has discarded a 15 to bag B
+player2 hand is 71, 99, 23, 90, 79, 16, 66, 18, 25
+ has drawn a 35 from bag X
+player2 hand is 71, 99, 23, 90, 79, 16, 66, 18, 25, 35
+ has discarded a 90 to bag C
+player2 hand is 71, 99, 23, 79, 16, 66, 18, 25, 35
  has drawn a 73 from bag X
-player2 hand is 74, 85, 49, 40, 0, 68, 86, 85, 6, 73
+player2 hand is 71, 99, 23, 79, 16, 66, 18, 25, 35, 73
+ has discarded a 99 to bag C
+player2 hand is 71, 23, 79, 16, 66, 18, 25, 35, 73
+ has drawn a 53 from bag Z
+player2 hand is 71, 23, 79, 16, 66, 18, 25, 35, 73, 53
+ has discarded a 16 to bag B
+player2 hand is 71, 23, 79, 66, 18, 25, 35, 73, 53
+ has drawn a 88 from bag Z
+player2 hand is 71, 23, 79, 66, 18, 25, 35, 73, 53, 88
+ has discarded a 35 to bag A
+player2 hand is 71, 23, 79, 66, 18, 25, 73, 53, 88
+ has drawn a 45 from bag Y
+player2 hand is 71, 23, 79, 66, 18, 25, 73, 53, 88, 45
+ has discarded a 25 to bag A
+player2 hand is 71, 23, 79, 66, 18, 73, 53, 88, 45
+ has drawn a 98 from bag X
+player2 hand is 71, 23, 79, 66, 18, 73, 53, 88, 45, 98
  has discarded a 73 to bag A
-player2 hand is 74, 85, 49, 40, 0, 68, 86, 85, 6
- has drawn a 60 from bag Z
-player2 hand is 74, 85, 49, 40, 0, 68, 86, 85, 6, 60
- has discarded a 85 to bag B
-player2 hand is 74, 49, 40, 0, 68, 86, 85, 6, 60
- has drawn a 68 from bag Z
-player2 hand is 74, 49, 40, 0, 68, 86, 85, 6, 60, 68
- has discarded a 85 to bag A
-player2 hand is 74, 49, 40, 0, 68, 86, 6, 60, 68
- has drawn a 14 from bag Z
-player2 hand is 74, 49, 40, 0, 68, 86, 6, 60, 68, 14
- has discarded a 6 to bag B
-player2 hand is 74, 49, 40, 0, 68, 86, 60, 68, 14
- has drawn a 42 from bag Y
-player2 hand is 74, 49, 40, 0, 68, 86, 60, 68, 14, 42
- has discarded a 68 to bag C
-player2 hand is 74, 49, 40, 0, 86, 60, 68, 14, 42
- has drawn a 6 from bag Z
-player2 hand is 74, 49, 40, 0, 86, 60, 68, 14, 42, 6
- has discarded a 14 to bag C
-player2 hand is 74, 49, 40, 0, 86, 60, 68, 42, 6
+player2 hand is 71, 23, 79, 66, 18, 53, 88, 45, 98
  has drawn a 19 from bag X
-player2 hand is 74, 49, 40, 0, 86, 60, 68, 42, 6, 19
- has discarded a 40 to bag B
-player2 hand is 74, 49, 0, 86, 60, 68, 42, 6, 19
- has drawn a 33 from bag Y
-player2 hand is 74, 49, 0, 86, 60, 68, 42, 6, 19, 33
- has discarded a 33 to bag B
-player2 hand is 74, 49, 0, 86, 60, 68, 42, 6, 19
- has drawn a 85 from bag Y
-player2 hand is 74, 49, 0, 86, 60, 68, 42, 6, 19, 85
- has discarded a 74 to bag B
-player2 hand is 49, 0, 86, 60, 68, 42, 6, 19, 85
- has drawn a 14 from bag Y
-player2 hand is 49, 0, 86, 60, 68, 42, 6, 19, 85, 14
- has discarded a 42 to bag B
-player2 hand is 49, 0, 86, 60, 68, 6, 19, 85, 14
- has drawn a 20 from bag Z
-player2 hand is 49, 0, 86, 60, 68, 6, 19, 85, 14, 20
- has discarded a 49 to bag A
-player2 hand is 0, 86, 60, 68, 6, 19, 85, 14, 20
- has drawn a 64 from bag Y
-player2 hand is 0, 86, 60, 68, 6, 19, 85, 14, 20, 64
- has discarded a 0 to bag B
-player2 hand is 86, 60, 68, 6, 19, 85, 14, 20, 64
- has drawn a 71 from bag Z
-player2 hand is 86, 60, 68, 6, 19, 85, 14, 20, 64, 71
- has discarded a 60 to bag C
-player2 hand is 86, 68, 6, 19, 85, 14, 20, 64, 71
- has drawn a 31 from bag X
-player2 hand is 86, 68, 6, 19, 85, 14, 20, 64, 71, 31
- has discarded a 31 to bag A
-player2 hand is 86, 68, 6, 19, 85, 14, 20, 64, 71
- has drawn a 24 from bag Y
-player2 hand is 86, 68, 6, 19, 85, 14, 20, 64, 71, 24
- has discarded a 14 to bag B
-player2 hand is 86, 68, 6, 19, 85, 20, 64, 71, 24
- has drawn a 96 from bag X
-player2 hand is 86, 68, 6, 19, 85, 20, 64, 71, 24, 96
- has discarded a 19 to bag A
-player2 hand is 86, 68, 6, 85, 20, 64, 71, 24, 96
- has drawn a 72 from bag Z
-player2 hand is 86, 68, 6, 85, 20, 64, 71, 24, 96, 72
- has discarded a 68 to bag C
-player2 hand is 86, 6, 85, 20, 64, 71, 24, 96, 72
- has drawn a 85 from bag X
-player2 hand is 86, 6, 85, 20, 64, 71, 24, 96, 72, 85
- has discarded a 86 to bag C
-player2 hand is 6, 85, 20, 64, 71, 24, 96, 72, 85
- has drawn a 38 from bag Y
-player2 hand is 6, 85, 20, 64, 71, 24, 96, 72, 85, 38
- has discarded a 72 to bag C
-player2 hand is 6, 85, 20, 64, 71, 24, 96, 85, 38
- has drawn a 93 from bag X
-player2 hand is 6, 85, 20, 64, 71, 24, 96, 85, 38, 93
- has discarded a 96 to bag A
-player2 hand is 6, 85, 20, 64, 71, 24, 85, 38, 93
- has drawn a 40 from bag Y
-player2 hand is 6, 85, 20, 64, 71, 24, 85, 38, 93, 40
- has discarded a 38 to bag B
-player2 hand is 6, 85, 20, 64, 71, 24, 85, 93, 40
- has drawn a 37 from bag X
-player2 hand is 6, 85, 20, 64, 71, 24, 85, 93, 40, 37
- has discarded a 37 to bag A
-player2 hand is 6, 85, 20, 64, 71, 24, 85, 93, 40
- has drawn a 22 from bag X
-player2 hand is 6, 85, 20, 64, 71, 24, 85, 93, 40, 22
- has discarded a 85 to bag A
-player2 hand is 6, 85, 20, 64, 71, 24, 93, 40, 22
- has drawn a 50 from bag Z
-player2 hand is 6, 85, 20, 64, 71, 24, 93, 40, 22, 50
- has discarded a 40 to bag B
-player2 hand is 6, 85, 20, 64, 71, 24, 93, 22, 50
- has drawn a 28 from bag Y
-player2 hand is 6, 85, 20, 64, 71, 24, 93, 22, 50, 28
- has discarded a 24 to bag B
-player2 hand is 6, 85, 20, 64, 71, 93, 22, 50, 28
- has drawn a 66 from bag Z
-player2 hand is 6, 85, 20, 64, 71, 93, 22, 50, 28, 66
- has discarded a 20 to bag C
-player2 hand is 6, 85, 64, 71, 93, 22, 50, 28, 66
- has drawn a 19 from bag Z
-player2 hand is 6, 85, 64, 71, 93, 22, 50, 28, 66, 19
- has discarded a 64 to bag B
-player2 hand is 6, 85, 71, 93, 22, 50, 28, 66, 19
- has drawn a 50 from bag Z
-player2 hand is 6, 85, 71, 93, 22, 50, 28, 66, 19, 50
- has discarded a 71 to bag C
-player2 hand is 6, 85, 93, 22, 50, 28, 66, 19, 50
- has drawn a 32 from bag X
-player2 hand is 6, 85, 93, 22, 50, 28, 66, 19, 50, 32
- has discarded a 66 to bag C
-player2 hand is 6, 85, 93, 22, 50, 28, 19, 50, 32
+player2 hand is 71, 23, 79, 66, 18, 53, 88, 45, 98, 19
+ has discarded a 88 to bag C
+player2 hand is 71, 23, 79, 66, 18, 53, 45, 98, 19
  has drawn a 5 from bag Y
-player2 hand is 6, 85, 93, 22, 50, 28, 19, 50, 32, 5
- has discarded a 50 to bag C
-player2 hand is 6, 85, 93, 22, 50, 28, 19, 32, 5
- has drawn a 74 from bag Y
-player2 hand is 6, 85, 93, 22, 50, 28, 19, 32, 5, 74
- has discarded a 85 to bag B
-player2 hand is 6, 93, 22, 50, 28, 19, 32, 5, 74
- has drawn a 78 from bag Z
-player2 hand is 6, 93, 22, 50, 28, 19, 32, 5, 74, 78
- has discarded a 19 to bag C
-player2 hand is 6, 93, 22, 50, 28, 32, 5, 74, 78
- has drawn a 39 from bag Y
-player2 hand is 6, 93, 22, 50, 28, 32, 5, 74, 78, 39
- has discarded a 50 to bag C
-player2 hand is 6, 93, 22, 28, 32, 5, 74, 78, 39
- has drawn a 11 from bag X
-player2 hand is 6, 93, 22, 28, 32, 5, 74, 78, 39, 11
- has discarded a 28 to bag B
-player2 hand is 6, 93, 22, 32, 5, 74, 78, 39, 11
- has drawn a 98 from bag Y
-player2 hand is 6, 93, 22, 32, 5, 74, 78, 39, 11, 98
- has discarded a 6 to bag C
-player2 hand is 93, 22, 32, 5, 74, 78, 39, 11, 98
- has drawn a 71 from bag Z
-player2 hand is 93, 22, 32, 5, 74, 78, 39, 11, 98, 71
- has discarded a 32 to bag A
-player2 hand is 93, 22, 5, 74, 78, 39, 11, 98, 71
- has drawn a 78 from bag X
-player2 hand is 93, 22, 5, 74, 78, 39, 11, 98, 71, 78
- has discarded a 78 to bag C
-player2 hand is 93, 22, 5, 74, 39, 11, 98, 71, 78
- has drawn a 92 from bag Y
-player2 hand is 93, 22, 5, 74, 39, 11, 98, 71, 78, 92
- has discarded a 22 to bag A
-player2 hand is 93, 5, 74, 39, 11, 98, 71, 78, 92
- has drawn a 80 from bag Z
-player2 hand is 93, 5, 74, 39, 11, 98, 71, 78, 92, 80
- has discarded a 92 to bag B
-player2 hand is 93, 5, 74, 39, 11, 98, 71, 78, 80
- has drawn a 73 from bag X
-player2 hand is 93, 5, 74, 39, 11, 98, 71, 78, 80, 73
- has discarded a 11 to bag A
-player2 hand is 93, 5, 74, 39, 98, 71, 78, 80, 73
- has drawn a 50 from bag Z
-player2 hand is 93, 5, 74, 39, 98, 71, 78, 80, 73, 50
- has discarded a 39 to bag B
-player2 hand is 93, 5, 74, 98, 71, 78, 80, 73, 50
- has drawn a 90 from bag Y
-player2 hand is 93, 5, 74, 98, 71, 78, 80, 73, 50, 90
- has discarded a 80 to bag C
-player2 hand is 93, 5, 74, 98, 71, 78, 73, 50, 90
- has drawn a 56 from bag X
-player2 hand is 93, 5, 74, 98, 71, 78, 73, 50, 90, 56
- has discarded a 71 to bag C
-player2 hand is 93, 5, 74, 98, 78, 73, 50, 90, 56
- has drawn a 93 from bag Z
-player2 hand is 93, 5, 74, 98, 78, 73, 50, 90, 56, 93
- has discarded a 93 to bag A
-player2 hand is 5, 74, 98, 78, 73, 50, 90, 56, 93
- has drawn a 76 from bag Z
-player2 hand is 5, 74, 98, 78, 73, 50, 90, 56, 93, 76
- has discarded a 50 to bag C
-player2 hand is 5, 74, 98, 78, 73, 90, 56, 93, 76
- has drawn a 10 from bag Z
-player2 hand is 5, 74, 98, 78, 73, 90, 56, 93, 76, 10
- has discarded a 74 to bag B
-player2 hand is 5, 98, 78, 73, 90, 56, 93, 76, 10
- has drawn a 68 from bag Z
-player2 hand is 5, 98, 78, 73, 90, 56, 93, 76, 10, 68
- has discarded a 73 to bag A
-player2 hand is 5, 98, 78, 90, 56, 93, 76, 10, 68
- has drawn a 78 from bag Y
-player2 hand is 5, 98, 78, 90, 56, 93, 76, 10, 68, 78
- has discarded a 90 to bag B
-player2 hand is 5, 98, 78, 56, 93, 76, 10, 68, 78
- has drawn a 55 from bag Z
-player2 hand is 5, 98, 78, 56, 93, 76, 10, 68, 78, 55
- has discarded a 78 to bag A
-player2 hand is 5, 98, 56, 93, 76, 10, 68, 78, 55
- has drawn a 90 from bag Y
-player2 hand is 5, 98, 56, 93, 76, 10, 68, 78, 55, 90
- has discarded a 56 to bag A
-player2 hand is 5, 98, 93, 76, 10, 68, 78, 55, 90
- has drawn a 17 from bag Z
-player2 hand is 5, 98, 93, 76, 10, 68, 78, 55, 90, 17
- has discarded a 90 to bag B
-player2 hand is 5, 98, 93, 76, 10, 68, 78, 55, 17
- has drawn a 87 from bag Y
-player2 hand is 5, 98, 93, 76, 10, 68, 78, 55, 17, 87
- has discarded a 93 to bag C
-player2 hand is 5, 98, 76, 10, 68, 78, 55, 17, 87
- has drawn a 90 from bag Y
-player2 hand is 5, 98, 76, 10, 68, 78, 55, 17, 87, 90
- has discarded a 76 to bag C
-player2 hand is 5, 98, 10, 68, 78, 55, 17, 87, 90
- has drawn a 38 from bag Y
-player2 hand is 5, 98, 10, 68, 78, 55, 17, 87, 90, 38
- has discarded a 87 to bag B
-player2 hand is 5, 98, 10, 68, 78, 55, 17, 90, 38
- has drawn a 7 from bag X
-player2 hand is 5, 98, 10, 68, 78, 55, 17, 90, 38, 7
- has discarded a 90 to bag B
-player2 hand is 5, 98, 10, 68, 78, 55, 17, 38, 7
- has drawn a 33 from bag Y
-player2 hand is 5, 98, 10, 68, 78, 55, 17, 38, 7, 33
- has discarded a 17 to bag C
-player2 hand is 5, 98, 10, 68, 78, 55, 38, 7, 33
- has drawn a 50 from bag Z
-player2 hand is 5, 98, 10, 68, 78, 55, 38, 7, 33, 50
- has discarded a 55 to bag C
-player2 hand is 5, 98, 10, 68, 78, 38, 7, 33, 50
- has drawn a 94 from bag Z
-player2 hand is 5, 98, 10, 68, 78, 38, 7, 33, 50, 94
- has discarded a 98 to bag B
-player2 hand is 5, 10, 68, 78, 38, 7, 33, 50, 94
- has drawn a 63 from bag Y
-player2 hand is 5, 10, 68, 78, 38, 7, 33, 50, 94, 63
- has discarded a 68 to bag C
-player2 hand is 5, 10, 78, 38, 7, 33, 50, 94, 63
- has drawn a 92 from bag Y
-player2 hand is 5, 10, 78, 38, 7, 33, 50, 94, 63, 92
- has discarded a 92 to bag B
-player2 hand is 5, 10, 78, 38, 7, 33, 50, 94, 63
- has drawn a 50 from bag Z
-player2 hand is 5, 10, 78, 38, 7, 33, 50, 94, 63, 50
- has discarded a 33 to bag B
-player2 hand is 5, 10, 78, 38, 7, 50, 94, 63, 50
- has drawn a 0 from bag Y
-player2 hand is 5, 10, 78, 38, 7, 50, 94, 63, 50, 0
- has discarded a 50 to bag C
-player2 hand is 5, 10, 78, 38, 7, 94, 63, 50, 0
- has drawn a 20 from bag Z
-player2 hand is 5, 10, 78, 38, 7, 94, 63, 50, 0, 20
+player2 hand is 71, 23, 79, 66, 18, 53, 45, 98, 19, 5
+ has discarded a 45 to bag B
+player2 hand is 71, 23, 79, 66, 18, 53, 98, 19, 5
+ has drawn a 54 from bag Y
+player2 hand is 71, 23, 79, 66, 18, 53, 98, 19, 5, 54
+ has discarded a 98 to bag A
+player2 hand is 71, 23, 79, 66, 18, 53, 19, 5, 54
+ has drawn a 25 from bag Z
+player2 hand is 71, 23, 79, 66, 18, 53, 19, 5, 54, 25
+ has discarded a 25 to bag C
+player2 hand is 71, 23, 79, 66, 18, 53, 19, 5, 54
+ has drawn a 34 from bag Z
+player2 hand is 71, 23, 79, 66, 18, 53, 19, 5, 54, 34
+ has discarded a 66 to bag C
+player2 hand is 71, 23, 79, 18, 53, 19, 5, 54, 34
+ has drawn a 77 from bag X
+player2 hand is 71, 23, 79, 18, 53, 19, 5, 54, 34, 77
+ has discarded a 18 to bag A
+player2 hand is 71, 23, 79, 53, 19, 5, 54, 34, 77
+ has drawn a 14 from bag X
+player2 hand is 71, 23, 79, 53, 19, 5, 54, 34, 77, 14
+ has discarded a 34 to bag C
+player2 hand is 71, 23, 79, 53, 19, 5, 54, 77, 14
+ has drawn a 55 from bag Y
+player2 hand is 71, 23, 79, 53, 19, 5, 54, 77, 14, 55
+ has discarded a 53 to bag C
+player2 hand is 71, 23, 79, 19, 5, 54, 77, 14, 55
+ has drawn a 88 from bag Y
+player2 hand is 71, 23, 79, 19, 5, 54, 77, 14, 55, 88
+ has discarded a 55 to bag B
+player2 hand is 71, 23, 79, 19, 5, 54, 77, 14, 88
+ has drawn a 59 from bag Z
+player2 hand is 71, 23, 79, 19, 5, 54, 77, 14, 88, 59
+ has discarded a 14 to bag A
+player2 hand is 71, 23, 79, 19, 5, 54, 77, 88, 59
+ has drawn a 73 from bag Z
+player2 hand is 71, 23, 79, 19, 5, 54, 77, 88, 59, 73
+ has discarded a 54 to bag B
+player2 hand is 71, 23, 79, 19, 5, 77, 88, 59, 73
+ has drawn a 75 from bag X
+player2 hand is 71, 23, 79, 19, 5, 77, 88, 59, 73, 75
+ has discarded a 73 to bag C
+player2 hand is 71, 23, 79, 19, 5, 77, 88, 59, 75
+ has drawn a 30 from bag Z
+player2 hand is 71, 23, 79, 19, 5, 77, 88, 59, 75, 30
  has discarded a 5 to bag B
-player2 hand is 10, 78, 38, 7, 94, 63, 50, 0, 20
- has drawn a 17 from bag Z
-player2 hand is 10, 78, 38, 7, 94, 63, 50, 0, 20, 17
- has discarded a 94 to bag C
-player2 hand is 10, 78, 38, 7, 63, 50, 0, 20, 17
- has drawn a 36 from bag X
-player2 hand is 10, 78, 38, 7, 63, 50, 0, 20, 17, 36
- has discarded a 38 to bag B
-player2 hand is 10, 78, 7, 63, 50, 0, 20, 17, 36
- has drawn a 90 from bag Y
-player2 hand is 10, 78, 7, 63, 50, 0, 20, 17, 36, 90
- has discarded a 63 to bag B
-player2 hand is 10, 78, 7, 50, 0, 20, 17, 36, 90
- has drawn a 3 from bag Z
-player2 hand is 10, 78, 7, 50, 0, 20, 17, 36, 90, 3
- has discarded a 50 to bag C
-player2 hand is 10, 78, 7, 0, 20, 17, 36, 90, 3
- has drawn a 68 from bag Z
-player2 hand is 10, 78, 7, 0, 20, 17, 36, 90, 3, 68
- has discarded a 78 to bag B
-player2 hand is 10, 7, 0, 20, 17, 36, 90, 3, 68
- has drawn a 66 from bag Z
-player2 hand is 10, 7, 0, 20, 17, 36, 90, 3, 68, 66
- has discarded a 10 to bag C
-player2 hand is 7, 0, 20, 17, 36, 90, 3, 68, 66
- has drawn a 68 from bag Z
-player2 hand is 7, 0, 20, 17, 36, 90, 3, 68, 66, 68
- has discarded a 36 to bag A
-player2 hand is 7, 0, 20, 17, 90, 3, 68, 66, 68
- has drawn a 74 from bag Y
-player2 hand is 7, 0, 20, 17, 90, 3, 68, 66, 68, 74
- has discarded a 68 to bag C
-player2 hand is 7, 0, 20, 17, 90, 3, 66, 68, 74
- has drawn a 57 from bag Z
-player2 hand is 7, 0, 20, 17, 90, 3, 66, 68, 74, 57
- has discarded a 57 to bag C
-player2 hand is 7, 0, 20, 17, 90, 3, 66, 68, 74
+player2 hand is 71, 23, 79, 19, 77, 88, 59, 75, 30
+ has drawn a 88 from bag Z
+player2 hand is 71, 23, 79, 19, 77, 88, 59, 75, 30, 88
+ has discarded a 77 to bag A
+player2 hand is 71, 23, 79, 19, 88, 59, 75, 30, 88
+ has drawn a 73 from bag X
+player2 hand is 71, 23, 79, 19, 88, 59, 75, 30, 88, 73
+ has discarded a 19 to bag A
+player2 hand is 71, 23, 79, 88, 59, 75, 30, 88, 73
+ has drawn a 22 from bag Y
+player2 hand is 71, 23, 79, 88, 59, 75, 30, 88, 73, 22
+ has discarded a 75 to bag A
+player2 hand is 71, 23, 79, 88, 59, 30, 88, 73, 22
+ has drawn a 93 from bag Y
+player2 hand is 71, 23, 79, 88, 59, 30, 88, 73, 22, 93
+ has discarded a 93 to bag B
+player2 hand is 71, 23, 79, 88, 59, 30, 88, 73, 22
+ has drawn a 8 from bag Z
+player2 hand is 71, 23, 79, 88, 59, 30, 88, 73, 22, 8
+ has discarded a 22 to bag B
+player2 hand is 71, 23, 79, 88, 59, 30, 88, 73, 8
+ has drawn a 31 from bag Y
+player2 hand is 71, 23, 79, 88, 59, 30, 88, 73, 8, 31
+ has discarded a 23 to bag A
+player2 hand is 71, 79, 88, 59, 30, 88, 73, 8, 31
+ has drawn a 16 from bag Y
+player2 hand is 71, 79, 88, 59, 30, 88, 73, 8, 31, 16
+ has discarded a 71 to bag C
+player2 hand is 79, 88, 59, 30, 88, 73, 8, 31, 16
+ has drawn a 30 from bag Y
+player2 hand is 79, 88, 59, 30, 88, 73, 8, 31, 16, 30
+ has discarded a 88 to bag B
+player2 hand is 79, 59, 30, 88, 73, 8, 31, 16, 30
+ has drawn a 97 from bag X
+player2 hand is 79, 59, 30, 88, 73, 8, 31, 16, 30, 97
+ has discarded a 8 to bag C
+player2 hand is 79, 59, 30, 88, 73, 31, 16, 30, 97
+ has drawn a 10 from bag X
+player2 hand is 79, 59, 30, 88, 73, 31, 16, 30, 97, 10
+ has discarded a 73 to bag A
+player2 hand is 79, 59, 30, 88, 31, 16, 30, 97, 10
+ has drawn a 90 from bag Z
+player2 hand is 79, 59, 30, 88, 31, 16, 30, 97, 10, 90
+ has discarded a 90 to bag C
+player2 hand is 79, 59, 30, 88, 31, 16, 30, 97, 10
+ has drawn a 5 from bag Y
+player2 hand is 79, 59, 30, 88, 31, 16, 30, 97, 10, 5
+ has discarded a 59 to bag C
+player2 hand is 79, 30, 88, 31, 16, 30, 97, 10, 5
+ has drawn a 92 from bag Y
+player2 hand is 79, 30, 88, 31, 16, 30, 97, 10, 5, 92
+ has discarded a 10 to bag A
+player2 hand is 79, 30, 88, 31, 16, 30, 97, 5, 92
+ has drawn a 95 from bag Z
+player2 hand is 79, 30, 88, 31, 16, 30, 97, 5, 92, 95
+ has discarded a 30 to bag C
+player2 hand is 79, 88, 31, 16, 30, 97, 5, 92, 95
+ has drawn a 48 from bag X
+player2 hand is 79, 88, 31, 16, 30, 97, 5, 92, 95, 48
+ has discarded a 95 to bag C
+player2 hand is 79, 88, 31, 16, 30, 97, 5, 92, 48
+ has drawn a 9 from bag Z
+player2 hand is 79, 88, 31, 16, 30, 97, 5, 92, 48, 9
+ has discarded a 92 to bag B
+player2 hand is 79, 88, 31, 16, 30, 97, 5, 48, 9
+ has drawn a 14 from bag X
+player2 hand is 79, 88, 31, 16, 30, 97, 5, 48, 9, 14
+ has discarded a 30 to bag B
+player2 hand is 79, 88, 31, 16, 97, 5, 48, 9, 14
+ has drawn a 55 from bag Y
+player2 hand is 79, 88, 31, 16, 97, 5, 48, 9, 14, 55
+ has discarded a 55 to bag B
+player2 hand is 79, 88, 31, 16, 97, 5, 48, 9, 14
+ has drawn a 25 from bag Z
+player2 hand is 79, 88, 31, 16, 97, 5, 48, 9, 14, 25
+ has discarded a 48 to bag A
+player2 hand is 79, 88, 31, 16, 97, 5, 9, 14, 25
+ has drawn a 54 from bag X
+player2 hand is 79, 88, 31, 16, 97, 5, 9, 14, 25, 54
+ has discarded a 31 to bag B
+player2 hand is 79, 88, 16, 97, 5, 9, 14, 25, 54
+ has drawn a 65 from bag X
+player2 hand is 79, 88, 16, 97, 5, 9, 14, 25, 54, 65
+ has discarded a 25 to bag C
+player2 hand is 79, 88, 16, 97, 5, 9, 14, 54, 65
+ has drawn a 15 from bag Y
+player2 hand is 79, 88, 16, 97, 5, 9, 14, 54, 65, 15
+ has discarded a 88 to bag C
+player2 hand is 79, 16, 97, 5, 9, 14, 54, 65, 15
+ has drawn a 34 from bag Z
+player2 hand is 79, 16, 97, 5, 9, 14, 54, 65, 15, 34
+ has discarded a 54 to bag A
+player2 hand is 79, 16, 97, 5, 9, 14, 65, 15, 34
+ has drawn a 9 from bag X
+player2 hand is 79, 16, 97, 5, 9, 14, 65, 15, 34, 9
+ has discarded a 65 to bag A
+player2 hand is 79, 16, 97, 5, 9, 14, 15, 34, 9
+ has drawn a 90 from bag Z
+player2 hand is 79, 16, 97, 5, 9, 14, 15, 34, 9, 90
+ has discarded a 79 to bag A
+player2 hand is 16, 97, 5, 9, 14, 15, 34, 9, 90
+ has drawn a 39 from bag X
+player2 hand is 16, 97, 5, 9, 14, 15, 34, 9, 90, 39
+ has discarded a 97 to bag A
+player2 hand is 16, 5, 9, 14, 15, 34, 9, 90, 39
+ has drawn a 22 from bag Y
+player2 hand is 16, 5, 9, 14, 15, 34, 9, 90, 39, 22
+ has discarded a 22 to bag B
+player2 hand is 16, 5, 9, 14, 15, 34, 9, 90, 39
+ has drawn a 71 from bag Z
+player2 hand is 16, 5, 9, 14, 15, 34, 9, 90, 39, 71
+ has discarded a 34 to bag C
+player2 hand is 16, 5, 9, 14, 15, 9, 90, 39, 71
+ has drawn a 18 from bag X
+player2 hand is 16, 5, 9, 14, 15, 9, 90, 39, 71, 18
+ has discarded a 71 to bag C
+player2 hand is 16, 5, 9, 14, 15, 9, 90, 39, 18
+ has drawn a 19 from bag X
+player2 hand is 16, 5, 9, 14, 15, 9, 90, 39, 18, 19
+ has discarded a 19 to bag A
+player2 hand is 16, 5, 9, 14, 15, 9, 90, 39, 18
+ has drawn a 16 from bag Y
+player2 hand is 16, 5, 9, 14, 15, 9, 90, 39, 18, 16
+ has discarded a 18 to bag A
+player2 hand is 16, 5, 9, 14, 15, 9, 90, 39, 16
+ has drawn a 15 from bag Y
+player2 hand is 16, 5, 9, 14, 15, 9, 90, 39, 16, 15
+ has discarded a 5 to bag B
+player2 hand is 16, 9, 14, 15, 9, 90, 39, 16, 15
+ has drawn a 59 from bag Z
+player2 hand is 16, 9, 14, 15, 9, 90, 39, 16, 15, 59
+ has discarded a 39 to bag A
+player2 hand is 16, 9, 14, 15, 9, 90, 16, 15, 59
+ has drawn a 19 from bag Y
+player2 hand is 16, 9, 14, 15, 9, 90, 16, 15, 59, 19
+ has discarded a 15 to bag B
+player2 hand is 16, 9, 14, 15, 9, 90, 16, 59, 19
+ has drawn a 30 from bag Z
+player2 hand is 16, 9, 14, 15, 9, 90, 16, 59, 19, 30
+ has discarded a 16 to bag B
+player2 hand is 9, 14, 15, 9, 90, 16, 59, 19, 30
+ has drawn a 55 from bag Y
+player2 hand is 9, 14, 15, 9, 90, 16, 59, 19, 30, 55
+ has discarded a 15 to bag B
+player2 hand is 9, 14, 9, 90, 16, 59, 19, 30, 55
+ has drawn a 64 from bag X
+player2 hand is 9, 14, 9, 90, 16, 59, 19, 30, 55, 64
+ has discarded a 90 to bag C
+player2 hand is 9, 14, 9, 16, 59, 19, 30, 55, 64
+ has drawn a 11 from bag Y
+player2 hand is 9, 14, 9, 16, 59, 19, 30, 55, 64, 11
+ has discarded a 59 to bag C
+player2 hand is 9, 14, 9, 16, 19, 30, 55, 64, 11
+ has drawn a 98 from bag Z
+player2 hand is 9, 14, 9, 16, 19, 30, 55, 64, 11, 98
+ has discarded a 55 to bag B
+player2 hand is 9, 14, 9, 16, 19, 30, 64, 11, 98
+ has drawn a 88 from bag Z
+player2 hand is 9, 14, 9, 16, 19, 30, 64, 11, 98, 88
+ has discarded a 19 to bag B
+player2 hand is 9, 14, 9, 16, 30, 64, 11, 98, 88
+ has drawn a 50 from bag X
+player2 hand is 9, 14, 9, 16, 30, 64, 11, 98, 88, 50
+ has discarded a 64 to bag A
+player2 hand is 9, 14, 9, 16, 30, 11, 98, 88, 50
+ has drawn a 39 from bag X
+player2 hand is 9, 14, 9, 16, 30, 11, 98, 88, 50, 39
+ has discarded a 14 to bag A
+player2 hand is 9, 9, 16, 30, 11, 98, 88, 50, 39
+ has drawn a 65 from bag X
+player2 hand is 9, 9, 16, 30, 11, 98, 88, 50, 39, 65
+ has discarded a 39 to bag A
+player2 hand is 9, 9, 16, 30, 11, 98, 88, 50, 65
+ has drawn a 55 from bag Y
+player2 hand is 9, 9, 16, 30, 11, 98, 88, 50, 65, 55
+ has discarded a 9 to bag A
+player2 hand is 9, 16, 30, 11, 98, 88, 50, 65, 55
+ has drawn a 79 from bag Z
+player2 hand is 9, 16, 30, 11, 98, 88, 50, 65, 55, 79
+ has discarded a 88 to bag C
+player2 hand is 9, 16, 30, 11, 98, 50, 65, 55, 79
+ has drawn a 31 from bag Y
+player2 hand is 9, 16, 30, 11, 98, 50, 65, 55, 79, 31
+ has discarded a 79 to bag C
+player2 hand is 9, 16, 30, 11, 98, 50, 65, 55, 31
+ has drawn a 25 from bag X
+player2 hand is 9, 16, 30, 11, 98, 50, 65, 55, 31, 25
+ has discarded a 55 to bag B
+player2 hand is 9, 16, 30, 11, 98, 50, 65, 31, 25
+ has drawn a 88 from bag Z
+player2 hand is 9, 16, 30, 11, 98, 50, 65, 31, 25, 88
+ has discarded a 98 to bag C
+player2 hand is 9, 16, 30, 11, 50, 65, 31, 25, 88
+ has drawn a 8 from bag Z
+player2 hand is 9, 16, 30, 11, 50, 65, 31, 25, 88, 8
+ has discarded a 30 to bag C
+player2 hand is 9, 16, 11, 50, 65, 31, 25, 88, 8
+ has drawn a 73 from bag X
+player2 hand is 9, 16, 11, 50, 65, 31, 25, 88, 8, 73
+ has discarded a 50 to bag A
+player2 hand is 9, 16, 11, 65, 31, 25, 88, 8, 73
+ has drawn a 34 from bag Z
+player2 hand is 9, 16, 11, 65, 31, 25, 88, 8, 73, 34
+ has discarded a 88 to bag C
+player2 hand is 9, 16, 11, 65, 31, 25, 8, 73, 34
+ has drawn a 59 from bag Y
+player2 hand is 9, 16, 11, 65, 31, 25, 8, 73, 34, 59
+ has discarded a 11 to bag B
+player2 hand is 9, 16, 65, 31, 25, 8, 73, 34, 59
+ has drawn a 5 from bag Y
+player2 hand is 9, 16, 65, 31, 25, 8, 73, 34, 59, 5
+ has discarded a 16 to bag B
+player2 hand is 9, 65, 31, 25, 8, 73, 34, 59, 5
+ has drawn a 85 from bag Z
+player2 hand is 9, 65, 31, 25, 8, 73, 34, 59, 5, 85
+ has discarded a 5 to bag B
+player2 hand is 9, 65, 31, 25, 8, 73, 34, 59, 85
+ has drawn a 1 from bag Z
+player2 hand is 9, 65, 31, 25, 8, 73, 34, 59, 85, 1
+ has discarded a 34 to bag C
+player2 hand is 9, 65, 31, 25, 8, 73, 59, 85, 1
+ has drawn a 19 from bag Y
+player2 hand is 9, 65, 31, 25, 8, 73, 59, 85, 1, 19
+ has discarded a 8 to bag C
+player2 hand is 9, 65, 31, 25, 73, 59, 85, 1, 19
+ has drawn a 69 from bag Y
+player2 hand is 9, 65, 31, 25, 73, 59, 85, 1, 19, 69
+ has discarded a 69 to bag B
+player2 hand is 9, 65, 31, 25, 73, 59, 85, 1, 19
+ has drawn a 56 from bag X
+player2 hand is 9, 65, 31, 25, 73, 59, 85, 1, 19, 56
+ has discarded a 1 to bag C
+player2 hand is 9, 65, 31, 25, 73, 59, 85, 19, 56
+ has drawn a 97 from bag X
+player2 hand is 9, 65, 31, 25, 73, 59, 85, 19, 56, 97
+ has discarded a 73 to bag A
+player2 hand is 9, 65, 31, 25, 59, 85, 19, 56, 97
+ has drawn a 40 from bag Y
+player2 hand is 9, 65, 31, 25, 59, 85, 19, 56, 97, 40
+ has discarded a 40 to bag B
+player2 hand is 9, 65, 31, 25, 59, 85, 19, 56, 97
+ has drawn a 22 from bag Y
+player2 hand is 9, 65, 31, 25, 59, 85, 19, 56, 97, 22
+ has discarded a 97 to bag A
+player2 hand is 9, 65, 31, 25, 59, 85, 19, 56, 22
+ has drawn a 53 from bag Z
+player2 hand is 9, 65, 31, 25, 59, 85, 19, 56, 22, 53
+ has discarded a 53 to bag C
+player2 hand is 9, 65, 31, 25, 59, 85, 19, 56, 22
+ has drawn a 25 from bag Z
+player2 hand is 9, 65, 31, 25, 59, 85, 19, 56, 22, 25
+ has discarded a 9 to bag C
+player2 hand is 65, 31, 25, 59, 85, 19, 56, 22, 25
+ has drawn a 99 from bag Z
+player2 hand is 65, 31, 25, 59, 85, 19, 56, 22, 25, 99
+ has discarded a 65 to bag A
+player2 hand is 31, 25, 59, 85, 19, 56, 22, 25, 99
+ has drawn a 30 from bag Z
+player2 hand is 31, 25, 59, 85, 19, 56, 22, 25, 99, 30
+ has discarded a 56 to bag A
+player2 hand is 31, 25, 59, 85, 19, 22, 25, 99, 30
+ has drawn a 3 from bag X
+player2 hand is 31, 25, 59, 85, 19, 22, 25, 99, 30, 3
+ has discarded a 31 to bag B
+player2 hand is 25, 59, 85, 19, 22, 25, 99, 30, 3
+ has drawn a 8 from bag Z
+player2 hand is 25, 59, 85, 19, 22, 25, 99, 30, 3, 8
+ has discarded a 19 to bag B
+player2 hand is 25, 59, 85, 22, 25, 99, 30, 3, 8
+ has drawn a 67 from bag Y
+player2 hand is 25, 59, 85, 22, 25, 99, 30, 3, 8, 67
+ has discarded a 8 to bag C
+player2 hand is 25, 59, 85, 22, 25, 99, 30, 3, 67
+ has drawn a 61 from bag X
+player2 hand is 25, 59, 85, 22, 25, 99, 30, 3, 67, 61
+ has discarded a 30 to bag C
+player2 hand is 25, 59, 85, 22, 25, 99, 3, 67, 61
+ has drawn a 72 from bag Y
+player2 hand is 25, 59, 85, 22, 25, 99, 3, 67, 61, 72
+ has discarded a 61 to bag A
+player2 hand is 25, 59, 85, 22, 25, 99, 3, 67, 72
+ has drawn a 92 from bag Y
+player2 hand is 25, 59, 85, 22, 25, 99, 3, 67, 72, 92
+ has discarded a 72 to bag B
+player2 hand is 25, 59, 85, 22, 25, 99, 3, 67, 92
+ has drawn a 84 from bag X
+player2 hand is 25, 59, 85, 22, 25, 99, 3, 67, 92, 84
+ has discarded a 99 to bag C
+player2 hand is 25, 59, 85, 22, 25, 3, 67, 92, 84
+ has drawn a 31 from bag Y
+player2 hand is 25, 59, 85, 22, 25, 3, 67, 92, 84, 31
+ has discarded a 3 to bag A
+player2 hand is 25, 59, 85, 22, 25, 67, 92, 84, 31
+ has drawn a 69 from bag Y
+player2 hand is 25, 59, 85, 22, 25, 67, 92, 84, 31, 69
+ has discarded a 25 to bag A
+player2 hand is 59, 85, 22, 25, 67, 92, 84, 31, 69
+ has drawn a 59 from bag Z
+player2 hand is 59, 85, 22, 25, 67, 92, 84, 31, 69, 59
+ has discarded a 85 to bag C
+player2 hand is 59, 22, 25, 67, 92, 84, 31, 69, 59
+ has drawn a 48 from bag X
+player2 hand is 59, 22, 25, 67, 92, 84, 31, 69, 59, 48
+ has discarded a 59 to bag C
+player2 hand is 59, 22, 25, 67, 92, 84, 31, 69, 48
+ has drawn a 75 from bag X
+player2 hand is 59, 22, 25, 67, 92, 84, 31, 69, 48, 75
+ has discarded a 31 to bag B
+player2 hand is 59, 22, 25, 67, 92, 84, 69, 48, 75
+ has drawn a 90 from bag Z
+player2 hand is 59, 22, 25, 67, 92, 84, 69, 48, 75, 90
+ has discarded a 25 to bag C
+player2 hand is 59, 22, 67, 92, 84, 69, 48, 75, 90
+ has drawn a 55 from bag Y
+player2 hand is 59, 22, 67, 92, 84, 69, 48, 75, 90, 55
+ has discarded a 69 to bag B
+player2 hand is 59, 22, 67, 92, 84, 48, 75, 90, 55
+ has drawn a 98 from bag Z
+player2 hand is 59, 22, 67, 92, 84, 48, 75, 90, 55, 98
+ has discarded a 90 to bag C
+player2 hand is 59, 22, 67, 92, 84, 48, 75, 55, 98
+ has drawn a 45 from bag Y
+player2 hand is 59, 22, 67, 92, 84, 48, 75, 55, 98, 45
+ has discarded a 55 to bag B
+player2 hand is 59, 22, 67, 92, 84, 48, 75, 98, 45
+ has drawn a 73 from bag X
+player2 hand is 59, 22, 67, 92, 84, 48, 75, 98, 45, 73
+ has discarded a 92 to bag B
+player2 hand is 59, 22, 67, 84, 48, 75, 98, 45, 73
+ has drawn a 37 from bag Z
+player2 hand is 59, 22, 67, 84, 48, 75, 98, 45, 73, 37
+ has discarded a 48 to bag A
+player2 hand is 59, 22, 67, 84, 75, 98, 45, 73, 37
+ has drawn a 40 from bag X
+player2 hand is 59, 22, 67, 84, 75, 98, 45, 73, 37, 40
+ has discarded a 22 to bag B
+player2 hand is 59, 67, 84, 75, 98, 45, 73, 37, 40
+ has drawn a 15 from bag Y
+player2 hand is 59, 67, 84, 75, 98, 45, 73, 37, 40, 15
+ has discarded a 40 to bag A
+player2 hand is 59, 67, 84, 75, 98, 45, 73, 37, 15
+ has drawn a 83 from bag Z
+player2 hand is 59, 67, 84, 75, 98, 45, 73, 37, 15, 83
+ has discarded a 37 to bag C
+player2 hand is 59, 67, 84, 75, 98, 45, 73, 15, 83
+ has drawn a 23 from bag Z
+player2 hand is 59, 67, 84, 75, 98, 45, 73, 15, 83, 23
+ has discarded a 15 to bag B
+player2 hand is 59, 67, 84, 75, 98, 45, 73, 83, 23
+ has drawn a 88 from bag Y
+player2 hand is 59, 67, 84, 75, 98, 45, 73, 83, 23, 88
+ has discarded a 75 to bag A
+player2 hand is 59, 67, 84, 98, 45, 73, 83, 23, 88
+ has drawn a 56 from bag Y
+player2 hand is 59, 67, 84, 98, 45, 73, 83, 23, 88, 56
+ has discarded a 45 to bag B
+player2 hand is 59, 67, 84, 98, 73, 83, 23, 88, 56
+ has drawn a 19 from bag X
+player2 hand is 59, 67, 84, 98, 73, 83, 23, 88, 56, 19
+ has discarded a 84 to bag A
+player2 hand is 59, 67, 98, 73, 83, 23, 88, 56, 19
+ has drawn a 22 from bag Y
+player2 hand is 59, 67, 98, 73, 83, 23, 88, 56, 19, 22
+ has discarded a 19 to bag A
+player2 hand is 59, 67, 98, 73, 83, 23, 88, 56, 22
+ has drawn a 34 from bag Z
+player2 hand is 59, 67, 98, 73, 83, 23, 88, 56, 22, 34
+ has discarded a 73 to bag A
+player2 hand is 59, 67, 98, 83, 23, 88, 56, 22, 34
+ has drawn a 22 from bag Y
+player2 hand is 59, 67, 98, 83, 23, 88, 56, 22, 34, 22
+ has discarded a 83 to bag C
+player2 hand is 59, 67, 98, 23, 88, 56, 22, 34, 22
+ has drawn a 18 from bag X
+player2 hand is 59, 67, 98, 23, 88, 56, 22, 34, 22, 18
+ has discarded a 59 to bag B
+player2 hand is 67, 98, 23, 88, 56, 22, 34, 22, 18
+ has drawn a 77 from bag X
+player2 hand is 67, 98, 23, 88, 56, 22, 34, 22, 18, 77
+ has discarded a 22 to bag B
+player2 hand is 67, 98, 23, 88, 56, 34, 22, 18, 77
+ has drawn a 3 from bag Y
+player2 hand is 67, 98, 23, 88, 56, 34, 22, 18, 77, 3
+ has discarded a 18 to bag A
+player2 hand is 67, 98, 23, 88, 56, 34, 22, 77, 3
+ has drawn a 97 from bag X
+player2 hand is 67, 98, 23, 88, 56, 34, 22, 77, 3, 97
+ has discarded a 22 to bag B
+player2 hand is 67, 98, 23, 88, 56, 34, 77, 3, 97
+ has drawn a 50 from bag X
+player2 hand is 67, 98, 23, 88, 56, 34, 77, 3, 97, 50
+ has discarded a 23 to bag C
+player2 hand is 67, 98, 88, 56, 34, 77, 3, 97, 50
+ has drawn a 25 from bag X
+player2 hand is 67, 98, 88, 56, 34, 77, 3, 97, 50, 25
+ has discarded a 97 to bag A
+player2 hand is 67, 98, 88, 56, 34, 77, 3, 50, 25
+ has drawn a 19 from bag X
+player2 hand is 67, 98, 88, 56, 34, 77, 3, 50, 25, 19
+ has discarded a 98 to bag C
+player2 hand is 67, 88, 56, 34, 77, 3, 50, 25, 19
+ has drawn a 37 from bag Z
+player2 hand is 67, 88, 56, 34, 77, 3, 50, 25, 19, 37
+ has discarded a 25 to bag A
+player2 hand is 67, 88, 56, 34, 77, 3, 50, 19, 37
+ has drawn a 15 from bag Y
+player2 hand is 67, 88, 56, 34, 77, 3, 50, 19, 37, 15
+ has discarded a 37 to bag C
+player2 hand is 67, 88, 56, 34, 77, 3, 50, 19, 15
+ has drawn a 30 from bag Z
+player2 hand is 67, 88, 56, 34, 77, 3, 50, 19, 15, 30
+ has discarded a 56 to bag B
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 15, 30
+ has drawn a 89 from bag X
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 15, 30, 89
+ has discarded a 15 to bag B
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 30, 89
+ has drawn a 88 from bag X
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 30, 89, 88
+ has discarded a 30 to bag C
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 89, 88
+ has drawn a 64 from bag X
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 89, 88, 64
+ has discarded a 64 to bag A
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 89, 88
+ has drawn a 72 from bag Y
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 89, 88, 72
+ has discarded a 88 to bag A
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 89, 72
+ has drawn a 19 from bag Y
+player2 hand is 67, 88, 34, 77, 3, 50, 19, 89, 72, 19
+ has discarded a 88 to bag B
+player2 hand is 67, 34, 77, 3, 50, 19, 89, 72, 19
+ has drawn a 73 from bag Z
+player2 hand is 67, 34, 77, 3, 50, 19, 89, 72, 19, 73
+ has discarded a 19 to bag B
+player2 hand is 67, 34, 77, 3, 50, 19, 89, 72, 73
+ has drawn a 23 from bag Z
+player2 hand is 67, 34, 77, 3, 50, 19, 89, 72, 73, 23
+ has discarded a 3 to bag B
+player2 hand is 67, 34, 77, 50, 19, 89, 72, 73, 23
+ has drawn a 11 from bag Y
+player2 hand is 67, 34, 77, 50, 19, 89, 72, 73, 23, 11
+ has discarded a 34 to bag C
+player2 hand is 67, 77, 50, 19, 89, 72, 73, 23, 11
+ has drawn a 55 from bag Y
+player2 hand is 67, 77, 50, 19, 89, 72, 73, 23, 11, 55
+ has discarded a 72 to bag B
+player2 hand is 67, 77, 50, 19, 89, 73, 23, 11, 55
+ has drawn a 30 from bag Z
+player2 hand is 67, 77, 50, 19, 89, 73, 23, 11, 55, 30
+ has discarded a 77 to bag A
+player2 hand is 67, 50, 19, 89, 73, 23, 11, 55, 30
+ has drawn a 73 from bag X
+player2 hand is 67, 50, 19, 89, 73, 23, 11, 55, 30, 73
+ has discarded a 11 to bag B
+player2 hand is 67, 50, 19, 89, 73, 23, 55, 30, 73
+ has drawn a 1 from bag Z
+player2 hand is 67, 50, 19, 89, 73, 23, 55, 30, 73, 1
+ has discarded a 30 to bag C
+player2 hand is 67, 50, 19, 89, 73, 23, 55, 73, 1
+ has drawn a 64 from bag X
+player2 hand is 67, 50, 19, 89, 73, 23, 55, 73, 1, 64
+ has discarded a 89 to bag A
+player2 hand is 67, 50, 19, 73, 23, 55, 73, 1, 64
+ has drawn a 23 from bag Z
+player2 hand is 67, 50, 19, 73, 23, 55, 73, 1, 64, 23
+ has discarded a 23 to bag C
+player2 hand is 67, 50, 19, 73, 23, 55, 73, 1, 64
+ has drawn a 77 from bag X
+player2 hand is 67, 50, 19, 73, 23, 55, 73, 1, 64, 77
+ has discarded a 73 to bag C
+player2 hand is 67, 50, 19, 23, 55, 73, 1, 64, 77
+ has drawn a 76 from bag Y
+player2 hand is 67, 50, 19, 23, 55, 73, 1, 64, 77, 76
+ has discarded a 76 to bag B
+player2 hand is 67, 50, 19, 23, 55, 73, 1, 64, 77
+ has drawn a 52 from bag X
+player2 hand is 67, 50, 19, 23, 55, 73, 1, 64, 77, 52
+ has discarded a 73 to bag A
+player2 hand is 67, 50, 19, 23, 55, 1, 64, 77, 52
+ has drawn a 16 from bag Y
+player2 hand is 67, 50, 19, 23, 55, 1, 64, 77, 52, 16
+ has discarded a 19 to bag A
+player2 hand is 67, 50, 23, 55, 1, 64, 77, 52, 16
+ has drawn a 90 from bag Z
+player2 hand is 67, 50, 23, 55, 1, 64, 77, 52, 16, 90
+ has discarded a 77 to bag A
+player2 hand is 67, 50, 23, 55, 1, 64, 52, 16, 90
+ has drawn a 40 from bag X
+player2 hand is 67, 50, 23, 55, 1, 64, 52, 16, 90, 40
+ has discarded a 23 to bag C
+player2 hand is 67, 50, 55, 1, 64, 52, 16, 90, 40
+ has drawn a 3 from bag Y
+player2 hand is 67, 50, 55, 1, 64, 52, 16, 90, 40, 3
+ has discarded a 67 to bag B
+player2 hand is 50, 55, 1, 64, 52, 16, 90, 40, 3
+ has drawn a 77 from bag X
+player2 hand is 50, 55, 1, 64, 52, 16, 90, 40, 3, 77
+ has discarded a 77 to bag A
+player2 hand is 50, 55, 1, 64, 52, 16, 90, 40, 3
+ has drawn a 95 from bag Z
+player2 hand is 50, 55, 1, 64, 52, 16, 90, 40, 3, 95
+ has discarded a 90 to bag C
+player2 hand is 50, 55, 1, 64, 52, 16, 40, 3, 95
+ has drawn a 47 from bag Z
+player2 hand is 50, 55, 1, 64, 52, 16, 40, 3, 95, 47
+ has discarded a 55 to bag B
+player2 hand is 50, 1, 64, 52, 16, 40, 3, 95, 47
+ has drawn a 14 from bag X
+player2 hand is 50, 1, 64, 52, 16, 40, 3, 95, 47, 14
+ has discarded a 40 to bag A
+player2 hand is 50, 1, 64, 52, 16, 3, 95, 47, 14
+ has drawn a 72 from bag X
+player2 hand is 50, 1, 64, 52, 16, 3, 95, 47, 14, 72
+ has discarded a 52 to bag A
+player2 hand is 50, 1, 64, 16, 3, 95, 47, 14, 72
+ has drawn a 30 from bag Y
+player2 hand is 50, 1, 64, 16, 3, 95, 47, 14, 72, 30
+ has discarded a 1 to bag C
+player2 hand is 50, 64, 16, 3, 95, 47, 14, 72, 30
+ has drawn a 48 from bag Y
+player2 hand is 50, 64, 16, 3, 95, 47, 14, 72, 30, 48
+ has discarded a 50 to bag A
+player2 hand is 64, 16, 3, 95, 47, 14, 72, 30, 48
+ has drawn a 11 from bag Y
+player2 hand is 64, 16, 3, 95, 47, 14, 72, 30, 48, 11
+ has drawn a 75 from bag X
+player2 hand is 75
  has drawn a 87 from bag X
-player2 hand is 7, 0, 20, 17, 90, 3, 66, 68, 74, 87
+player2 hand is 75, 87
+ has drawn a 59 from bag X
+player2 hand is 75, 87, 59
+ has drawn a 34 from bag X
+player2 hand is 75, 87, 59, 34
+ has drawn a 18 from bag X
+player2 hand is 75, 87, 59, 34, 18
+ has drawn a 19 from bag X
+player2 hand is 75, 87, 59, 34, 18, 19
+ has drawn a 22 from bag X
+player2 hand is 75, 87, 59, 34, 18, 19, 22
+ has drawn a 62 from bag X
+player2 hand is 75, 87, 59, 34, 18, 19, 22, 62
+ has drawn a 29 from bag X
+player2 hand is 75, 87, 59, 34, 18, 19, 22, 62, 29
+ has drawn a 38 from bag X
+player2 hand is 75, 87, 59, 34, 18, 19, 22, 62, 29, 38
  has discarded a 87 to bag A
-player2 hand is 7, 0, 20, 17, 90, 3, 66, 68, 74
+player2 hand is 75, 59, 34, 18, 19, 22, 62, 29, 38
+ has drawn a 35 from bag Y
+player2 hand is 75, 59, 34, 18, 19, 22, 62, 29, 38, 35
+ has discarded a 59 to bag A
+player2 hand is 75, 34, 18, 19, 22, 62, 29, 38, 35
+ has drawn a 21 from bag X
+player2 hand is 75, 34, 18, 19, 22, 62, 29, 38, 35, 21
+ has discarded a 34 to bag A
+player2 hand is 75, 18, 19, 22, 62, 29, 38, 35, 21
+ has drawn a 92 from bag Z
+player2 hand is 75, 18, 19, 22, 62, 29, 38, 35, 21, 92
+ has discarded a 62 to bag A
+player2 hand is 75, 18, 19, 22, 29, 38, 35, 21, 92
+ has drawn a 45 from bag X
+player2 hand is 75, 18, 19, 22, 29, 38, 35, 21, 92, 45
+ has discarded a 22 to bag A
+player2 hand is 75, 18, 19, 29, 38, 35, 21, 92, 45
+ has drawn a 98 from bag X
+player2 hand is 75, 18, 19, 29, 38, 35, 21, 92, 45, 98
+ has discarded a 35 to bag B
+player2 hand is 75, 18, 19, 29, 38, 21, 92, 45, 98
+ has drawn a 12 from bag Y
+player2 hand is 75, 18, 19, 29, 38, 21, 92, 45, 98, 12
+ has discarded a 98 to bag A
+player2 hand is 75, 18, 19, 29, 38, 21, 92, 45, 12
+ has drawn a 89 from bag Z
+player2 hand is 75, 18, 19, 29, 38, 21, 92, 45, 12, 89
+ has discarded a 75 to bag A
+player2 hand is 18, 19, 29, 38, 21, 92, 45, 12, 89
+ has drawn a 47 from bag X
+player2 hand is 18, 19, 29, 38, 21, 92, 45, 12, 89, 47
+ has discarded a 29 to bag A
+player2 hand is 18, 19, 38, 21, 92, 45, 12, 89, 47
+ has drawn a 60 from bag Y
+player2 hand is 18, 19, 38, 21, 92, 45, 12, 89, 47, 60
+ has discarded a 89 to bag C
+player2 hand is 18, 19, 38, 21, 92, 45, 12, 47, 60
+ has drawn a 80 from bag Z
+player2 hand is 18, 19, 38, 21, 92, 45, 12, 47, 60, 80
+ has discarded a 18 to bag A
+player2 hand is 19, 38, 21, 92, 45, 12, 47, 60, 80
+ has drawn a 64 from bag Z
+player2 hand is 19, 38, 21, 92, 45, 12, 47, 60, 80, 64
+ has discarded a 38 to bag A
+player2 hand is 19, 21, 92, 45, 12, 47, 60, 80, 64
+ has drawn a 30 from bag Z
+player2 hand is 19, 21, 92, 45, 12, 47, 60, 80, 64, 30
+ has discarded a 80 to bag C
+player2 hand is 19, 21, 92, 45, 12, 47, 60, 64, 30
+ has drawn a 46 from bag Z
+player2 hand is 19, 21, 92, 45, 12, 47, 60, 64, 30, 46
+ has discarded a 30 to bag C
+player2 hand is 19, 21, 92, 45, 12, 47, 60, 64, 46
+ has drawn a 10 from bag Y
+player2 hand is 19, 21, 92, 45, 12, 47, 60, 64, 46, 10
+ has discarded a 60 to bag B
+player2 hand is 19, 21, 92, 45, 12, 47, 64, 46, 10
+ has drawn a 33 from bag Y
+player2 hand is 19, 21, 92, 45, 12, 47, 64, 46, 10, 33
+ has discarded a 33 to bag B
+player2 hand is 19, 21, 92, 45, 12, 47, 64, 46, 10
+ has drawn a 82 from bag X
+player2 hand is 19, 21, 92, 45, 12, 47, 64, 46, 10, 82
+ has discarded a 47 to bag A
+player2 hand is 19, 21, 92, 45, 12, 64, 46, 10, 82
+ has drawn a 66 from bag Y
+player2 hand is 19, 21, 92, 45, 12, 64, 46, 10, 82, 66
+ has discarded a 10 to bag B
+player2 hand is 19, 21, 92, 45, 12, 64, 46, 82, 66
+ has drawn a 26 from bag Y
+player2 hand is 19, 21, 92, 45, 12, 64, 46, 82, 66, 26
+ has discarded a 82 to bag A
+player2 hand is 19, 21, 92, 45, 12, 64, 46, 66, 26
+ has drawn a 29 from bag Y
+player2 hand is 19, 21, 92, 45, 12, 64, 46, 66, 26, 29
+ has discarded a 19 to bag A
+player2 hand is 21, 92, 45, 12, 64, 46, 66, 26, 29
+ has drawn a 34 from bag X
+player2 hand is 21, 92, 45, 12, 64, 46, 66, 26, 29, 34
+ has discarded a 34 to bag A
+player2 hand is 21, 92, 45, 12, 64, 46, 66, 26, 29
+ has drawn a 73 from bag Y
+player2 hand is 21, 92, 45, 12, 64, 46, 66, 26, 29, 73
+ has discarded a 21 to bag A
+player2 hand is 92, 45, 12, 64, 46, 66, 26, 29, 73
+ has drawn a 72 from bag X
+player2 hand is 92, 45, 12, 64, 46, 66, 26, 29, 73, 72
+ has discarded a 92 to bag C
+player2 hand is 45, 12, 64, 46, 66, 26, 29, 73, 72
+ has drawn a 94 from bag Z
+player2 hand is 45, 12, 64, 46, 66, 26, 29, 73, 72, 94
+ has discarded a 12 to bag B
+player2 hand is 45, 64, 46, 66, 26, 29, 73, 72, 94
+ has drawn a 33 from bag Y
+player2 hand is 45, 64, 46, 66, 26, 29, 73, 72, 94, 33
+ has discarded a 94 to bag C
+player2 hand is 45, 64, 46, 66, 26, 29, 73, 72, 33
+ has drawn a 50 from bag X
+player2 hand is 45, 64, 46, 66, 26, 29, 73, 72, 33, 50
+ has discarded a 66 to bag B
+player2 hand is 45, 64, 46, 26, 29, 73, 72, 33, 50
+ has drawn a 35 from bag X
+player2 hand is 45, 64, 46, 26, 29, 73, 72, 33, 50, 35
+ has discarded a 46 to bag C
+player2 hand is 45, 64, 26, 29, 73, 72, 33, 50, 35
+ has drawn a 19 from bag X
+player2 hand is 45, 64, 26, 29, 73, 72, 33, 50, 35, 19
+ has discarded a 64 to bag C
+player2 hand is 45, 26, 29, 73, 72, 33, 50, 35, 19
+ has drawn a 10 from bag Y
+player2 hand is 45, 26, 29, 73, 72, 33, 50, 35, 19, 10
+ has discarded a 26 to bag B
+player2 hand is 45, 29, 73, 72, 33, 50, 35, 19, 10
+ has drawn a 31 from bag Z
+player2 hand is 45, 29, 73, 72, 33, 50, 35, 19, 10, 31
+ has discarded a 50 to bag A
+player2 hand is 45, 29, 73, 72, 33, 35, 19, 10, 31
+ has drawn a 94 from bag Y
+player2 hand is 45, 29, 73, 72, 33, 35, 19, 10, 31, 94
+ has discarded a 94 to bag B
+player2 hand is 45, 29, 73, 72, 33, 35, 19, 10, 31
+ has drawn a 67 from bag Z
+player2 hand is 45, 29, 73, 72, 33, 35, 19, 10, 31, 67
+ has discarded a 35 to bag A
+player2 hand is 45, 29, 73, 72, 33, 19, 10, 31, 67
+ has drawn a 6 from bag X
+player2 hand is 45, 29, 73, 72, 33, 19, 10, 31, 67, 6
+ has discarded a 67 to bag C
+player2 hand is 45, 29, 73, 72, 33, 19, 10, 31, 6
+ has drawn a 33 from bag Y
+player2 hand is 45, 29, 73, 72, 33, 19, 10, 31, 6, 33
+ has discarded a 73 to bag B
+player2 hand is 45, 29, 72, 33, 19, 10, 31, 6, 33
+ has drawn a 97 from bag X
+player2 hand is 45, 29, 72, 33, 19, 10, 31, 6, 33, 97
+ has discarded a 31 to bag C
+player2 hand is 45, 29, 72, 33, 19, 10, 6, 33, 97
+ has drawn a 3 from bag Y
+player2 hand is 45, 29, 72, 33, 19, 10, 6, 33, 97, 3
+ has discarded a 10 to bag B
+player2 hand is 45, 29, 72, 33, 19, 6, 33, 97, 3
+ has drawn a 82 from bag X
+player2 hand is 45, 29, 72, 33, 19, 6, 33, 97, 3, 82
+ has discarded a 3 to bag B
+player2 hand is 45, 29, 72, 33, 19, 6, 33, 97, 82
+ has drawn a 89 from bag Y
+player2 hand is 45, 29, 72, 33, 19, 6, 33, 97, 82, 89
+ has discarded a 89 to bag B
+player2 hand is 45, 29, 72, 33, 19, 6, 33, 97, 82
+ has drawn a 20 from bag Z
+player2 hand is 45, 29, 72, 33, 19, 6, 33, 97, 82, 20
+ has discarded a 20 to bag C
+player2 hand is 45, 29, 72, 33, 19, 6, 33, 97, 82
+ has drawn a 45 from bag Y
+player2 hand is 45, 29, 72, 33, 19, 6, 33, 97, 82, 45
+ has discarded a 29 to bag B
+player2 hand is 45, 72, 33, 19, 6, 33, 97, 82, 45
+ has drawn a 65 from bag X
+player2 hand is 45, 72, 33, 19, 6, 33, 97, 82, 45, 65
+ has discarded a 33 to bag B
+player2 hand is 45, 72, 33, 19, 6, 97, 82, 45, 65
+ has drawn a 3 from bag Y
+player2 hand is 45, 72, 33, 19, 6, 97, 82, 45, 65, 3
+ has discarded a 65 to bag A
+player2 hand is 45, 72, 33, 19, 6, 97, 82, 45, 3
+ has drawn a 81 from bag Y
+player2 hand is 45, 72, 33, 19, 6, 97, 82, 45, 3, 81
+ has discarded a 6 to bag A
+player2 hand is 45, 72, 33, 19, 97, 82, 45, 3, 81
+ has drawn a 60 from bag Z
+player2 hand is 45, 72, 33, 19, 97, 82, 45, 3, 81, 60
+ has discarded a 97 to bag A
+player2 hand is 45, 72, 33, 19, 82, 45, 3, 81, 60
+ has drawn a 45 from bag X
+player2 hand is 45, 72, 33, 19, 82, 45, 3, 81, 60, 45
+ has discarded a 45 to bag A
+player2 hand is 72, 33, 19, 82, 45, 3, 81, 60, 45
+ has drawn a 1 from bag X
+player2 hand is 72, 33, 19, 82, 45, 3, 81, 60, 45, 1
+ has discarded a 82 to bag A
+player2 hand is 72, 33, 19, 45, 3, 81, 60, 45, 1
+ has drawn a 73 from bag Y
+player2 hand is 72, 33, 19, 45, 3, 81, 60, 45, 1, 73
+ has discarded a 73 to bag B
+player2 hand is 72, 33, 19, 45, 3, 81, 60, 45, 1
+ has drawn a 21 from bag X
+player2 hand is 72, 33, 19, 45, 3, 81, 60, 45, 1, 21
+ has discarded a 81 to bag B
+player2 hand is 72, 33, 19, 45, 3, 60, 45, 1, 21
+ has drawn a 62 from bag Z
+player2 hand is 72, 33, 19, 45, 3, 60, 45, 1, 21, 62
+ has discarded a 19 to bag A
+player2 hand is 72, 33, 45, 3, 60, 45, 1, 21, 62
+ has drawn a 29 from bag X
+player2 hand is 72, 33, 45, 3, 60, 45, 1, 21, 62, 29
+ has discarded a 33 to bag B
+player2 hand is 72, 45, 3, 60, 45, 1, 21, 62, 29
+ has drawn a 98 from bag X
+player2 hand is 72, 45, 3, 60, 45, 1, 21, 62, 29, 98
+ has discarded a 1 to bag A
+player2 hand is 72, 45, 3, 60, 45, 21, 62, 29, 98
+ has drawn a 98 from bag Y
+player2 hand is 72, 45, 3, 60, 45, 21, 62, 29, 98, 98
+ has discarded a 98 to bag A
+player2 hand is 72, 45, 3, 60, 45, 21, 62, 29, 98
+ has drawn a 28 from bag X
+player2 hand is 72, 45, 3, 60, 45, 21, 62, 29, 98, 28
+ has discarded a 60 to bag C
+player2 hand is 72, 45, 3, 45, 21, 62, 29, 98, 28
+ has drawn a 66 from bag Y
+player2 hand is 72, 45, 3, 45, 21, 62, 29, 98, 28, 66
+ has discarded a 45 to bag B
+player2 hand is 72, 3, 45, 21, 62, 29, 98, 28, 66
+ has drawn a 39 from bag Y
+player2 hand is 72, 3, 45, 21, 62, 29, 98, 28, 66, 39
+ has discarded a 3 to bag B
+player2 hand is 72, 45, 21, 62, 29, 98, 28, 66, 39
+ has drawn a 64 from bag Y
+player2 hand is 72, 45, 21, 62, 29, 98, 28, 66, 39, 64
+ has discarded a 62 to bag C
+player2 hand is 72, 45, 21, 29, 98, 28, 66, 39, 64
+ has drawn a 6 from bag X
+player2 hand is 72, 45, 21, 29, 98, 28, 66, 39, 64, 6
+ has discarded a 72 to bag A
+player2 hand is 45, 21, 29, 98, 28, 66, 39, 64, 6
+ has drawn a 20 from bag Z
+player2 hand is 45, 21, 29, 98, 28, 66, 39, 64, 6, 20
+ has discarded a 66 to bag B
+player2 hand is 45, 21, 29, 98, 28, 39, 64, 6, 20
+ has drawn a 62 from bag X
+player2 hand is 45, 21, 29, 98, 28, 39, 64, 6, 20, 62
+ has discarded a 28 to bag A
+player2 hand is 45, 21, 29, 98, 39, 64, 6, 20, 62
+ has drawn a 49 from bag Z
+player2 hand is 45, 21, 29, 98, 39, 64, 6, 20, 62, 49
+ has discarded a 21 to bag A
+player2 hand is 45, 29, 98, 39, 64, 6, 20, 62, 49
+ has drawn a 97 from bag X
+player2 hand is 45, 29, 98, 39, 64, 6, 20, 62, 49, 97
+ has discarded a 49 to bag C
+player2 hand is 45, 29, 98, 39, 64, 6, 20, 62, 97
+ has drawn a 82 from bag Z
+player2 hand is 45, 29, 98, 39, 64, 6, 20, 62, 97, 82
+ has discarded a 98 to bag B
+player2 hand is 45, 29, 39, 64, 6, 20, 62, 97, 82
+ has drawn a 54 from bag Z
+player2 hand is 45, 29, 39, 64, 6, 20, 62, 97, 82, 54
+ has discarded a 6 to bag A
+player2 hand is 45, 29, 39, 64, 20, 62, 97, 82, 54
+ has drawn a 59 from bag X
+player2 hand is 45, 29, 39, 64, 20, 62, 97, 82, 54, 59
+ has discarded a 59 to bag A
+player2 hand is 45, 29, 39, 64, 20, 62, 97, 82, 54
+ has drawn a 19 from bag X
+player2 hand is 45, 29, 39, 64, 20, 62, 97, 82, 54, 19
+ has discarded a 97 to bag A
+player2 hand is 45, 29, 39, 64, 20, 62, 82, 54, 19
+ has drawn a 45 from bag Y
+player2 hand is 45, 29, 39, 64, 20, 62, 82, 54, 19, 45
+ has discarded a 54 to bag C
+player2 hand is 45, 29, 39, 64, 20, 62, 82, 19, 45
+ has drawn a 87 from bag X
+player2 hand is 45, 29, 39, 64, 20, 62, 82, 19, 45, 87
+ has discarded a 29 to bag A
+player2 hand is 45, 39, 64, 20, 62, 82, 19, 45, 87
+ has drawn a 1 from bag X
+player2 hand is 45, 39, 64, 20, 62, 82, 19, 45, 87, 1
+ has discarded a 19 to bag A
+player2 hand is 45, 39, 64, 20, 62, 82, 45, 87, 1
+ has drawn a 18 from bag X
+player2 hand is 45, 39, 64, 20, 62, 82, 45, 87, 1, 18
+ has discarded a 45 to bag B
+player2 hand is 45, 39, 64, 20, 62, 82, 87, 1, 18
+ has drawn a 21 from bag X
+player2 hand is 45, 39, 64, 20, 62, 82, 87, 1, 18, 21
+ has discarded a 64 to bag B
+player2 hand is 45, 39, 20, 62, 82, 87, 1, 18, 21
+ has drawn a 94 from bag Z
+player2 hand is 45, 39, 20, 62, 82, 87, 1, 18, 21, 94
+ has discarded a 18 to bag A
+player2 hand is 45, 39, 20, 62, 82, 87, 1, 21, 94
+ has drawn a 81 from bag Y
+player2 hand is 45, 39, 20, 62, 82, 87, 1, 21, 94, 81
+ has discarded a 62 to bag A
+player2 hand is 45, 39, 20, 82, 87, 1, 21, 94, 81
+ has drawn a 7 from bag Y
+player2 hand is 45, 39, 20, 82, 87, 1, 21, 94, 81, 7
+ has discarded a 87 to bag A
+player2 hand is 45, 39, 20, 82, 1, 21, 94, 81, 7
+ has drawn a 89 from bag Z
+player2 hand is 45, 39, 20, 82, 1, 21, 94, 81, 7, 89
+ has discarded a 20 to bag C
+player2 hand is 45, 39, 82, 1, 21, 94, 81, 7, 89
+ has drawn a 97 from bag X
+player2 hand is 45, 39, 82, 1, 21, 94, 81, 7, 89, 97
+ has discarded a 81 to bag B
+player2 hand is 45, 39, 82, 1, 21, 94, 7, 89, 97
+ has drawn a 67 from bag Z
+player2 hand is 45, 39, 82, 1, 21, 94, 7, 89, 97, 67
+ has discarded a 67 to bag C
+player2 hand is 45, 39, 82, 1, 21, 94, 7, 89, 97
+ has drawn a 94 from bag Y
+player2 hand is 45, 39, 82, 1, 21, 94, 7, 89, 97, 94
+ has discarded a 45 to bag A
+player2 hand is 39, 82, 1, 21, 94, 7, 89, 97, 94
+ has drawn a 60 from bag Z
+player2 hand is 39, 82, 1, 21, 94, 7, 89, 97, 94, 60
+ has discarded a 7 to bag B
+player2 hand is 39, 82, 1, 21, 94, 89, 97, 94, 60
+ has drawn a 38 from bag X
+player2 hand is 39, 82, 1, 21, 94, 89, 97, 94, 60, 38
+ has discarded a 97 to bag A
+player2 hand is 39, 82, 1, 21, 94, 89, 94, 60, 38
+ has drawn a 73 from bag Y
+player2 hand is 39, 82, 1, 21, 94, 89, 94, 60, 38, 73
+ has discarded a 39 to bag B
+player2 hand is 82, 1, 21, 94, 89, 94, 60, 38, 73
+ has drawn a 3 from bag Y
+player2 hand is 82, 1, 21, 94, 89, 94, 60, 38, 73, 3
+ has discarded a 21 to bag A
+player2 hand is 82, 1, 94, 89, 94, 60, 38, 73, 3
+ has drawn a 64 from bag Z
+player2 hand is 82, 1, 94, 89, 94, 60, 38, 73, 3, 64
+ has discarded a 60 to bag C
+player2 hand is 82, 1, 94, 89, 94, 38, 73, 3, 64
+ has drawn a 76 from bag X
+player2 hand is 82, 1, 94, 89, 94, 38, 73, 3, 64, 76
+ has discarded a 76 to bag A
+player2 hand is 82, 1, 94, 89, 94, 38, 73, 3, 64
+ has drawn a 97 from bag X
+player2 hand is 82, 1, 94, 89, 94, 38, 73, 3, 64, 97
+ has discarded a 64 to bag C
+player2 hand is 82, 1, 94, 89, 94, 38, 73, 3, 97
+ has drawn a 18 from bag X
+player2 hand is 82, 1, 94, 89, 94, 38, 73, 3, 97, 18
+ has discarded a 1 to bag A
+player2 hand is 82, 94, 89, 94, 38, 73, 3, 97, 18
+ has drawn a 76 from bag X
+player2 hand is 82, 94, 89, 94, 38, 73, 3, 97, 18, 76
+ has discarded a 3 to bag B
+player2 hand is 82, 94, 89, 94, 38, 73, 97, 18, 76
+ has drawn a 54 from bag Y
+player2 hand is 82, 94, 89, 94, 38, 73, 97, 18, 76, 54
+ has discarded a 82 to bag C
+player2 hand is 94, 89, 94, 38, 73, 97, 18, 76, 54
+ has drawn a 21 from bag X
+player2 hand is 94, 89, 94, 38, 73, 97, 18, 76, 54, 21
+ has discarded a 97 to bag A
+player2 hand is 94, 89, 94, 38, 73, 18, 76, 54, 21
+ has drawn a 7 from bag Y
+player2 hand is 94, 89, 94, 38, 73, 18, 76, 54, 21, 7
+ has discarded a 54 to bag B
+player2 hand is 94, 89, 94, 38, 73, 18, 76, 21, 7
+ has drawn a 35 from bag X
+player2 hand is 94, 89, 94, 38, 73, 18, 76, 21, 7, 35
+ has discarded a 94 to bag B
+player2 hand is 94, 89, 38, 73, 18, 76, 21, 7, 35
+ has drawn a 1 from bag Y
+player2 hand is 94, 89, 38, 73, 18, 76, 21, 7, 35, 1
+ has discarded a 94 to bag C
+player2 hand is 89, 38, 73, 18, 76, 21, 7, 35, 1
+ has drawn a 44 from bag Y
+player2 hand is 89, 38, 73, 18, 76, 21, 7, 35, 1, 44
+ has discarded a 44 to bag B
+player2 hand is 89, 38, 73, 18, 76, 21, 7, 35, 1
  has drawn a 43 from bag Z
-player2 hand is 7, 0, 20, 17, 90, 3, 66, 68, 74, 43
- has discarded a 74 to bag B
-player2 hand is 7, 0, 20, 17, 90, 3, 66, 68, 43
- has drawn a 86 from bag Z
-player2 hand is 7, 0, 20, 17, 90, 3, 66, 68, 43, 86
+player2 hand is 89, 38, 73, 18, 76, 21, 7, 35, 1, 43
+ has discarded a 89 to bag C
+player2 hand is 38, 73, 18, 76, 21, 7, 35, 1, 43
+ has drawn a 10 from bag Y
+player2 hand is 38, 73, 18, 76, 21, 7, 35, 1, 43, 10
+ has discarded a 43 to bag C
+player2 hand is 38, 73, 18, 76, 21, 7, 35, 1, 10
+ has drawn a 97 from bag X
+player2 hand is 38, 73, 18, 76, 21, 7, 35, 1, 10, 97
+ has discarded a 1 to bag B
+player2 hand is 38, 73, 18, 76, 21, 7, 35, 10, 97
+ has drawn a 85 from bag Z
+player2 hand is 38, 73, 18, 76, 21, 7, 35, 10, 97, 85
+ has discarded a 76 to bag A
+player2 hand is 38, 73, 18, 21, 7, 35, 10, 97, 85
+ has drawn a 42 from bag Z
+player2 hand is 38, 73, 18, 21, 7, 35, 10, 97, 85, 42
+ has discarded a 85 to bag C
+player2 hand is 38, 73, 18, 21, 7, 35, 10, 97, 42
+ has drawn a 26 from bag Y
+player2 hand is 38, 73, 18, 21, 7, 35, 10, 97, 42, 26
+ has discarded a 21 to bag A
+player2 hand is 38, 73, 18, 7, 35, 10, 97, 42, 26
+ has drawn a 54 from bag Y
+player2 hand is 38, 73, 18, 7, 35, 10, 97, 42, 26, 54
+ has drawn a 78 from bag Z
+player2 hand is 78
+ has drawn a 11 from bag Z
+player2 hand is 78, 11
+ has drawn a 1 from bag Z
+player2 hand is 78, 11, 1
+ has drawn a 22 from bag Z
+player2 hand is 78, 11, 1, 22
+ has drawn a 65 from bag Z
+player2 hand is 78, 11, 1, 22, 65
+ has drawn a 31 from bag Z
+player2 hand is 78, 11, 1, 22, 65, 31
+ has drawn a 71 from bag Z
+player2 hand is 78, 11, 1, 22, 65, 31, 71
+ has drawn a 66 from bag Z
+player2 hand is 78, 11, 1, 22, 65, 31, 71, 66
+ has drawn a 37 from bag Z
+player2 hand is 78, 11, 1, 22, 65, 31, 71, 66, 37
+ has drawn a 5 from bag Z
+player2 hand is 78, 11, 1, 22, 65, 31, 71, 66, 37, 5
+ has discarded a 37 to bag C
+player2 hand is 78, 11, 1, 22, 65, 31, 71, 66, 5
+ has drawn a 8 from bag X
+player2 hand is 78, 11, 1, 22, 65, 31, 71, 66, 5, 8
+ has discarded a 22 to bag C
+player2 hand is 78, 11, 1, 65, 31, 71, 66, 5, 8
+ has drawn a 83 from bag Y
+player2 hand is 78, 11, 1, 65, 31, 71, 66, 5, 8, 83
+ has discarded a 8 to bag A
+player2 hand is 78, 11, 1, 65, 31, 71, 66, 5, 83
+ has drawn a 5 from bag Z
+player2 hand is 78, 11, 1, 65, 31, 71, 66, 5, 83, 5
+ has discarded a 65 to bag C
+player2 hand is 78, 11, 1, 31, 71, 66, 5, 83, 5
+ has drawn a 28 from bag X
+player2 hand is 78, 11, 1, 31, 71, 66, 5, 83, 5, 28
+ has discarded a 5 to bag C
+player2 hand is 78, 11, 1, 31, 71, 66, 5, 83, 28
+ has drawn a 62 from bag Z
+player2 hand is 78, 11, 1, 31, 71, 66, 5, 83, 28, 62
+ has discarded a 66 to bag C
+player2 hand is 78, 11, 1, 31, 71, 5, 83, 28, 62
+ has drawn a 16 from bag X
+player2 hand is 78, 11, 1, 31, 71, 5, 83, 28, 62, 16
+ has discarded a 5 to bag C
+player2 hand is 78, 11, 1, 31, 71, 83, 28, 62, 16
+ has drawn a 97 from bag Z
+player2 hand is 78, 11, 1, 31, 71, 83, 28, 62, 16, 97
+ has discarded a 28 to bag A
+player2 hand is 78, 11, 1, 31, 71, 83, 62, 16, 97
+ has drawn a 8 from bag X
+player2 hand is 78, 11, 1, 31, 71, 83, 62, 16, 97, 8
+ has discarded a 1 to bag C
+player2 hand is 78, 11, 31, 71, 83, 62, 16, 97, 8
+ has drawn a 47 from bag Z
+player2 hand is 78, 11, 31, 71, 83, 62, 16, 97, 8, 47
+ has discarded a 71 to bag C
+player2 hand is 78, 11, 31, 83, 62, 16, 97, 8, 47
+ has drawn a 9 from bag Z
+player2 hand is 78, 11, 31, 83, 62, 16, 97, 8, 47, 9
+ has discarded a 11 to bag C
+player2 hand is 78, 31, 83, 62, 16, 97, 8, 47, 9
+ has drawn a 4 from bag Y
+player2 hand is 78, 31, 83, 62, 16, 97, 8, 47, 9, 4
+ has discarded a 62 to bag C
+player2 hand is 78, 31, 83, 16, 97, 8, 47, 9, 4
+ has drawn a 93 from bag Y
+player2 hand is 78, 31, 83, 16, 97, 8, 47, 9, 4, 93
+ has discarded a 8 to bag A
+player2 hand is 78, 31, 83, 16, 97, 47, 9, 4, 93
+ has drawn a 87 from bag Y
+player2 hand is 78, 31, 83, 16, 97, 47, 9, 4, 93, 87
+ has discarded a 4 to bag B
+player2 hand is 78, 31, 83, 16, 97, 47, 9, 93, 87
+ has drawn a 49 from bag Y
+player2 hand is 78, 31, 83, 16, 97, 47, 9, 93, 87, 49
+ has discarded a 78 to bag C
+player2 hand is 31, 83, 16, 97, 47, 9, 93, 87, 49
+ has drawn a 67 from bag Z
+player2 hand is 31, 83, 16, 97, 47, 9, 93, 87, 49, 67
+ has discarded a 31 to bag C
+player2 hand is 83, 16, 97, 47, 9, 93, 87, 49, 67
+ has drawn a 27 from bag Y
+player2 hand is 83, 16, 97, 47, 9, 93, 87, 49, 67, 27
+ has discarded a 49 to bag B
+player2 hand is 83, 16, 97, 47, 9, 93, 87, 67, 27
+ has drawn a 12 from bag Y
+player2 hand is 83, 16, 97, 47, 9, 93, 87, 67, 27, 12
+ has discarded a 12 to bag B
+player2 hand is 83, 16, 97, 47, 9, 93, 87, 67, 27
+ has drawn a 31 from bag Y
+player2 hand is 83, 16, 97, 47, 9, 93, 87, 67, 27, 31
+ has discarded a 16 to bag A
+player2 hand is 83, 97, 47, 9, 93, 87, 67, 27, 31
+ has drawn a 34 from bag Z
+player2 hand is 83, 97, 47, 9, 93, 87, 67, 27, 31, 34
+ has discarded a 47 to bag C
+player2 hand is 83, 97, 9, 93, 87, 67, 27, 31, 34
+ has drawn a 53 from bag Z
+player2 hand is 83, 97, 9, 93, 87, 67, 27, 31, 34, 53
+ has discarded a 67 to bag C
+player2 hand is 83, 97, 9, 93, 87, 27, 31, 34, 53
+ has drawn a 73 from bag Y
+player2 hand is 83, 97, 9, 93, 87, 27, 31, 34, 53, 73
+ has discarded a 34 to bag C
+player2 hand is 83, 97, 9, 93, 87, 27, 31, 53, 73
+ has drawn a 37 from bag X
+player2 hand is 83, 97, 9, 93, 87, 27, 31, 53, 73, 37
+ has discarded a 97 to bag C
+player2 hand is 83, 9, 93, 87, 27, 31, 53, 73, 37
+ has drawn a 24 from bag Z
+player2 hand is 83, 9, 93, 87, 27, 31, 53, 73, 37, 24
+ has discarded a 83 to bag B
+player2 hand is 9, 93, 87, 27, 31, 53, 73, 37, 24
+ has drawn a 65 from bag Z
+player2 hand is 9, 93, 87, 27, 31, 53, 73, 37, 24, 65
+ has discarded a 53 to bag C
+player2 hand is 9, 93, 87, 27, 31, 73, 37, 24, 65
+ has drawn a 18 from bag Y
+player2 hand is 9, 93, 87, 27, 31, 73, 37, 24, 65, 18
+ has discarded a 87 to bag B
+player2 hand is 9, 93, 27, 31, 73, 37, 24, 65, 18
+ has drawn a 67 from bag Y
+player2 hand is 9, 93, 27, 31, 73, 37, 24, 65, 18, 67
+ has discarded a 27 to bag B
+player2 hand is 9, 93, 31, 73, 37, 24, 65, 18, 67
+ has drawn a 75 from bag Y
+player2 hand is 9, 93, 31, 73, 37, 24, 65, 18, 67, 75
+ has discarded a 65 to bag C
+player2 hand is 9, 93, 31, 73, 37, 24, 18, 67, 75
+ has drawn a 37 from bag Z
+player2 hand is 9, 93, 31, 73, 37, 24, 18, 67, 75, 37
+ has discarded a 67 to bag B
+player2 hand is 9, 93, 31, 73, 37, 24, 18, 75, 37
+ has drawn a 93 from bag Y
+player2 hand is 9, 93, 31, 73, 37, 24, 18, 75, 37, 93
+ has discarded a 18 to bag B
+player2 hand is 9, 93, 31, 73, 37, 24, 75, 37, 93
+ has drawn a 12 from bag Y
+player2 hand is 9, 93, 31, 73, 37, 24, 75, 37, 93, 12
+ has discarded a 75 to bag B
+player2 hand is 9, 93, 31, 73, 37, 24, 37, 93, 12
+ has drawn a 71 from bag X
+player2 hand is 9, 93, 31, 73, 37, 24, 37, 93, 12, 71
+ has discarded a 73 to bag B
+player2 hand is 9, 93, 31, 37, 24, 37, 93, 12, 71
+ has drawn a 95 from bag X
+player2 hand is 9, 93, 31, 37, 24, 37, 93, 12, 71, 95
+ has discarded a 95 to bag A
+player2 hand is 9, 93, 31, 37, 24, 37, 93, 12, 71
+ has drawn a 66 from bag Z
+player2 hand is 9, 93, 31, 37, 24, 37, 93, 12, 71, 66
+ has discarded a 24 to bag C
+player2 hand is 9, 93, 31, 37, 37, 93, 12, 71, 66
+ has drawn a 20 from bag X
+player2 hand is 9, 93, 31, 37, 37, 93, 12, 71, 66, 20
+ has discarded a 9 to bag C
+player2 hand is 93, 31, 37, 37, 93, 12, 71, 66, 20
+ has drawn a 42 from bag X
+player2 hand is 93, 31, 37, 37, 93, 12, 71, 66, 20, 42
+ has discarded a 66 to bag C
+player2 hand is 93, 31, 37, 37, 93, 12, 71, 20, 42
+ has drawn a 5 from bag Z
+player2 hand is 93, 31, 37, 37, 93, 12, 71, 20, 42, 5
+ has discarded a 71 to bag A
+player2 hand is 93, 31, 37, 37, 93, 12, 20, 42, 5
+ has drawn a 98 from bag X
+player2 hand is 93, 31, 37, 37, 93, 12, 20, 42, 5, 98
+ has discarded a 98 to bag A
+player2 hand is 93, 31, 37, 37, 93, 12, 20, 42, 5
+ has drawn a 49 from bag X
+player2 hand is 93, 31, 37, 37, 93, 12, 20, 42, 5, 49
+ has discarded a 31 to bag B
+player2 hand is 93, 37, 37, 93, 12, 20, 42, 5, 49
+ has drawn a 51 from bag Z
+player2 hand is 93, 37, 37, 93, 12, 20, 42, 5, 49, 51
+ has discarded a 20 to bag A
+player2 hand is 93, 37, 37, 93, 12, 42, 5, 49, 51
+ has drawn a 50 from bag Z
+player2 hand is 93, 37, 37, 93, 12, 42, 5, 49, 51, 50
+ has discarded a 50 to bag C
+player2 hand is 93, 37, 37, 93, 12, 42, 5, 49, 51
+ has drawn a 19 from bag X
+player2 hand is 93, 37, 37, 93, 12, 42, 5, 49, 51, 19
+ has discarded a 93 to bag B
+player2 hand is 37, 37, 93, 12, 42, 5, 49, 51, 19
+ has drawn a 15 from bag Y
+player2 hand is 37, 37, 93, 12, 42, 5, 49, 51, 19, 15
+ has discarded a 51 to bag C
+player2 hand is 37, 37, 93, 12, 42, 5, 49, 19, 15
+ has drawn a 18 from bag Y
+player2 hand is 37, 37, 93, 12, 42, 5, 49, 19, 15, 18
+ has discarded a 12 to bag B
+player2 hand is 37, 37, 93, 42, 5, 49, 19, 15, 18
+ has drawn a 83 from bag Y
+player2 hand is 37, 37, 93, 42, 5, 49, 19, 15, 18, 83
+ has discarded a 93 to bag B
+player2 hand is 37, 37, 42, 5, 49, 19, 15, 18, 83
+ has drawn a 31 from bag Z
+player2 hand is 37, 37, 42, 5, 49, 19, 15, 18, 83, 31
+ has discarded a 42 to bag A
+player2 hand is 37, 37, 5, 49, 19, 15, 18, 83, 31
+ has drawn a 12 from bag X
+player2 hand is 37, 37, 5, 49, 19, 15, 18, 83, 31, 12
+ has discarded a 5 to bag C
+player2 hand is 37, 37, 49, 19, 15, 18, 83, 31, 12
+ has drawn a 65 from bag Z
+player2 hand is 37, 37, 49, 19, 15, 18, 83, 31, 12, 65
+ has discarded a 19 to bag A
+player2 hand is 37, 37, 49, 15, 18, 83, 31, 12, 65
+ has drawn a 22 from bag Z
+player2 hand is 37, 37, 49, 15, 18, 83, 31, 12, 65, 22
+ has discarded a 22 to bag C
+player2 hand is 37, 37, 49, 15, 18, 83, 31, 12, 65
+ has drawn a 71 from bag X
+player2 hand is 37, 37, 49, 15, 18, 83, 31, 12, 65, 71
+ has discarded a 83 to bag B
+player2 hand is 37, 37, 49, 15, 18, 31, 12, 65, 71
+ has drawn a 89 from bag X
+player2 hand is 37, 37, 49, 15, 18, 31, 12, 65, 71, 89
+ has discarded a 31 to bag C
+player2 hand is 37, 37, 49, 15, 18, 12, 65, 71, 89
+ has drawn a 57 from bag X
+player2 hand is 37, 37, 49, 15, 18, 12, 65, 71, 89, 57
+ has discarded a 57 to bag A
+player2 hand is 37, 37, 49, 15, 18, 12, 65, 71, 89
+ has drawn a 47 from bag Z
+player2 hand is 37, 37, 49, 15, 18, 12, 65, 71, 89, 47
+ has discarded a 18 to bag B
+player2 hand is 37, 37, 49, 15, 12, 65, 71, 89, 47
+ has drawn a 98 from bag Y
+player2 hand is 37, 37, 49, 15, 12, 65, 71, 89, 47, 98
+ has discarded a 47 to bag C
+player2 hand is 37, 37, 49, 15, 12, 65, 71, 89, 98
+ has drawn a 5 from bag Z
+player2 hand is 37, 37, 49, 15, 12, 65, 71, 89, 98, 5
+ has discarded a 71 to bag A
+player2 hand is 37, 37, 49, 15, 12, 65, 89, 98, 5
+ has drawn a 66 from bag Z
+player2 hand is 37, 37, 49, 15, 12, 65, 89, 98, 5, 66
+ has discarded a 49 to bag A
+player2 hand is 37, 37, 15, 12, 65, 89, 98, 5, 66
+ has drawn a 20 from bag X
+player2 hand is 37, 37, 15, 12, 65, 89, 98, 5, 66, 20
+ has discarded a 66 to bag C
+player2 hand is 37, 37, 15, 12, 65, 89, 98, 5, 20
+ has drawn a 16 from bag X
+player2 hand is 37, 37, 15, 12, 65, 89, 98, 5, 20, 16
+ has discarded a 37 to bag A
+player2 hand is 37, 15, 12, 65, 89, 98, 5, 20, 16
+ has drawn a 15 from bag X
+player2 hand is 37, 15, 12, 65, 89, 98, 5, 20, 16, 15
+ has discarded a 37 to bag C
+player2 hand is 15, 12, 65, 89, 98, 5, 20, 16, 15
+ has drawn a 4 from bag Z
+player2 hand is 15, 12, 65, 89, 98, 5, 20, 16, 15, 4
+ has discarded a 15 to bag A
+player2 hand is 15, 12, 65, 89, 98, 5, 20, 16, 4
+ has drawn a 6 from bag Z
+player2 hand is 15, 12, 65, 89, 98, 5, 20, 16, 4, 6
+ has discarded a 16 to bag A
+player2 hand is 15, 12, 65, 89, 98, 5, 20, 4, 6
+ has drawn a 41 from bag Y
+player2 hand is 15, 12, 65, 89, 98, 5, 20, 4, 6, 41
+ has discarded a 15 to bag B
+player2 hand is 12, 65, 89, 98, 5, 20, 4, 6, 41
+ has drawn a 13 from bag X
+player2 hand is 12, 65, 89, 98, 5, 20, 4, 6, 41, 13
+ has discarded a 65 to bag C
+player2 hand is 12, 89, 98, 5, 20, 4, 6, 41, 13
+ has drawn a 37 from bag Z
+player2 hand is 12, 89, 98, 5, 20, 4, 6, 41, 13, 37
+ has discarded a 37 to bag C
+player2 hand is 12, 89, 98, 5, 20, 4, 6, 41, 13
+ has drawn a 66 from bag Y
+player2 hand is 12, 89, 98, 5, 20, 4, 6, 41, 13, 66
+ has discarded a 6 to bag C
+player2 hand is 12, 89, 98, 5, 20, 4, 41, 13, 66
+ has drawn a 41 from bag Y
+player2 hand is 12, 89, 98, 5, 20, 4, 41, 13, 66, 41
+ has discarded a 41 to bag B
+player2 hand is 12, 89, 98, 5, 20, 4, 13, 66, 41
+ has drawn a 8 from bag X
+player2 hand is 12, 89, 98, 5, 20, 4, 13, 66, 41, 8
+ has discarded a 4 to bag C
+player2 hand is 12, 89, 98, 5, 20, 13, 66, 41, 8
+ has drawn a 10 from bag Y
+player2 hand is 12, 89, 98, 5, 20, 13, 66, 41, 8, 10
+ has discarded a 98 to bag B
+player2 hand is 12, 89, 5, 20, 13, 66, 41, 8, 10
+ has drawn a 57 from bag Y
+player2 hand is 12, 89, 5, 20, 13, 66, 41, 8, 10, 57
+ has discarded a 10 to bag B
+player2 hand is 12, 89, 5, 20, 13, 66, 41, 8, 57
+ has drawn a 39 from bag Z
+player2 hand is 12, 89, 5, 20, 13, 66, 41, 8, 57, 39
+ has discarded a 57 to bag B
+player2 hand is 12, 89, 5, 20, 13, 66, 41, 8, 39
+ has drawn a 71 from bag X
+player2 hand is 12, 89, 5, 20, 13, 66, 41, 8, 39, 71
+ has discarded a 71 to bag A
+player2 hand is 12, 89, 5, 20, 13, 66, 41, 8, 39
+ has drawn a 24 from bag X
+player2 hand is 12, 89, 5, 20, 13, 66, 41, 8, 39, 24
+ has discarded a 20 to bag A
+player2 hand is 12, 89, 5, 13, 66, 41, 8, 39, 24
+ has drawn a 93 from bag Y
+player2 hand is 12, 89, 5, 13, 66, 41, 8, 39, 24, 93
+ has discarded a 41 to bag B
+player2 hand is 12, 89, 5, 13, 66, 8, 39, 24, 93
+ has drawn a 71 from bag Z
+player2 hand is 12, 89, 5, 13, 66, 8, 39, 24, 93, 71
+ has discarded a 13 to bag A
+player2 hand is 12, 89, 5, 66, 8, 39, 24, 93, 71
+ has drawn a 16 from bag Z
+player2 hand is 12, 89, 5, 66, 8, 39, 24, 93, 71, 16
+ has discarded a 8 to bag A
+player2 hand is 12, 89, 5, 66, 39, 24, 93, 71, 16
+ has drawn a 37 from bag X
+player2 hand is 12, 89, 5, 66, 39, 24, 93, 71, 16, 37
+ has discarded a 93 to bag B
+player2 hand is 12, 89, 5, 66, 39, 24, 71, 16, 37
+ has drawn a 12 from bag Y
+player2 hand is 12, 89, 5, 66, 39, 24, 71, 16, 37, 12
+ has discarded a 89 to bag A
+player2 hand is 12, 5, 66, 39, 24, 71, 16, 37, 12
+ has drawn a 42 from bag X
+player2 hand is 12, 5, 66, 39, 24, 71, 16, 37, 12, 42
+ has discarded a 71 to bag C
+player2 hand is 12, 5, 66, 39, 24, 16, 37, 12, 42
+ has drawn a 76 from bag X
+player2 hand is 12, 5, 66, 39, 24, 16, 37, 12, 42, 76
+ has discarded a 66 to bag B
+player2 hand is 12, 5, 39, 24, 16, 37, 12, 42, 76
+ has drawn a 74 from bag X
+player2 hand is 12, 5, 39, 24, 16, 37, 12, 42, 76, 74
+ has discarded a 16 to bag C
+player2 hand is 12, 5, 39, 24, 37, 12, 42, 76, 74
+ has drawn a 25 from bag X
+player2 hand is 12, 5, 39, 24, 37, 12, 42, 76, 74, 25
+ has discarded a 25 to bag A
+player2 hand is 12, 5, 39, 24, 37, 12, 42, 76, 74
+ has drawn a 28 from bag X
+player2 hand is 12, 5, 39, 24, 37, 12, 42, 76, 74, 28
+ has discarded a 28 to bag A
+player2 hand is 12, 5, 39, 24, 37, 12, 42, 76, 74
+ has drawn a 75 from bag Y
+player2 hand is 12, 5, 39, 24, 37, 12, 42, 76, 74, 75
+ has discarded a 12 to bag B
+player2 hand is 12, 5, 39, 24, 37, 42, 76, 74, 75
+ has drawn a 98 from bag X
+player2 hand is 12, 5, 39, 24, 37, 42, 76, 74, 75, 98
+ has discarded a 74 to bag A
+player2 hand is 12, 5, 39, 24, 37, 42, 76, 75, 98
+ has drawn a 71 from bag X
+player2 hand is 12, 5, 39, 24, 37, 42, 76, 75, 98, 71
+ has discarded a 76 to bag A
+player2 hand is 12, 5, 39, 24, 37, 42, 75, 98, 71
+ has drawn a 57 from bag X
+player2 hand is 12, 5, 39, 24, 37, 42, 75, 98, 71, 57
+ has discarded a 5 to bag C
+player2 hand is 12, 39, 24, 37, 42, 75, 98, 71, 57
+ has drawn a 84 from bag X
+player2 hand is 12, 39, 24, 37, 42, 75, 98, 71, 57, 84
+ has discarded a 37 to bag A
+player2 hand is 12, 39, 24, 42, 75, 98, 71, 57, 84
+ has drawn a 71 from bag Z
+player2 hand is 12, 39, 24, 42, 75, 98, 71, 57, 84, 71
+ has discarded a 12 to bag A
+player2 hand is 39, 24, 42, 75, 98, 71, 57, 84, 71
+ has drawn a 4 from bag Y
+player2 hand is 39, 24, 42, 75, 98, 71, 57, 84, 71, 4
+ has discarded a 42 to bag A
+player2 hand is 39, 24, 75, 98, 71, 57, 84, 71, 4
+ has drawn a 76 from bag X
+player2 hand is 39, 24, 75, 98, 71, 57, 84, 71, 4, 76
+ has discarded a 24 to bag A
+player2 hand is 39, 75, 98, 71, 57, 84, 71, 4, 76
+ has drawn a 18 from bag Y
+player2 hand is 39, 75, 98, 71, 57, 84, 71, 4, 76, 18
+ has discarded a 57 to bag A
+player2 hand is 39, 75, 98, 71, 84, 71, 4, 76, 18
+ has drawn a 70 from bag Y
+player2 hand is 39, 75, 98, 71, 84, 71, 4, 76, 18, 70
+ has discarded a 4 to bag B
+player2 hand is 39, 75, 98, 71, 84, 71, 76, 18, 70
+ has drawn a 59 from bag X
+player2 hand is 39, 75, 98, 71, 84, 71, 76, 18, 70, 59
+ has discarded a 59 to bag A
+player2 hand is 39, 75, 98, 71, 84, 71, 76, 18, 70
+ has drawn a 8 from bag X
+player2 hand is 39, 75, 98, 71, 84, 71, 76, 18, 70, 8
+ has discarded a 18 to bag B
+player2 hand is 39, 75, 98, 71, 84, 71, 76, 70, 8
+ has drawn a 93 from bag Y
+player2 hand is 39, 75, 98, 71, 84, 71, 76, 70, 8, 93
+ has discarded a 93 to bag B
+player2 hand is 39, 75, 98, 71, 84, 71, 76, 70, 8
+ has drawn a 29 from bag Z
+player2 hand is 39, 75, 98, 71, 84, 71, 76, 70, 8, 29
+ has discarded a 39 to bag C
+player2 hand is 75, 98, 71, 84, 71, 76, 70, 8, 29
+ has drawn a 36 from bag X
+player2 hand is 75, 98, 71, 84, 71, 76, 70, 8, 29, 36
+ has discarded a 76 to bag A
+player2 hand is 75, 98, 71, 84, 71, 70, 8, 29, 36
+ has drawn a 5 from bag Y
+player2 hand is 75, 98, 71, 84, 71, 70, 8, 29, 36, 5
+ has discarded a 36 to bag A
+player2 hand is 75, 98, 71, 84, 71, 70, 8, 29, 5
+ has drawn a 6 from bag Z
+player2 hand is 75, 98, 71, 84, 71, 70, 8, 29, 5, 6
+ has discarded a 84 to bag A
+player2 hand is 75, 98, 71, 71, 70, 8, 29, 5, 6
+ has drawn a 62 from bag Z
+player2 hand is 75, 98, 71, 71, 70, 8, 29, 5, 6, 62
+ has discarded a 71 to bag A
+player2 hand is 75, 98, 71, 70, 8, 29, 5, 6, 62
+ has drawn a 38 from bag Z
+player2 hand is 75, 98, 71, 70, 8, 29, 5, 6, 62, 38
+ has discarded a 98 to bag A
+player2 hand is 75, 71, 70, 8, 29, 5, 6, 62, 38
+ has drawn a 57 from bag Y
+player2 hand is 75, 71, 70, 8, 29, 5, 6, 62, 38, 57
+ has discarded a 57 to bag B
+player2 hand is 75, 71, 70, 8, 29, 5, 6, 62, 38
+ has drawn a 89 from bag X
+player2 hand is 75, 71, 70, 8, 29, 5, 6, 62, 38, 89
+ has discarded a 5 to bag B
+player2 hand is 75, 71, 70, 8, 29, 6, 62, 38, 89
+ has drawn a 1 from bag Z
+player2 hand is 75, 71, 70, 8, 29, 6, 62, 38, 89, 1
+ has discarded a 29 to bag C
+player2 hand is 75, 71, 70, 8, 6, 62, 38, 89, 1
+ has drawn a 87 from bag Y
+player2 hand is 75, 71, 70, 8, 6, 62, 38, 89, 1, 87
+ has discarded a 89 to bag A
+player2 hand is 75, 71, 70, 8, 6, 62, 38, 1, 87
+ has drawn a 31 from bag Z
+player2 hand is 75, 71, 70, 8, 6, 62, 38, 1, 87, 31
+ has discarded a 70 to bag B
+player2 hand is 75, 71, 8, 6, 62, 38, 1, 87, 31
+ has drawn a 42 from bag X
+player2 hand is 75, 71, 8, 6, 62, 38, 1, 87, 31, 42
+ has discarded a 8 to bag A
+player2 hand is 75, 71, 6, 62, 38, 1, 87, 31, 42
+ has drawn a 37 from bag Z
+player2 hand is 75, 71, 6, 62, 38, 1, 87, 31, 42, 37
+ has discarded a 38 to bag C
+player2 hand is 75, 71, 6, 62, 1, 87, 31, 42, 37
+ has drawn a 66 from bag Y
+player2 hand is 75, 71, 6, 62, 1, 87, 31, 42, 37, 66
+ has discarded a 71 to bag C
+player2 hand is 75, 6, 62, 1, 87, 31, 42, 37, 66
+ has drawn a 18 from bag Y
+player2 hand is 75, 6, 62, 1, 87, 31, 42, 37, 66, 18
+ has discarded a 37 to bag C
+player2 hand is 75, 6, 62, 1, 87, 31, 42, 66, 18
+ has drawn a 98 from bag Y
+player2 hand is 75, 6, 62, 1, 87, 31, 42, 66, 18, 98
+ has discarded a 6 to bag C
+player2 hand is 75, 62, 1, 87, 31, 42, 66, 18, 98
+ has drawn a 41 from bag Y
+player2 hand is 75, 62, 1, 87, 31, 42, 66, 18, 98, 41
+ has discarded a 75 to bag B
+player2 hand is 62, 1, 87, 31, 42, 66, 18, 98, 41
+ has drawn a 12 from bag Y
+player2 hand is 62, 1, 87, 31, 42, 66, 18, 98, 41, 12

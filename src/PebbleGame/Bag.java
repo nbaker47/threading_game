@@ -18,12 +18,11 @@ public class Bag {
 	private static Random rand = new Random();
 	
 	// constructor
-	public Bag(String filePath, int bagNo, int playerCount) throws FileNotFoundException, IOException {
+	public Bag(String filePath, int bagNo, int playerCount) throws Exception {
 		// open file path given
         Scanner sc = null;
 		// loop in case the file path doesn't work so it needs to be re-entered
 		while (pebArrayBlack.size() == 0) {
-			try {
 				this.bagNo = bagNo;
 
 				File file = new File(filePath); // java.io.File
@@ -57,24 +56,6 @@ public class Bag {
 				   // TODO: can we remove this?
 				   //System.out.println(this.pebArrayBlack);
 				}
-		   
-			} catch(FileNotFoundException e) {
-				// if the file path doesn't work let the user know and let them enter the path again
-				System.out.println("File path is incorrect or the file does not exist");
-				System.out.print("Please enter path again: ");
-				Scanner input = new Scanner(System.in);
-				filePath = input.nextLine();
-			} catch (NumberFormatException e) {
-				System.out.println("The file given is not in the correct format.");
-				System.out.println("Please enter path again: ");
-				Scanner input = new Scanner(System.in);
-				filePath = input.nextLine();
-			} catch (Exception e) {
-				System.out.println("All numbers in the file must be more than 0.");
-				System.out.println("Please enter path again: ");
-				Scanner input = new Scanner(System.in);
-				filePath = input.nextLine();
-			}
 		}
 	}
 	
@@ -88,9 +69,7 @@ public class Bag {
 	
 	// take a pebble, synchronized because this needs to be atomic
 	public Pebble takePeb() {
-		
 		Pebble newPeb;
-		
 		synchronized (this) {
 			// pick a random pebble
 			int n = rand.nextInt(pebArrayBlack.size());
@@ -122,5 +101,13 @@ public class Bag {
 			}
 		}
 		return false;
+	}
+	
+	public ArrayList<Pebble> getWhiteList(){
+		return this.pebArrayWhite;
+	}
+	
+	public ArrayList<Pebble> getBlackList(){
+		return this.pebArrayBlack;
 	}
 }
