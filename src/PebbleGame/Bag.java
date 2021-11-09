@@ -82,19 +82,30 @@ public class Bag {
 	
 	// take a pebble, synchronized because this needs to be atomic
 	public synchronized Pebble takePeb() {
-		while (pebArrayBlack.size() < 1) {
-			refilBag();
-		}
 		// pick a random pebble
 		int n = rand.nextInt(pebArrayBlack.size());
 		//take from black array
 		Pebble newPeb = this.pebArrayBlack.remove(n);
+		
+		// fill up bag after in case the white bag is empty (so an empty check can be done)
+		if (pebArrayBlack.size() < 1) {
+			refilBag();
+		}
+		
 		return newPeb;
 	}
 	
 	// discard a pebble, synchronized so its atomic
-	public synchronized Boolean discardPeb(Pebble peb) {
+	public synchronized void discardPeb(Pebble peb) {
 		// add the pebble to the white bag
 		this.pebArrayWhite.add(peb);
+	}
+	
+	// return true if the bag is empty
+	public synchronized Boolean isEmpty() {
+		if (pebArrayBlack.size() == 0) {
+			return true;
+		}
+		return false;
 	}
 }

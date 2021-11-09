@@ -21,12 +21,18 @@ public class PebbleGame {
 	private static Scanner input = new Scanner(System.in);
 	// convenient way to store all of the bags
 	private static Bag[] bags = new Bag[3];
+	// associate bags with their actual name (X-Z & A-C)
+	private static String[] bagAssociation = {"XA", "YB", "ZC"};
 	// a flag for the threads to check if game is over
 	private static volatile Boolean gameOver = false;
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
 		int playerNum = 3;
+		
+		System.out.println("Please enter the number of players:");
+		playerNum = input.nextInt();
+		
 		
 		// ask for a file path for each one of the bags and initialise them with the values
 		for (int i = 0; i < 3 ; i ++) {
@@ -43,12 +49,13 @@ public class PebbleGame {
 			ex.execute(task);
 		}
 		ex.shutdown();
-		
 	}
 
 	/* PLAYER CLASS*/
 	static class Player implements Runnable{
 		
+		// player name
+		String name;
 		// stores all of the pebbles currently in hand 
 		private ArrayList<Pebble> pebHand = new ArrayList<>();
 		
@@ -56,12 +63,16 @@ public class PebbleGame {
 		public void drawPeb() {
 			// select a random bag
 			int n = rand.nextInt(3);
-			// draw from it untill the player has 10 pebbles in hand
+			// draw from it until the player has 10 pebbles in hand
 			while (this.pebHand.size() < 10) {
-						Pebble p;
-							p = bags[n].takePeb();
-						this.pebHand.add(p);
-						System.out.println(Thread.currentThread().getName() + " has drawn [" + p + "] from bag " + p.getNumber());
+				// check if selected bag is empty and if it is pick a new one
+				while (bags[n].isEmpty()) {
+					n = rand.nextInt(3);
+				}
+				Pebble p;
+				p = bags[n].takePeb();
+				this.pebHand.add(p);
+				System.out.println(this.name + " has drawn a" + p + " from bag " + bagAssociation[p.getNumber()].charAt(0));
 			}
 		}
 		
@@ -73,6 +84,8 @@ public class PebbleGame {
 			Pebble peb = this.pebHand.remove(n);
 			// "remove" (add to white bag) in the bag pair
 			bags[peb.getNumber()].discardPeb(peb);
+			// print action
+			System.out.println(this.name + " has discarded a " + peb + " to bag " + bagAssociation[peb.getNumber()].charAt(1));
 		}
 		
 		// Add up all of the pebble weight currently in hand
@@ -84,16 +97,16 @@ public class PebbleGame {
 			return sum;
 		}
 		
+		// TODO: might not need this, ive done the propper formatted printing
 		//print hand
 		private void printHand() {
-			System.out.println(Thread.currentThread().getName() + this.pebHand.toString() + " = " + sumHand());
+			System.out.println(this.name + " hand is " + this.pebHand.toString());
 		}
 		
 		@Override
 		public void run() {
 			drawPeb();
 			printHand();
-			//TODO change to 100
 			// draw and discard pebbles until the game is finished
 			while (!gameOver) {
 				try {
@@ -105,7 +118,7 @@ public class PebbleGame {
 						drawPeb();
 						//sleep for more readable
 						Thread.sleep(10);
-						// only print if game hasnt finished (another pebble hasnt won)
+						// only print if game hasn't finished (another pebble hasnt won)
 						if (!gameOver) {
 							printHand();
 						}
