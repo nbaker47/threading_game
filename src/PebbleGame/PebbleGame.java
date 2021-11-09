@@ -94,7 +94,7 @@ public class PebbleGame {
 		}
 		
 		// write to file
-		public void appendData(String data) throws IOException {
+		public synchronized void appendData(String data) throws IOException {
 			// open the file in append mode
 			FileOutputStream fos = new FileOutputStream(this.name + "_output.txt", true);
 			// write to the file
