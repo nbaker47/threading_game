@@ -25,7 +25,12 @@ public class PebbleGame {
 	// for player names
 	private static int[] numbers;
 
-	public static void main(String[] args) throws FileNotFoundException, IOException {
+	
+	/**
+	 * Main method
+	 * @param args
+	 */
+	public static void main(String[] args) {
 
 		PebbleGame game = new PebbleGame();
 		game.printWelcome();
@@ -37,7 +42,9 @@ public class PebbleGame {
 
 	}
 
-	
+	/**
+	 * Welcome message printer
+	 */
 	private void printWelcome() {
 		System.out.println("Welcome to the PebbleGame!!");
 		System.out.println("You will be asked to enter the number of players.");
@@ -47,6 +54,10 @@ public class PebbleGame {
 
 	}
 
+	/**
+	 * method for generating the bags and catching the errors they throw
+	 * @param playerNum - amount of players playing the game
+	 */
 	void bagMaker(int playerNum) {
 		Scanner input = null;
 		for (int i = 0; i < 3 ; i ++) {
@@ -78,6 +89,10 @@ public class PebbleGame {
 		input.close();
 	}
 
+	/**
+	 * method for generating the threadpool
+	 * @param playerNum
+	 */
 	private void threadMaker(int playerNum) {
 		ExecutorService ex = Executors.newFixedThreadPool(playerNum);
 		for(int i = 0; i < playerNum; i++) {
@@ -92,6 +107,10 @@ public class PebbleGame {
 		ex.shutdown();
 	}
 
+	/**
+	 * method for determining how many players will be playing the game
+	 * @return plaerNum amount of players playing
+	 */
 	private int playerNumMaker() {
 		System.out.println("Please enter the number of players:");
 		int playerNum = input.nextInt();
@@ -102,7 +121,10 @@ public class PebbleGame {
 		return playerNum;
 	}
 
-	/* PLAYER CLASS*/
+	/**
+	 * Player static nested class with Threading capability
+	 *
+	 */
 	static class Player implements Runnable{
 
 		Parser parse = new Parser();
@@ -111,6 +133,11 @@ public class PebbleGame {
 		// stores all of the pebbles currently in hand
 		private ArrayList<Pebble> pebHand = new ArrayList<>();
 
+		/**
+		 * constructor
+		 * @param name
+		 * @throws Exception
+		 */
 		public Player(String name) throws Exception {
 			if (name == "") {
 				throw new Exception("Invalid Name, cannot be empty");
@@ -118,6 +145,9 @@ public class PebbleGame {
 			this.name = name;
 		}
 
+		/**
+		 * function for drawing pebbles
+		 */
 		// draws one or more pebbles so the player can hold 10 after a draw
 		public void drawPeb() {
 			if (!gameOver) {
@@ -144,7 +174,9 @@ public class PebbleGame {
 			}
 		}
 
-		// Discard Pebble (to white bag)
+		/**
+		 * function for discarding a pebble from a players hand into a white bag
+		 */	
 		public void discardPeb() {
 			if (!gameOver && pebHand.size() > 0) {
 				// pick a random pebble to discard
