@@ -19,11 +19,9 @@ public class Bag {
 	// constructor
 	public Bag(String filePath, int bagNo, int playerCount) throws Exception, FileNotFoundException {
 		if (playerCount < 1 || playerCount > 20) {
-			System.out.println("fuck me1");
 			throw new Exception("playerCount must be a positive value (< 20)");
 		}
 		else if (bagNo < 0 || bagNo > 2) {
-			System.out.println(bagNo);
 			throw new Exception("invalid bag number");
 		}
 		
@@ -63,8 +61,6 @@ public class Bag {
 				   Pebble newPeb = new Pebble(bagNo, rn);
 				   // add pebbles to black bag
 				   this.pebArrayBlack.add(newPeb);
-				   // TODO: can we remove this?
-				   //System.out.println(this.pebArrayBlack);
 				}
 		}
 	}
