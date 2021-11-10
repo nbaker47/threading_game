@@ -1,22 +1,17 @@
 package PebbleGame;
 
-import java.io.File;
 /* IMPORTS */
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
 
 
 public class PebbleGame {
-	
+
 	// random for selecting a random marble and bag
 	private static Random rand = new Random();
 	// scanner for user input
@@ -29,9 +24,9 @@ public class PebbleGame {
 	private static volatile Boolean gameOver = false;
 	// for player names
 	private static int[] numbers;
-	
+
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		
+
 		PebbleGame game = new PebbleGame();
 		game.printWelcome();
 		int playerNum = game.playerNumMaker();
@@ -41,45 +36,47 @@ public class PebbleGame {
 		game.threadMaker(playerNum);
 
 	}
-	
+
 	private void printWelcome() {
 		System.out.println("Welcome to the PebbleGame!!");
 		System.out.println("You will be asked to enter the number of players.");
 		System.out.println("and then for the location of three files in turn containing comma seperated integer values for the pebble weights.");
 		System.out.println("The integer values must be strictly positive.");
 		System.out.println("The game will then be simulated, and output written to files in this directory.");
-		
+
 	}
-	
+
 	void bagMaker(int playerNum) {
+		Scanner input = null;
 		for (int i = 0; i < 3 ; i ++) {
 			// TODO: USER INPUT
 			System.out.println("Please enter the location of bag number " + i + " to load: ");
-			Scanner input = new Scanner(System.in);
+			input = new Scanner(System.in);
 			String path = input.nextLine();
-			try {
-				bags[i] = new Bag(path , i, playerNum);
-			}catch(FileNotFoundException e) {
-				// if the file path doesn't work let the user know and let them enter the path again
-				System.out.println("File path is incorrect or the file does not exist");
-				System.out.print("Please enter path again: ");
-				path = input.nextLine();
-				i--;
-			}catch (NumberFormatException e) {
-				System.out.println("The file given is not in the correct format.");
-				System.out.println("Please enter path again: ");
-				path = input.nextLine();
-				i--;
-			}catch (Exception e) {
-				System.out.println("All numbers in the file must be more than 0.");
-				System.out.println("Please enter path again: ");
-				path = input.nextLine();
-				i--;
-			}
-			System.out.println(path);
+			do {
+				try {
+					bags[i] = new Bag(path , i, playerNum);
+					break;
+				}catch(FileNotFoundException e) {
+					// if the file path doesn't work let the user know and let them enter the path again
+					System.out.println("File path is incorrect or the file does not exist");
+					System.out.print("Please enter path again: ");
+					path = input.nextLine();
+				}catch (NumberFormatException e) {
+					System.out.println("The file given is not in the correct format.");
+					System.out.println("Please enter path again: ");
+					path = input.nextLine();
+				}catch (Exception e) {
+					System.out.println("All numbers in the file must be more than 0.");
+					System.out.println("Please enter path again: ");
+					path = input.nextLine();
+				}
+				System.out.println(path);
+			} while(true);
 		}
+		input.close();
 	}
-	
+
 	private void threadMaker(int playerNum) {
 		ExecutorService ex = Executors.newFixedThreadPool(playerNum);
 		for(int i = 0; i < playerNum; i++) {
@@ -93,33 +90,33 @@ public class PebbleGame {
 		}
 		ex.shutdown();
 	}
-	
+
 	private int playerNumMaker() {
 		System.out.println("Please enter the number of players:");
 		int playerNum = input.nextInt();
-		while (playerNum <= 0) {
-			System.out.println("The number of players must be a positive integer larger than 1, please try again:");
+		while (playerNum <= 0 || playerNum > 20) {
+			System.out.println("The number of players must be a positive integer larger than 1 (<20), please try again:");
 		 	playerNum = input.nextInt();
 		 }
 		return playerNum;
 	}
-	
+
 	/* PLAYER CLASS*/
 	static class Player implements Runnable{
-		
+
 		Parser parse = new Parser();
 		// player name
 		String name;
-		// stores all of the pebbles currently in hand 
+		// stores all of the pebbles currently in hand
 		private ArrayList<Pebble> pebHand = new ArrayList<>();
-		
+
 		public Player(String name) throws Exception {
 			if (name == "") {
 				throw new Exception("Invalid Name, cannot be empty");
 			}
 			this.name = name;
 		}
-				
+
 		// draws one or more pebbles so the player can hold 10 after a draw
 		public void drawPeb() {
 			if (!gameOver) {
@@ -137,7 +134,7 @@ public class PebbleGame {
 					// write data to file
 					try {
 						String data = " has drawn a " + p + " from bag " + bagAssociation[p.getNumber()].charAt(0) + "\n" + printHand() + "\n";
-						parse.appendData(this.name, data);	
+						parse.appendData(this.name, data);
 					} catch (IOException e) {
 						System.out.println("Error when trying to write to file " + this.name + "_output.exe");
 						e.printStackTrace();
@@ -145,7 +142,7 @@ public class PebbleGame {
 				}
 			}
 		}
-		
+
 		// Discard Pebble (to white bag)
 		public void discardPeb() {
 			if (!gameOver && pebHand.size() > 0) {
@@ -165,22 +162,22 @@ public class PebbleGame {
 				}
 			}
 		}
-		
+
 		// Add up all of the pebble weight currently in hand
 		int sumHand() {
 			int sum = 0;
-			for(int i = 0; i < pebHand.size(); i++) {
-				sum += pebHand.get(i).getWeight();
+			for (Pebble element : pebHand) {
+				sum += element.getWeight();
 			}
 			return sum;
 		}
-		
+
 		// TODO: might not need this, ive done the propper formatted printing
 		// print hand
 		private String printHand() {
 			return (this.name + " hand is " + this.pebHand.toString().replace("[", "").replace("]", ""));
 		}
-		
+
 		@Override
 		public void run() {
 			drawPeb();
@@ -188,7 +185,7 @@ public class PebbleGame {
 			while (!gameOver) {
 				try {
 					// loop exits when the current pebble wins or another pebble has already won
-					while (sumHand() != 400 && !gameOver) {
+					while (sumHand() != 100 && !gameOver) {
 						// discard pebble first
 						discardPeb();
 						// draw a pebble (or more till hand size = 10)
@@ -196,14 +193,14 @@ public class PebbleGame {
 						//sleep for more readable
 						Thread.sleep(0);
 						// only print if game hasn't finished (another pebble hasnt won)
-					}	
+					}
 				} catch (InterruptedException e) {
 					if(gameOver) {
 						break;
 					}
 				}
 				// check if the current pebble has won
-				if (sumHand() == 400) {
+				if (sumHand() == 100) {
 					// set the flag to true so the other threads know the game is over
 					gameOver = true;
 					// print winning message
@@ -216,6 +213,6 @@ public class PebbleGame {
 		public ArrayList<Pebble> getHand() {
 			return this.pebHand;
 		}
-		
+
 	}
 }

@@ -6,7 +6,7 @@ public class Pebble {
 	int bagNo;
 	// the actual weight of the pebble
 	int weight;
-	
+
 	// constructor
 	public Pebble(int bagNo, int weight) {
 		this.weight = weight;
@@ -16,11 +16,12 @@ public class Pebble {
 	public int getNumber() {
 		return this.bagNo;
 	}
-	
+
 	public int getWeight() {
 		return this.weight;
 	}
-	
+
+	@Override
 	public String toString() {
 		return Integer.toString(weight);
 	}

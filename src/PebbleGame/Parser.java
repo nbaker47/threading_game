@@ -1,13 +1,11 @@
 package PebbleGame;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Parser {
-	
-	
+
+
 	// write to file
 	public void appendData(String name, String data) throws IOException {
 		synchronized (this) {

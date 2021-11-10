@@ -1,9 +1,8 @@
 package PebbleGame;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.junit.experimental.categories.Category;
@@ -15,7 +14,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class ParserTest {
-	
+
 	Parser p;
 
 	@BeforeAll
@@ -24,6 +23,16 @@ class ParserTest {
 
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
+		File file = new File("fakefile_output.txt");
+		file.delete();
+		file = new File("1_output.txt");
+		file.delete();
+		file = new File("testfile_output.txt");
+		file.delete();
+		file = new File("test_output.txt");
+		file.delete();
+		file = new File("testfile_output.txt");
+		file.delete();
 	}
 
 	@BeforeEach
@@ -34,21 +43,22 @@ class ParserTest {
 
 	@AfterEach
 	void tearDown() throws Exception {
-		File file = new File("testfile_output.txt");
-		file.delete();
+
 	}
 
 	@Test
+	@Category ({NoInputTest.class})
 	@DisplayName("testing the appending of data with actual file")
 	void testAppendReal() {
 		try {
-			p.appendData("testfile.txt", "s");
+			p.appendData("testfile", "s");
 		} catch (IOException e) {
 			fail("File exists, no exceptions should be thrown");
 		}
 	}
-	
+
 	@Test
+	@Category ({NoInputTest.class})
 	@DisplayName("testing the append function when it has to create a file")
 	void testAppendFake() {
 		try {
