@@ -25,7 +25,7 @@ public class PebbleGame {
 	// for player names
 	private static int[] numbers;
 
-	public static void main(String[] args) throws FileNotFoundException, IOException {
+	public static void main(String[] args) {
 
 		PebbleGame game = new PebbleGame();
 		game.printWelcome();
