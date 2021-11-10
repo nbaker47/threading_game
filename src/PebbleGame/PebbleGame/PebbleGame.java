@@ -22,8 +22,6 @@ public class PebbleGame {
 	private static String[] bagAssociation = {"XA", "YB", "ZC"};
 	// a flag for the threads to check if game is over
 	private static volatile Boolean gameOver = false;
-	// for player names
-	private static int[] numbers;
 
 	public static void main(String[] args) {
 
