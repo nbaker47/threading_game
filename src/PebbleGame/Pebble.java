@@ -1,5 +1,9 @@
 package PebbleGame;
 
+/**
+ * Pebble class
+ *
+ */
 public class Pebble {
 
 	// bag number so we know which bag pair to discard the pebble to

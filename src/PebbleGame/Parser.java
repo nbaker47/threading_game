@@ -3,10 +3,18 @@ package PebbleGame;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * Class for Parsing Files
+ *
+ */
 public class Parser {
 
-
-	// write to file
+	/**
+	 * Append data to file Procedure
+	 * @param name
+	 * @param data
+	 * @throws IOException
+	 */
 	public void appendData(String name, String data) throws IOException {
 		synchronized (this) {
 			// open the file in append mode

@@ -9,7 +9,10 @@ import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-
+/**
+ * Pebble Game Class and entry point
+ *
+ */
 public class PebbleGame {
 
 	// random for selecting a random marble and bag
@@ -22,16 +25,11 @@ public class PebbleGame {
 	private static String[] bagAssociation = {"XA", "YB", "ZC"};
 	// a flag for the threads to check if game is over
 	private static volatile Boolean gameOver = false;
-	// for player names
-	private static int[] numbers;
-
-	
 	/**
 	 * Main method
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
 		PebbleGame game = new PebbleGame();
 		game.printWelcome();
 		int playerNum = game.playerNumMaker();
@@ -61,7 +59,6 @@ public class PebbleGame {
 	void bagMaker(int playerNum) {
 		Scanner input = null;
 		for (int i = 0; i < 3 ; i ++) {
-			// TODO: USER INPUT
 			System.out.println("Please enter the location of bag number " + i + " to load: ");
 			input = new Scanner(System.in);
 			String path = input.nextLine();
@@ -196,8 +193,11 @@ public class PebbleGame {
 			}
 		}
 
-		// Add up all of the pebble weight currently in hand
-		int sumHand() {
+		/**
+		 * Sum players hand Method
+		 * @return
+		 */
+		public int sumHand() {
 			int sum = 0;
 			for (Pebble element : pebHand) {
 				sum += element.getWeight();
@@ -205,12 +205,14 @@ public class PebbleGame {
 			return sum;
 		}
 
-		// TODO: might not need this, ive done the propper formatted printing
 		// print hand
 		private String printHand() {
 			return (this.name + " hand is " + this.pebHand.toString().replace("[", "").replace("]", ""));
 		}
 
+		/**
+		 * Run method for thread
+		 */
 		@Override
 		public void run() {
 			drawPeb();
@@ -218,13 +220,13 @@ public class PebbleGame {
 			while (!gameOver) {
 				try {
 					// loop exits when the current pebble wins or another pebble has already won
+					//double check(lock)
 					while (sumHand() != 100 && !gameOver) {
 						// discard pebble first
 						discardPeb();
 						// draw a pebble (or more till hand size = 10)
 						drawPeb();
-						//sleep for more readable
-						Thread.sleep(0);
+						Thread.sleep(0);//<- for debugging
 						// only print if game hasn't finished (another pebble hasnt won)
 					}
 				} catch (InterruptedException e) {
@@ -243,6 +245,7 @@ public class PebbleGame {
 			}
 		}
 
+		//Player's hand getter
 		public ArrayList<Pebble> getHand() {
 			return this.pebHand;
 		}

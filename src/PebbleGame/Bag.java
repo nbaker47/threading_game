@@ -6,17 +6,27 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * class Representing a Black/White Pebble bag pair
+ *
+ */
 public class Bag {
 	/* this is a white/black bag pair since each white bag is linnked to a black bag */
 	private ArrayList<Pebble> pebArrayWhite = new ArrayList<>();
 	private ArrayList<Pebble> pebArrayBlack  = new ArrayList<>();
 	// bag number so we can discard to it later
 	private int bagNo;
-
 	// random for the drawing process
 	private static Random rand = new Random();
 
-	// constructor
+	/**
+	 * Constructor for Bag
+	 * @param filePath
+	 * @param bagNo (0,1,2)
+	 * @param playerCount
+	 * @throws Exception
+	 * @throws FileNotFoundException
+	 */
 	public Bag(String filePath, int bagNo, int playerCount) throws Exception, FileNotFoundException {
 		if (playerCount < 1 || playerCount > 20) {
 			throw new Exception("playerCount must be a positive value (< 20)");
@@ -24,7 +34,6 @@ public class Bag {
 		else if (bagNo < 0 || bagNo > 2) {
 			throw new Exception("invalid bag number");
 		}
-		
 		// open file path given
         Scanner sc = null;
 		// loop in case the file path doesn't work so it needs to be re-entered
@@ -67,15 +76,21 @@ public class Bag {
 		}
 	}
 
-	// refill the black bag once its empty (doesn't need to be *synchronized* since it will only be triggered
-	// from take pebble which is synchronized itself so it is thread safe)
+	/**	Refil Bag Method
+	 * 	refill the black bag once its empty (doesn't need to be *synchronised* since it will only be triggered
+	 * 	from take pebble which is synchronised itself so it is thread safe)
+	 */
 	private void refilBag() {
 		// just move contents of white bag to black bag
 		for(int i = 0; i < this.pebArrayWhite.size(); i++)
 		this.pebArrayBlack.add(this.pebArrayWhite.remove(i));
 	}
 
-	// take a pebble, synchronized because this needs to be atomic
+
+	/**
+	 * Take new Pebble Method
+	 * @return
+	 */
 	public Pebble takePeb() {
 		Pebble newPeb;
 		synchronized (this) {
@@ -93,7 +108,11 @@ public class Bag {
 		return newPeb;
 	}
 
-	// discard a pebble, synchronized so its atomic
+
+	/**
+	 * Discard Pebble Procedure
+	 * @param peb
+	 */
 	public void discardPeb(Pebble peb) {
 		// add the pebble to the white bag
 		synchronized (this) {
@@ -101,7 +120,10 @@ public class Bag {
 		}
 	}
 
-	// return true if the bag is empty
+	/**
+	 * Check Bag is empty (thread-safe) method
+	 * @return
+	 */
 	public Boolean isEmpty() {
 		synchronized (this) {
 			if (pebArrayBlack.size() == 0) {
@@ -111,10 +133,18 @@ public class Bag {
 		return false;
 	}
 
+	/**
+	 * White bag(list) getter
+	 * @return
+	 */
 	public ArrayList<Pebble> getWhiteList(){
 		return this.pebArrayWhite;
 	}
-
+	
+	/**
+	 * Black bag(list) getter
+	 * @return
+	 */
 	public ArrayList<Pebble> getBlackList(){
 		return this.pebArrayBlack;
 	}
