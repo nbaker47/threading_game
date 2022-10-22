@@ -22,5 +22,7 @@ The game follows the following flow:
   5. if the bag total matches the target, set gameOver to true and print winning statement
   6. all threads will end at the end of beggining of their next cycle if gameOver is true
 
-## Compiling
-To compile the game you can use javac 
+## Report
+Finally, the justification for the specifics of our implementation can be fuond in 'ECM2414 Report.odt'
+where we covered what our different classes were and why, explained why it's thread safe, and talked about
+testing and code coverage.
